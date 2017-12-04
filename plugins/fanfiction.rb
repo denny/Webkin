@@ -7,15 +7,19 @@ module Fanfiction
   def fetch
     title  = ''
     author = ''
+    page   = 1
+    url    = self.url.dup
     loop do
-      page_html = open( "#{self.url}" ).read
+      page_html = open( "#{url}" ).read
+      more_pages = true if page_html.match %r{Next &gt;}m
       %r{</button><b class='xcontrast_txt'>(?<title>[^<]+)</b>.+</div>By:</span> <a class='xcontrast_txt' href='[\w/]+'>(?<author>[^<]+)</a>}m =~ page_html if title.empty?
-      more_pages = true if page_html.match %r{Next >}m
       page_html.sub! %r{.+id='storytext'>}m,  ''
       page_html.sub! %r{\n</div>\n</div>.+}m, ''
       self.html = "#{self.html}\n#{page_html}"
       break unless more_pages
-      self.url.sub! %r{/\d\d?/(?<slug>[-\w]+)}, "/#{nextp}/#{slug}"
+      page += 1
+      %r{/\d+/(?<slug>[-\w]+)$} =~ url
+      url.sub! %r{/\d+/[-\w]+$}, "/#{page}/#{slug}"
     end
     self.title  = title
     self.author = author
