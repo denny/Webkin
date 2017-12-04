@@ -2,6 +2,15 @@
 require 'story'
 
 describe Story do
+  describe '.new' do
+    context 'When object is initialised' do
+      it 'it builds a list of available plugins' do
+        story = Story.new
+        expect( story.plugins['Fanfiction'] ).to eql %r{https://www.fanfiction.net/.+}
+      end
+    end
+  end
+
   describe '.url' do
     context 'If an unsupported URL is set' do
       it 'it throws an error' do
