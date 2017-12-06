@@ -1,7 +1,7 @@
 # Webkin plugin for fanfiction.net
 module Fanfiction
   def self.url_regex
-    return %r{https://www.fanfiction.net/.+}
+    %r{https://www.fanfiction.net/.+}
   end
 
   def fetch
@@ -10,12 +10,16 @@ module Fanfiction
     page   = 1
     url    = self.url.dup
     loop do
-      page_html = open( "#{url}" ).read
-      more_pages = true if page_html.match %r{Next &gt;}m
-      %r{</button><b class='xcontrast_txt'>(?<title>[^<]+)</b>.+</div>By:</span> <a class='xcontrast_txt' href='[\w/]+'>(?<author>[^<]+)</a>}m =~ page_html if title.empty?
+      page_html = open( url ).read
+      more_pages = true if page_html.match? %r{Next &gt;}m
+      if title.empty?
+        %r{</button><b\sclass='xcontrast_txt'>(?<title>[^<]+)</b>.+
+            </div>By:</span>\s<a\sclass='xcontrast_txt'\s
+            href='[\w/]+'>(?<author>[^<]+)</a>}mx =~ page_html
+      end
       page_html.sub! %r{.+id='storytext'>}m,  ''
       page_html.sub! %r{\n</div>\n</div>.+}m, ''
-      self.html = "#{self.html}\n#{page_html}"
+      self.html = "#{html}\n#{page_html}"
       break unless more_pages
       page += 1
       %r{/\d+/(?<slug>[-\w]+)$} =~ url
@@ -23,7 +27,7 @@ module Fanfiction
     end
     self.title  = title
     self.author = author
-    self.html   = "<h1>#{self.title}</h1>\n\n#{self.html}"
+    self.html   = "<h1>#{title}</h1>\n\n#{html}"
   rescue OpenURI::HTTPError
     abort 'Story page not found - please check URL and try again.'
   end

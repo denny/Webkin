@@ -6,7 +6,9 @@ describe Story do
     context 'When object is initialised' do
       it 'it builds a list of available plugins' do
         story = Story.new
-        expect( story.plugins['Fanfiction'] ).to eql %r{https://www.fanfiction.net/.+}
+        expect( story.plugins['Fanfiction'] ).to eql(
+          %r{https://www.fanfiction.net/.+}
+        )
       end
     end
   end
@@ -15,7 +17,9 @@ describe Story do
     context 'If an unsupported URL is set' do
       it 'it throws an error' do
         story = Story.new
-        expect{ story.url = 'https://www.ruby-lang.org/' }.to raise_error ArgumentError, %r{URL not recognised}
+        expect { story.url = 'https://www.ruby-lang.org/' }.to raise_error(
+          ArgumentError, %r{URL not recognised}
+        )
       end
     end
   end
@@ -25,7 +29,7 @@ describe Story do
       it 'it loads the plugin' do
         story = Story.new
         story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
-        expect( story.respond_to? :fetch ).to eql true
+        expect( story.respond_to?( :fetch ) ).to eql true
       end
     end
   end
@@ -34,7 +38,9 @@ describe Story do
     context 'If no URL is set' do
       it 'it throws an error' do
         story = Story.new
-        expect{ story.fetch }.to raise_error NoMethodError, %r{undefined method .fetch.}
+        expect { story.fetch }.to raise_error(
+          NoMethodError, %r{undefined method .fetch.}
+        )
       end
     end
   end

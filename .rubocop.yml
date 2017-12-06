@@ -1,0 +1,13 @@
+# This project munges HTML, so slashes are not always the best delimiter
+Style/RegexpLiteral:
+  Enabled: false
+
+# I have opinions on this subject.
+Layout/SpaceInsideParens:
+  Enabled: false
+Layout/SpaceInsideBrackets:
+  Enabled: false
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false

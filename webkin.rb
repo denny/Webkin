@@ -1,14 +1,11 @@
 require 'yaml'
 require 'pry'
 
-# Find out where we're at
-my_dir = File.expand_path( File.dirname(__FILE__) )
-
 # Pull in the core Story lib
-require "#{my_dir}/lib/story"
+require "#{__dir__}/lib/story"
 
 # Load the config file
-config = YAML.load_file "#{my_dir}/config.yaml"
+config = YAML.load_file "#{__dir__}/config.yaml"
 
 # Create and configure the Story object
 story = Story.new
