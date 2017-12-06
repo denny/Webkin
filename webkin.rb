@@ -13,6 +13,4 @@ story.url = ARGV[0].dup
 story.output_dir = config['output_dir']
 
 # Fetch, convert, and write out the story
-story.fetch
-story.to_txt
-story.write_file
+story.fetch.to_txt.write_file
