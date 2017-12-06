@@ -28,6 +28,7 @@ module Fanfiction
     self.title  = title
     self.author = author
     self.html   = "<h1>#{title}</h1>\n\n#{html}"
+    self
   rescue OpenURI::HTTPError
     abort 'Story page not found - please check URL and try again.'
   end
