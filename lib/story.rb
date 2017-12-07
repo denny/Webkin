@@ -8,14 +8,14 @@ class Story
 
   def initialize
     # Load any available plugins
-    my_dir = __dir__
-    my_dir.sub! %r{/lib}, ''
+    my_dir = __dir__[0..-4]
     self.plugins = {}
     Dir.foreach( 'plugins' ) do |filename|
       next unless filename.match? %r{^\w+\.rb$}
       filename.sub! '.rb', ''
       require "#{my_dir}/plugins/#{filename}"
-      plugin = Object.const_get filename.capitalize!
+      filename.capitalize!
+      plugin = Object.const_get filename
       plugins[ filename ] = plugin.url_regex
     end
   end
@@ -50,7 +50,7 @@ class Story
   end
 
   def url=( url )
-    raise ArgumentError, 'You must provide a valid URL to fetch the story from.' unless url
+    raise ArgumentError, 'You must provide a URL.' if !url || url.empty?
     # Remove any query params (in case we're on second page or similar)
     url.sub! %r{\?.*$}, ''
     # Check to see if any of the available plugins can handle this URL
@@ -60,6 +60,6 @@ class Story
       @url = url
       return self
     end
-    raise ArgumentError, 'URL not recognised - do you need to install a plugin for that site?'
+    raise ArgumentError, 'URL not recognised - do you need to install a plugin?'
   end
 end
