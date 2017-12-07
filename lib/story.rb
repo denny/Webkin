@@ -7,7 +7,7 @@ class Story
   attr_reader   :url
 
   def initialize
-    # Load any available plugins
+    # Build a list of available plugins
     my_dir = __dir__[0..-4]
     self.plugins = {}
     Dir.foreach( 'plugins' ) do |filename|
@@ -55,15 +55,28 @@ class Story
 
   def url=( url )
     raise ArgumentError, 'You must provide a URL.' if !url || url.empty?
-    # Remove any query params (in case we're on second page or similar)
-    url.sub! %r{\?.*$}, ''
     # Check to see if any of the available plugins can handle this URL
     plugins.each_key do |plugin|
       next unless url.match? plugins[ plugin ]
+      # Remove any query params (in case we're on second page or similar)
+      url.sub! %r{\?.*$}, ''
+      # Check whether the page actually exists
+      check_page_exists url
+      # Load the matching plugin
       extend Object.const_get( plugin )
+      # Set the attribute
       @url = url
+      # Return self, for chaining
       return self
     end
+    # Couldn't find a matching plugin
     raise ArgumentError, 'URL not recognised - do you need to install a plugin?'
+  end
+
+  def check_page_exists( url )
+    open( url ).read
+  rescue OpenURI::HTTPError
+    # If open.read fails, there's probably no page at the specified URL
+    raise ArgumentError, 'Story not found. Please check URL and try again.'
   end
 end
