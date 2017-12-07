@@ -19,15 +19,18 @@ for their favourite websites too.
 Webkin plugins are very simple; they're just a single file Ruby module, which
 extends the main Story class with the following two methods:
 
-`self.url_regex`
+`self.url_regex`  
   This returns a regex which will match a story page on the website. Webkin
   uses this to find the right plugin for a URL which has been passed to it.
 
-`fetch`
+`fetch`  
   This is the main method in a Webkin plugin; it downloads the story page
   (or pages, if your site has multi-page stories) and strips off any header
   and footer HTML, leaving just the story section in the `html` attribute.
   It should also populate the `title` and (if possible) `author` attributes.
+
+The plugin's filename and Module name must match, with the Module name
+capitalised.
 
 If you've downloaded Webkin from Github then you should have at least one
 example plugin to look at.
