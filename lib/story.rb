@@ -33,18 +33,22 @@ class Story
     self
   end
 
-  def write_file
+  def write_txt_file
+    to_txt
+    write_file text + "\n\nDownloaded from: #{url}", 'txt'
+  end
+
+  def write_file( content, extension )
     # Create a filename based on title of story
     filename = "#{title}__#{author}"
     filename.gsub! %r{\s+}, '-'
     filename.gsub! %r{[^-\w]+}, ''
     # Open a file for output
     # TODO: in a subfolder based on category?
-    output_file = "#{output_dir}/#{filename}.txt"
+    output_file = "#{output_dir}/#{filename}.#{extension}"
     open( output_file, 'w' ) do |f|
-      # Write the txt version to the file
-      f.puts text
-      f.puts "\n\nDownloaded from: #{url}"
+      # Write the content to the file
+      f.puts content
     end
     self
   end
