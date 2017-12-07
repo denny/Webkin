@@ -25,6 +25,17 @@ describe Story do
   end
 
   describe '.url' do
+    context 'If a supported but non-existent URL is set' do
+      it 'it throws an error' do
+        story = Story.new
+        expect { story.url = 'https://www.fanfiction.net/NOPE' }.to raise_error(
+          ArgumentError, %r{Story not found.}
+        )
+      end
+    end
+  end
+
+  describe '.url' do
     context 'If a supported URL is set' do
       it 'it loads the plugin' do
         story = Story.new
