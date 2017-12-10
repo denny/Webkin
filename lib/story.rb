@@ -3,7 +3,7 @@ require 'nokogiri'
 
 # Story class - fetches, parses, converts, and saves (dices, slices, etc)
 class Story
-  attr_accessor :output_dir, :title, :author, :html, :text, :plugins
+  attr_accessor :author, :html, :output_dir, :plugins, :text, :title
   attr_reader   :url
 
   def initialize
@@ -30,12 +30,11 @@ class Story
     else
       self.text = html
     end
-    self
   end
 
   def write_txt_file
     to_txt
-    write_file text + "\n\nDownloaded from: #{url}", 'txt'
+    write_file "#{text}\n\nDownloaded from: #{url}", 'txt'
   end
 
   def write_file( content, extension )
@@ -66,8 +65,8 @@ class Story
       extend Object.const_get( plugin )
       # Set the attribute
       @url = url
-      # Return self, for chaining
-      return self
+      # Break out of the loop
+      return url
     end
     # Couldn't find a matching plugin
     raise ArgumentError, 'URL not recognised - do you need to install a plugin?'
