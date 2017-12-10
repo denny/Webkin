@@ -67,6 +67,17 @@ describe Story do
     end
   end
 
+  describe '.fetch' do
+    context 'If a multi-page story is requested' do
+      it 'it fetches all of the pages' do
+        story = Story.new
+        story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
+        story.fetch
+        expect( story.html ).to match %r{Her name's 'Cobalt's Edge'.}m
+      end
+    end
+  end
+
   describe '.to_txt' do
     context 'Given a html attribute containing no HTML tags' do
       it 'it copies it to the text attribute unchanged' do
