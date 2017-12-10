@@ -10,7 +10,7 @@ module Fanfiction
     loop do
       page_html = open( "#{base_url}/#{page_num}" ).read
       extract_details page_html if page_num == 1
-      extract_story page_html
+      extract_story page_html.dup
       break unless page_html.match? %r{Next &gt;}m
       page_num += 1
     end
