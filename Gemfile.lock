@@ -23,6 +23,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
+    rspec_junit_formatter (0.4.1)
+      rspec-core (>= 2, < 4, != 2.12.0)
 
 PLATFORMS
   ruby
@@ -31,6 +33,7 @@ DEPENDENCIES
   nokogiri
   pry
   rspec
+  rspec_junit_formatter
 
 BUNDLED WITH
    1.16.0
