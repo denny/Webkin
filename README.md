@@ -41,3 +41,6 @@ example plugin to look at.
 Webkin is free, but if you'd like to show your appreciation for it then please
 make a donation towards the running costs of your favourite free fiction site,
 if they offer ways to do that and you can afford to do so.
+
+
+Circle CI status: [![CircleCI](https://circleci.com/gh/denny/Webkin.svg?style=svg)](https://circleci.com/gh/denny/Webkin)
