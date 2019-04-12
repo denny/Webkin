@@ -47,7 +47,7 @@ class Story
     # Open a file for output
     # TODO: in a subfolder based on category?
     output_file = "#{output_dir}/#{filename}.#{extension}"
-    open( output_file, 'w' ) do |f|
+    File.open( output_file, 'w' ) do |f|
       # Write the content to the file
       f.puts content
     end
@@ -77,7 +77,7 @@ class Story
   end
 
   def check_page_exists( url )
-    open( url ).read
+    URI.parse( url ).open.read
   rescue OpenURI::HTTPError
     # If open.read fails, there's probably no page at the specified URL
     raise ArgumentError, 'Story not found. Please check URL and try again.'
