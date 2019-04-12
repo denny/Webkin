@@ -9,7 +9,7 @@ Metrics/BlockLength:
 # I have opinions on this subject.
 Layout/SpaceInsideParens:
   Enabled: false
-Layout/SpaceInsideBrackets:
+Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: false
