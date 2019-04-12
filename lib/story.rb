@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
+require 'resolv-replace'
 
 # Story class - fetches, parses, converts, and saves (dices, slices, etc)
 class Story
@@ -12,11 +13,12 @@ class Story
     self.plugins = {}
     Dir.foreach( 'plugins' ) do |filename|
       next unless filename.match? %r{^\w+\.rb$}
+
       filename.sub! '.rb', ''
       require "#{my_dir}/plugins/#{filename}"
       filename.capitalize!
       plugin = Object.const_get filename
-      plugins[ filename ] = plugin.url_regex
+      plugins[filename] = plugin.url_regex
     end
   end
 
@@ -54,9 +56,11 @@ class Story
 
   def url=( url )
     raise ArgumentError, 'You must provide a URL.' if !url || url.empty?
+
     # Check to see if any of the available plugins can handle this URL
     plugins.each_key do |plugin|
-      next unless url.match? plugins[ plugin ]
+      next unless url.match? plugins[plugin]
+
       # Remove any query params (in case we're on second page or similar)
       url.sub! %r{\?.*$}, ''
       # Check whether the page actually exists
