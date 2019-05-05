@@ -49,5 +49,8 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
+# Ignore actual config file
+/config.yaml
+
 # Downloaded stories go here by default
 /stories/*
