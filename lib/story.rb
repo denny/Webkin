@@ -76,7 +76,7 @@ class Story
   end
 
   def check_page_exists( url )
-    URI( url ).read
+    URI.parse( url ).read
   rescue OpenURI::HTTPError
     # If URI().read fails, there's probably no page at the specified URL
     raise ArgumentError, 'Story not found. Please check URL and try again.'
