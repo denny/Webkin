@@ -8,10 +8,12 @@ Metrics/BlockLength:
 
 # I have opinions on this subject.
 Layout/SpaceInsideParens:
-  Enabled: false
+  EnforcedStyle: space
 Layout/SpaceInsideHashLiteralBraces:
-  Enabled: false
+  EnforcedStyle: space
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: false
+Metrics/MethodLength:
+  Max: 12
 Style/FrozenStringLiteralComment:
   Enabled: false
