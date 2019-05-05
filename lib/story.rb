@@ -63,7 +63,7 @@ class Story
       # Remove any query params (in case we're on second page or similar)
       url.sub! %r{\?.*$}, ''
       # Check whether the page actually exists
-      check_page_exists url
+      check_page_exists( url )
       # Load the matching plugin
       extend Object.const_get( plugin )
       # Set the attribute
@@ -77,9 +77,7 @@ class Story
 
   def check_page_exists( url )
     uri = URI( url )
-    net = Net::HTTP.new( uri.host, uri.port )
-    net.use_ssl = ( uri.scheme == 'https' )
-    res = net.request_head( uri.request_uri )
+    res = Net::HTTP.get_response( uri )
     return true unless res.code == '404'
 
     raise ArgumentError, 'Story not found. Please check URL and try again.'
