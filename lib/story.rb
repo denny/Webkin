@@ -77,7 +77,9 @@ class Story
 
   def check_page_exists( url )
     uri = URI( url )
-    res = Net::HTTP.get_response( uri )
+    net = Net::HTTP.new( uri.host, uri.port )
+    net.use_ssl = ( uri.scheme == 'https' )
+    res = net.request_head( uri.request_uri )
     return true unless res.code == '404'
 
     raise ArgumentError, 'Story not found. Please check URL and try again.'
