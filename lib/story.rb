@@ -1,6 +1,5 @@
 require 'open-uri'
 require 'nokogiri'
-require 'resolv-replace'
 
 # Story class - fetches, parses, converts, and saves (dices, slices, etc)
 class Story
@@ -77,9 +76,9 @@ class Story
   end
 
   def check_page_exists( url )
-    URI.parse( url ).open.read
+    URI( url ).read
   rescue OpenURI::HTTPError
-    # If open.read fails, there's probably no page at the specified URL
+    # If URI().read fails, there's probably no page at the specified URL
     raise ArgumentError, 'Story not found. Please check URL and try again.'
   end
 end
