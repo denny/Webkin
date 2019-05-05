@@ -1,4 +1,4 @@
-require 'open-uri'
+require 'net/http'
 require 'nokogiri'
 
 # Story class - fetches, parses, converts, and saves (dices, slices, etc)
@@ -76,9 +76,10 @@ class Story
   end
 
   def check_page_exists( url )
-    URI.parse( url ).read
-  rescue OpenURI::HTTPError
-    # If URI().read fails, there's probably no page at the specified URL
+    uri = URI( url )
+    res = Net::HTTP.get_response( uri )
+    return true unless res.code == '404'
+
     raise ArgumentError, 'Story not found. Please check URL and try again.'
   end
 end

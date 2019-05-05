@@ -8,7 +8,7 @@ module Fanfiction
     page_num = 1
     base_url = url.dup.sub %r{/[^/]+/[^/]+$}, '/'
     loop do
-      page_html = URI.parse( "#{base_url}/#{page_num}" ).read
+      page_html = Net::HTTP.get( URI( "#{base_url}/#{page_num}" ) )
       extract_details page_html if page_num == 1
       extract_story page_html.dup
       break unless page_html.match? %r{Next &gt;}m
