@@ -1,5 +1,11 @@
 # Test Story class
 require 'story'
+require 'vcr'
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/vcr_cassettes'
+  config.hook_into :webmock
+end
 
 describe Story do
   describe '.new' do
@@ -27,10 +33,12 @@ describe Story do
   describe '.url' do
     context 'If a supported but non-existent URL is set' do
       it 'it throws an error' do
-        story = Story.new
-        expect { story.url = 'https://www.fanfiction.net/NOPE' }.to raise_error(
-          ArgumentError, %r{Story not found.}
-        )
+        s = Story.new
+        VCR.use_cassette('fanfiction.net_NOPE') do
+          expect { s.url = 'https://www.fanfiction.net/NOPE' }.to raise_error(
+            ArgumentError, %r{Story not found.}
+          )
+        end
       end
     end
   end
@@ -39,8 +47,10 @@ describe Story do
     context 'If a supported URL is set' do
       it 'it loads the plugin' do
         story = Story.new
-        story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
-        expect( story.respond_to?( :fetch ) ).to eql true
+        VCR.use_cassette('fanfiction.net_Cobalts-Edge') do
+          story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
+          expect( story.respond_to?( :fetch ) ).to eql true
+        end
       end
     end
   end
@@ -60,9 +70,11 @@ describe Story do
     context 'If a supported URL is set' do
       it 'it fetches the page' do
         story = Story.new
-        story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
-        story.fetch
-        expect( story.html ).to match %r{<h1>Cobalt's Edge</h1>}m
+        VCR.use_cassette('fanfiction.net_Cobalts-Edge', record: :new_episode) do
+          story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
+          story.fetch
+          expect( story.html ).to match %r{<h1>Cobalt's Edge</h1>}m
+        end
       end
     end
   end
@@ -71,9 +83,11 @@ describe Story do
     context 'If a multi-page story is requested' do
       it 'it fetches all of the pages' do
         story = Story.new
-        story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
-        story.fetch
-        expect( story.html ).to match %r{Her name's 'Cobalt's Edge'.}m
+        VCR.use_cassette('fanfiction.net_Cobalts-Edge') do
+          story.url = 'https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge'
+          story.fetch
+          expect( story.html ).to match %r{Her name's 'Cobalt's Edge'.}m
+        end
       end
     end
   end

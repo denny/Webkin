@@ -1,0 +1,1296 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.fanfiction.net/s/12734411/1/Cobalt-s-Edge
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.fanfiction.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 May 2019 22:12:23 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Cache-Control:
+      - public,max-age=3600
+      Last-Modified:
+      - Sun, 05 May 2019 22:03:31 GMT
+      X-Xss-Protection:
+      - 1;mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Age:
+      - '531'
+      X-Monk:
+      - '2'
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html><html><head>\r\n        <meta charset='utf-8'>\r\n        <META
+        NAME='ROBOTS' CONTENT='NOARCHIVE'>\r\n        <META http-equiv='X-UA-Compatible'
+        content='IE=edge'>\r\n        <META NAME='format-detection' content='telephone=no'>\r\n
+        \       <META NAME='apple-itunes-app' content='app-id=1192753879'>\r\n        \r\n
+        \       <link href='//adservice.google.com' rel='preconnect'>\r\n        <link
+        href='//googleads.g.doubleclick.net' rel='preconnect'>\r\n        <META NAME='viewport'
+        content='width=device-width'><link rel=\"canonical\" href=\"//www.fanfiction.net/s/12734411/1/Cobalt-s-Edge\">\n<title>Cobalt's
+        Edge Chapter 1, a star wars fanfic | FanFiction</title>\n\r\n        <link
+        rel='shortcut icon'  href='/static/images/favicon_2010_site.ico'>\r\n        <link
+        rel='icon' type='image/png' href='/static/images/favicon_2010_site.png'>\r\n
+        \       <link rel='apple-touch-icon' href='/static/images/favicon_2010_iphone.png'>\r\n
+        \      \r\n\r\n        <link rel='stylesheet' href='/static/styles/xss26.css'>\r\n
+        \       <script src='/static/scripts/combo5.js'></script>\r\n        <!--[if
+        lt IE 8]>\r\n        <link rel=\"stylesheet\" href=\"/cors/fontello-f1bf7dee/css/fontello-ie7.css\">\r\n
+        \       <script src='/static/scripts/json2.min.js'></script>\r\n        <![endif]-->\r\n\r\n
+        \       \r\n        <script>\r\n        xcookie_read();\r\n        xfont_auto_loader();\r\n
+        \       if(XCOOKIE.gui_font != 'Open Sans') {\r\n            document.write('<style>body{font-family:\"'+XCOOKIE.gui_font+'\",Verdana,
+        Arial;}</style>');\r\n        }\r\n        </script>\r\n        <!-- startz
+        --><script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><!--
+        endz -->\r\n        <style>\r\n        .dropdown-menu > li > a { padding:
+        3px 50px 3px 30px; }\r\nbody { min-width:750px; height:100%; }\r\n.maxwidth
+        { min-width:730px;margin-left:auto;margin-right:auto;}\r\n            \r\n\r\n\r\n
+        \       </style>\r\n        <script>\r\n        if(isAndroid && !isChrome)
+        {\r\n            document.write('<style> body {font-size:1em;}</style>');\r\n
+        \       }\r\n        </script>\r\n        <script>\r\n\r\n                        xauto_width_init();\r\n
+        \                       xauto_fontsize();\r\n\r\n                        if(!isIphone
+        && !isIpad) {\r\n                            $(function() {\r\n                                $(window).resize(xauto_width);\r\n
+        \                           });\r\n                        }\r\n\r\n                    </script></head><body
+        style='background-color:#E4E3D5;margin-top:0px;'  ><script>xfont_fix_smooth();</script>\r\n\r\n\r\n<div
+        id=top style='width:100%;background-color: #333399; ' >\r\n<div class='menulink
+        maxwidth' style='padding:0.5em 10px 0.5em 10px; vertical-align:middle;'>\r\n\r\n
+        \       <script>\r\n//init jquery\r\nif (!window.jQuery) {\r\n  var jq = document.createElement('script');
+        jq.type = 'text/javascript';\r\n  jq.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js';\r\n
+        \ document.getElementsByTagName('head')[0].appendChild(jq);\r\n  console.log('loading
+        preq: jquery');\r\n}\r\n\r\n\r\n var _fp = {\r\n    logout : function() {\r\n
+        \           $.get('/logout.php', function() {\r\n            console.log('starting
+        logout');\r\n                     var m = $('#_fp_modal_logged_out');\r\n
+        \                   if(!m.length) {\r\n                        $('body').append(\"<div
+        id='_fp_modal_logged_out' data-backdrop='static' class='modal fade hide'><div
+        class='modal-body'><div align=cener>You have successfully logged out. <span
+        onClick='' type=button class='btn icon-edit-1'>Login</span> <span onClick=''
+        type=button class='btn icon-edit-1'>Stay on this Page</span></div></div></div>\");\r\n
+        \                       m = $('#_fp_modal_logged_out');\r\n                    }\r\n\r\n
+        \                   m.modal();\r\n\r\n                     console.log('modal
+        finished');\r\n                    //xtoast('You have been logged out.');\r\n
+        \                   if(_fp.cb_loggedout) _fp.cb_loggedout();\r\n                     console.log('callback
+        complete');\r\n            })\r\n          .fail(function() {\r\n            //m.modal('hide');\r\n
+        \           xtoast('An error has ocurred. Please try again later.');\r\n          });\r\n
+        \           //\r\n    }\r\n};\r\n\r\n//real function\r\n\r\n\r\n        </script>\r\n
+        \       \r\n<script>\r\nfunction render_login(uname) {\r\n     var s = \"<a
+        href='/login.php?cache=bust' style='color:orange;'>\"+uname+\"</a> | <span
+        id='' xonClick='_fp.logout();' onclick=\\\"location = '/logout.php';\\\" style='color:white;cursor:
+        pointer;'>Logout</span>\";\r\n     return s;\r\n}\r\n\r\n</script>\r\n<span
+        id=name_login class=pull-right>\r\n<script>\r\nif(XUNAME) {\r\n    document.write(render_login(XUNAME));\r\n}\r\nelse
+        {\r\n    document.write(\"<a href='/login.php?cache=bust' style='color:white;'><span
+        class='icon-lock' style='font-size:15px;position:relative;top:1px'></span>
+        Login</a> | <a href='/signup.php' style='color:white;'>Sign Up</a>\");\r\n}\r\n</script></span><a
+        href='/' style='font-size:1.1em;border:none;'>FanFiction</a>&#160;&#160;<small>|</small>&#160;&#160;unleash
+        your imagination <span class='icon-kub-mobile' style='font-size:14px;margin-left:10px;'
+        title='Mobile Edition'  onclick=\"location = '//m.fanfiction.net/m/yes_mobile.php'\"></span><span
+        title='Fontastic Panel: UI Settings' class='icon-tl-text' style='font-size:14px;margin-left:10px;'
+        onClick=\"_fontastic_init('ui'); $('#_fontastic_ui').modal('show');\"></span></div>\r\n</div>\r\n<script>if(!isMobile){document.write(\"<div
+        class='zmenu' style='text-align:center;padding-top:5px;background-color: #f6f7ee;'>\");}</script>\n
+        \           <!-- startz -->\n            <ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\"
+        data-ad-client=\"ca-pub-8698054525611092\" data-ad-slot=\"5792940767\"></ins>\n
+        \           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n
+        \           <!-- endz --><script>if(!isMobile){document.write(\"</div>\");}</script>\r\n<div
+        style='width:100%;' class=zmenu>\r\n    <div  id=zmenu  class='maxwidth' style='vertical-align:middle;padding:5px;'>\r\n<span
+        class=zui >\r\n\r\n<!-- new stuff -->\r\n<table class='maxwidth'><tr><td valign=middle
+        >\r\n\r\n\r\n            <div class='dropdown xmenu_item'>\r\n                    <a
+        class='dropdown-toggle' data-toggle='dropdown' href='#'>Browse <b class='caret'></b></a>\r\n
+        \                   <ul class='dropdown-menu'>\r\n\r\n            <li class=disabled
+        style='text-align:center'><a href='#'>Stories</a></li>\r\n\r\n            <li><a
+        href='/anime/'>Anime</a></li>\r\n            <li><a href='/book/'>Books</a></li>\r\n
+        \           <li><a href='/cartoon/'>Cartoons</a></li>\r\n            <li><a
+        href='/comic/'>Comics</a></li>\r\n            <li><a href='/game/'>Games</a></li>\r\n
+        \           <li><a href='/misc/'>Misc</a></li>\r\n            <li><a href='/play/'>Plays</a></li>\r\n
+        \           <li><a href='/movie/'>Movies</a></li>\r\n            <li><a href='/tv/'>TV</a></li>\r\n
+        \           <li class='disabled' style='text-align:center'><a href='#'>Crossovers</a></li>\r\n\r\n
+        \           <li><a href='/crossovers/anime/'>Anime</a></li>\r\n            <li><a
+        href='/crossovers/book/'>Books</a></li>\r\n            <li><a href='/crossovers/cartoon/'>Cartoons</a></li>\r\n
+        \           <li><a href='/crossovers/comic/'>Comics</a></li>\r\n            <li><a
+        href='/crossovers/game/'>Games</a></li>\r\n            <li><a href='/crossovers/misc/'>Misc</a></li>\r\n
+        \           <li><a href='/crossovers/play/'>Plays</a></li>\r\n            <li><a
+        href='/crossovers/movie/'>Movies</a></li>\r\n            <li><a href='/crossovers/tv/'>TV</a></li>\r\n\r\n
+        \              \r\n\r\n                    </ul>\r\n                </div>\r\n
+        \               <div class='dropdown xmenu_item'>\r\n                    <a
+        class='dropdown-toggle' data-toggle='dropdown' href='#'>Just In <b class='caret'></b></a>\r\n
+        \                   <ul class='dropdown-menu'>\r\n            <li><a href='/j/0/0/0/'>All</a></li>\r\n\r\n
+        \           <li><a href='/j/0/1/0/'>Stories: New</a><li>\r\n            <li><a
+        href='/j/0/2/0/'>Stories: Updated</a></li>\r\n\r\n            <li class='divider'></li>\r\n
+        \           <li><a href='/j/0/3/0/'>Crossovers: New</a><li>\r\n            <li><a
+        href='/j/0/4/0/'>Crossovers: Updated</a><li>\r\n\r\n                    </ul>\r\n
+        \               </div>\r\n                <div class='dropdown xmenu_item'>\r\n
+        \                   <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Community
+        <b class='caret'></b></a>\r\n                    <ul class='dropdown-menu'>\r\n
+        \           <li><a href='/communities/general/0/'>General</a></li>\r\n            <li><a
+        href='/communities/anime/'>Anime</a></li>\r\n            <li><a href='/communities/book/'>Books</a></li>\r\n
+        \           <li><a href='/communities/cartoon/'>Cartoons</a></li>\r\n            <li><a
+        href='/communities/comic/'>Comics</a></li>\r\n            <li><a href='/communities/game/'>Games</a></li>\r\n
+        \           <li><a href='/communities/misc/'>Misc</a></li>\r\n            <li><a
+        href='/communities/movie/'>Movies</a></li>\r\n            <li><a href='/communities/play/'>Plays</a></li>\r\n
+        \           <li><a href='/communities/tv/'>TV</a></li>\r\n                    </ul>\r\n
+        \               </div>\r\n                <div class='dropdown xmenu_item'>\r\n
+        \                   <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Forum
+        <b class='caret'></b></a>\r\n                    <ul class='dropdown-menu'>\r\n
+        \           <li><a href='/forums/general/0/'>General</a></li>\r\n            <li><a
+        href='/forums/anime/'>Anime</a></li>\r\n            <li><a href='/forums/book/'>Books</a></li>\r\n
+        \           <li><a href='/forums/cartoon/'>Cartoons</a></li>\r\n            <li><a
+        href='/forums/comic/'>Comics</a></li>\r\n            <li><a href='/forums/game/'>Games</a></li>\r\n
+        \           <li><a href='/forums/misc/'>Misc</a></li>\r\n            <li><a
+        href='/forums/movie/'>Movies</a></li>\r\n            <li><a href='/forums/play/'>Plays</a></li>\r\n
+        \           <li><a href='/forums/tv/'>TV</a></li>           </ul>\r\n                </div>\r\n\r\n
+        \                <div class='dropdown xmenu_item'>\r\n                    <a
+        class='dropdown-toggle' data-toggle='dropdown' href='#'>Betas <b class='caret'></b></a>\r\n
+        \                   <ul class='dropdown-menu'>\r\n\r\n            <li class=disabled
+        style='text-align:center'><a href='#'>All</a></li>\r\n\r\n            <li><a
+        href='/betareaders/all/anime/'>Anime</a></li>\r\n            <li><a href='/betareaders/all/book/'>Books</a></li>\r\n
+        \           <li><a href='/betareaders/all/cartoon/'>Cartoons</a></li>\r\n
+        \           <li><a href='/betareaders/all/comic/'>Comics</a></li>\r\n            <li><a
+        href='/betareaders/all/game/'>Games</a></li>\r\n            <li><a href='/betareaders/all/misc/'>Misc</a></li>\r\n
+        \           <li><a href='/betareaders/all/play/'>Plays</a></li>\r\n            <li><a
+        href='/betareaders/all/movie/'>Movies</a></li>\r\n            <li><a href='/betareaders/all/tv/'>TV</a></li>\r\n
+        \           <li class='disabled' style='text-align:center'><a href='#'>Specific</a></li>\r\n\r\n
+        \           <li><a href='/betareaders/anime/'>Anime</a></li>\r\n            <li><a
+        href='/betareaders/book/'>Books</a></li>\r\n            <li><a href='/betareaders/cartoon/'>Cartoons</a></li>\r\n
+        \           <li><a href='/betareaders/comic/'>Comics</a></li>\r\n            <li><a
+        href='/betareaders/game/'>Games</a></li>\r\n            <li><a href='/betareaders/misc/'>Misc</a></li>\r\n
+        \           <li><a href='/betareaders/play/'>Plays</a></li>\r\n            <li><a
+        href='/betareaders/movie/'>Movies</a></li>\r\n            <li><a href='/betareaders/tv/'>TV</a></li>\r\n\r\n
+        \              \r\n\r\n                    </ul>\r\n                </div>\r\n
+        \       </td>\r\n        <td valign=middle>\r\n\r\n            <script>\r\n
+        \               $(document).ready(function() {\r\n                    $('.xdrop_search').click(function()
+        {\r\n                        var v = $(this).html();;\r\n\r\n                        $('#search_type').val(v.toLowerCase());\r\n
+        \                       $('#search_head').html(v);\r\n                    });\r\n\r\n
+        \                   $('#search_keywords').onEnterKey(function(){\r\n                        $('form#search_form').submit();\r\n
+        \                   });\r\n\r\n                });\r\n\r\n            </script>\r\n
+        \           <FORM method=get id=search_form action='/search/' class='pull-right'>\r\n
+        \               <div class='input-prepend'>\r\n                    <div class='btn-group'>\r\n
+        \                       <button class='btn dropdown-toggle' data-toggle='dropdown'>\r\n
+        \                           <span id=search_head>Story</span>\r\n                            <span
+        class='caret'></span>\r\n                        </button>\r\n                        <ul
+        class='dropdown-menu'>\r\n                            <li><a href='#' class=xdrop_search>Story</a></li>\r\n
+        \                           <li><a href='#' class=xdrop_search>Writer</a></li>\r\n
+        \                           <li><a href='#' class=xdrop_search>Forum</a></li>\r\n
+        \                           <!-- <li class='divider'></li> -->\r\n                            <li><a
+        href='#' class=xdrop_search>Community</a></li>\r\n                        </ul>\r\n
+        \                   </div>\r\n                    <input class='span2' name='keywords'
+        id=search_keywords type='text' placeholder='Search' title='Search'>\r\n                    <!--
+        \ input-append <button class='btn' type='submit'>Go</button> -->\r\n                </div>\r\n
+        \               <!-- <input class=searchfield type=text name='keywords' placeholder='Search'
+        title='Search' style='width:100px'> -->\r\n                <input type=hidden
+        name=ready value=1>\r\n                <input type=hidden name=type id=search_type
+        value=story>\r\n            </FORM>\r\n        </td>\r\n    </tr>\r\n</table>\r\n\r\n</span>\r\n</div>\r\n</div>\r\n<div
+        style='width:100%;' class=xcontrast_outer id=content_parent><div class='xcontrast
+        maxwidth' id=content_wrapper style='background-color: white;'><div id=content_wrapper_inner
+        style='padding:0.5em;'>\r\n<script>\r\nif(XCOOKIE.read_theme == 'dark') {\r\n
+        \    $(function(){\r\n        _fontastic_change_theme('dark');\r\n\r\n     });\r\n
+        }\r\n else if(XCOOKIE.read_light_texture) {\r\n   _fontastic_change_texture(XCOOKIE.read_light_texture);\r\n
+        }\r\n\r\n </script><div style='margin-bottom: 10px' class='lc-wrapper' id=pre_story_links><span
+        class=lc-left><a class=xcontrast_txt href='/movie/'>Movies</a><span class='xcontrast_txt
+        icon-chevron-right xicon-section-arrow'></span><a class=xcontrast_txt href=\"/movie/Star-Wars/\">Star
+        Wars</a>\r\n</span>\r\n</div>\r\n<script>\r\n//_fontastic_theme_css();\r\n\r\nfunction
+        toggleTheme() {\r\n    if(XCOOKIE.read_theme == 'light') {\r\n        _fontastic_change_theme('dark');\r\n
+        \   }\r\n    else {\r\n        _fontastic_change_theme('light');\r\n    }\r\n}\r\n</script><div
+        id=img_large class='hide modal fade' style='color:black;'><div class='modal-body'
+        align=center><img class='cimage ' style='padding:2px;border:1px solid #ccc;-moz-border-radius:2px;-webkit-border-radius:2px;'
+        src='//ff74.b-cdn.net/static/images/d_60_90.jpg' width=180 height=240></div></div><div
+        id=profile_top style='min-height:112px;'><button class='btn pull-right icon-heart'
+        type=button onClick='$(\"#follow_area\").modal();'> Follow/Fav</button><b
+        class='xcontrast_txt'>Cobalt's Edge</b>\r\n<span class='xcontrast_txt'><div
+        style='height:5px'></div>By:</span> <a class='xcontrast_txt' href='/u/10001408/MeridianAntemeridian'>MeridianAntemeridian</a>
+        <span class='icon-mail-1  xcontrast_txt' ></span> <a class='xcontrast_txt'
+        title=\"Send Private Message\" href='https://www.fanfiction.net/pm2/post.php?uid=10001408'></a>\r\n<div
+        style='margin-top:2px' class='xcontrast_txt'>The Empire has received new information
+        of more Jedi surviving the initial stages of the Jedi Purge. Worse, news have
+        been received a star destroyer was blown up by a Jedi. The Emperor has ordered
+        Vader to track the Jedi down and killed the Jedi and kill any other Jedi he
+        encounters. Meanwhile, two survivors of Operation: Knightfall, Chels and Gracas
+        struggles to survive.</div>\r\n<span class='xgray xcontrast_txt'>Rated: <a
+        class='xcontrast_txt' href='https://www.fictionratings.com/' target='rating'>Fiction
+        \ T</a> - English - Adventure - Chapters: 2   - Words: 3,655 - Favs: 2 - Follows:
+        1 - Updated: <span data-xutime='1511640201'>11/25/2017</span> - Published:
+        <span data-xutime='1511403999'>11/22/2017</span> - id: 12734411 </span>\r\n</div>\r\n<div
+        align=center class='lc-wrapper' style='margin-top:10px;'><div class='lc'>\r\n<span
+        class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;'
+        title=\"+ Font Size\" onClick=\"_fontastic_change_size('u');\" ></span>+</span>&#160;&#160;<span
+        class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;'
+        title=\"- Font Size\" onClick=\"_fontastic_change_size('d');\" ></span>-</span>&#160;&#160;<span
+        style='font-size:14px;cursor:pointer;' class='icon-tl-text xcontrast_txt'
+        onclick=\"_fontastic_init('reading');$('#_fontastic_reading').modal('show');\"
+        \ title=\"Fonts\"></span>&#160;&#160;\r\n\r\n<span class='icon-align-justify
+        xcontrast_txt' onclick=\"$('#f_width').slideToggle();\" style='font-size:14px'
+        title=\"Story Width\"></span> <span id=f_width class='hide xcontrast_txt'><span
+        \ onclick='_fontastic_change_width(100);'>Full</span> <span onclick='_fontastic_change_width(75);'>3/4</span>
+        <span  onclick='_fontastic_change_width(50);'>1/2</span></span> &#160;&#160;
+        <span class='icon-tl-text-height xcontrast_txt' onclick=\"$('#f_size').slideToggle();\"
+        style='font-size:14px;cursor:pointer;' title=\"Line Spacing\"></span> <span
+        id=f_size class='hide xcontrast_txt'> <span onclick='_fontastic_change_line_height(\"u\");'>Expand</span>
+        <span onclick='_fontastic_change_line_height(\"d\");'>Tighten</span></span>&#160;&#160;<span
+        class='xcontrast_txt icon-tl-contrast' onclick=\"toggleTheme();\" style='margin-left:2px;margin-right:2px;font-size:14px;'
+        align=absmiddle title=\"Story Contrast\"></div></div>\r\n    <span style='float:right;
+        ' > <SELECT id=chap_select title=\"Chapter Navigation\" Name=chapter onChange=\"self.location
+        = '/s/12734411/'+ this.options[this.selectedIndex].value + '/Cobalt-s-Edge';\"><option
+        \ value=1 selected>1. Chapter 1<option  value=2 >2. Everything falls into
+        place</select> <button class=btn TYPE=BUTTON onClick=\"self.location='/s/12734411/2/Cobalt-s-Edge'\">Next
+        &gt;</button></span><div style='height:5px'></div><script>\r\ndocument.write('<style>
+        .storytext { max-height: 999999px; width: '+XCOOKIE.read_width+'%; font-size:'
+        + XCOOKIE.read_font_size + 'em; font-family: \"'+XCOOKIE.read_font+'\"; line-height:
+        '+XCOOKIE.read_line_height+'; text-align: left;} </style>');\r\n\r\n$(function()
+        {\r\n    $.get('/eye/0/1/49722449/12734411/');\r\n});\r\n</script>\r\n\r\n<div
+        role='main' aria-label='story content' class='storytextp' id='storytextp'
+        \ align=center style='padding:0 0.5em 0 0.5em;'>\r\n<div class='storytext
+        xcontrast_txt nocopy' id='storytext'><p style='text-align:center;'>Prologue:</p><p>19
+        BBY, Imperial Palace, Coruscant.</p><p>As Vader walked into the Emperor's
+        office, he felt exhausted, having failed to bring Master Kys to the Emperor.
+        Vader killed the Twi'lek in anger after the aged master taunted him by saying
+        she knew there was still goodness in him.</p><p>He bowed down and said \"Master,
+        Kys died, she refused to come with me peacefully and killed herself.\" Vader
+        lied, knowing the Emperor didn't cared, the Jedi had to died anyway.</p><p>\"She
+        is of no use now, we got the information we needed now. She is now eliminated
+        at least. Our best slicers manage to get a new list of Jedi and compared it
+        to our list and I feared more Jedi has survived our opening plans than thought.
+        As of now, I'm sending the dossier on each one. Your mission is of course,
+        to hunt them down.\" Palpatine commanded his apprentice.</p><p>Grand Moff
+        Tarkin walked in at that moment.</p><p>\"Emperor, one of our star destroyer,
+        Killblow, was destroyed over Drunckenwell. We managed to determine that a
+        Jedi somehow broke out a former Separatist general, Ins Hevert, and sabotaged
+        the engines. Unfortunately, we can't figure the identity.\"</p><p>The Emperor
+        was visibly frustrated at this sudden development and looked at Vader.</p><p>\"Your
+        secondary objective is to figure out this Jedi's identity and capture this
+        Jedi for me.\" Vader nodded and left the room.</p><p>Vader sat in his meditation
+        chamber, looking over the dossiers.</p><p>\"Indeed, concerning so many Jedi
+        survived, especially Operation: Knightfall, how could I had fail to get them?\"
+        He started reading over it in detail.</p><p>Chels Relacay, born on Delaya.
+        Apprenticed to Depa Billaba, she passed her trials but never took on a padawan.
+        Instead, she joined the Med Corps in order to pursue a interest in mental
+        health. Never active on the front lines, it should be known she mastered Shii-Cho
+        and is best known for holding off an Droid Army as three battalions were evacuated
+        at Tropha. She escaped Knightfall. Location unknown.</p><p>Tors Annaki, borned
+        on Tholoth, she managed to become a master at 29 years and excels at Soresu.
+        Usually sent on diplomatic missions, she saved Senator Amidala's life at one
+        point (Vader felt emotional pain at reading that.) She managed to killed the
+        troops at the Senate building when Order 66 was issued. Last seen leaving
+        Corellia. Location unknown. (Vader remembered she and his former master, Kenobi,
+        were close friends. He would be sure to get the information from her about
+        his location, she has to know, before killing her.)</p><p>Gracas Kim-Hui,
+        borned on Taris, she was 4 years old when discovered by Yoda. She was accepted
+        and taught by Yoda. She trained two padawans to knighthood. One died in action
+        on Geonosis, the other via Order 66 at Murkhana. She mastered Ataru and seems
+        to have escaped Knightfall as revealed by Temple cameras, slaughtering the
+        Clones in her way (Didn't I fight her before killing the younglings?). Last
+        seen near Sector Zero.</p><p>Katya Adkis, born on Nar Shadda. Attained knighthood.
+        Survived numerous battles with Greivous, showing she is capable at Makashi.
+        Last seen at the temple, location unknown.</p><p>Lyd Bassick, borned on Kalarba,
+        attained knighthood. Seemed more interested in meditation. Never participated
+        in the Clone Wars. Location: Llanic.</p><p>Sen Lesbos, born on Chandrilla.
+        She was exiled as a padawan for forbidden emotional attachments. She seemed
+        to have master Makashi and Ataru as demonstrated by her guerilla actions at
+        Cerea against the Separatists. Suspected to be near Yag'Dhul, running an organization
+        dedicated to helping Jedi. Marked as a high-priority target. May have info
+        on other Jedis. Location:unknown.</p><p>Graya Mersid, born on Arkania. Attained
+        the rank of Master, Former Padawan Lyc Jusfeswer, eliminated by Vader in front
+        of her. Location: Alsakan.</p><p>Eilean Rasdes, born on Tralus. Famed for
+        her unusual red hair among Humans. Was a Consular based on New Cov when Order
+        66 was issued. Escaped. Suspected to be in league with the Rebels at Corellia.
+        Location: Selonia.</p><p>Caili Karson, born on Azure. Attained knighthood
+        under Jocasta Nu. Was an Archaeologist on Korriban. She could be useful as
+        her knowledge on Sith lore is extensive. Location: unknown.</p><p>Adda Dosime,
+        born on Telos. Mastered Makashi, Attained Masterhood. Trained 4 padawans.
+        All were executed by Vader during Knightfall. Close friends with Eilean Rasdes
+        and suspected to be in league with rebels on Corellia. Location: Selonia.</p><p>Halcyon
+        Aegis-Musea, raised on Virgillia. Was accepted at 7 years old. Originally
+        taught by Ur-Sema Du, then Yoda. Finally passed knighthood under the Dark
+        Women. Master Makashi and Jar'Kai. Trained 2 students to knighthood, becoming
+        master. Both died at Geonosis. Survived Geonosis. One of the few Jedis to
+        survived Grievous (I remember his fight with him on Tisiphonisa), Fought up
+        to 9 months before the end of the Clone Wars. Resigned from the Order over
+        ideological differences. Known as a master strategist in Space Combat. Thought
+        dead at Lipsec by Imperials after killing a Emperor's hand. May had resurfaced,
+        Status unknown. (Could this be our unknown Jedi? Yet, he doesn't seemed to
+        be that type from my time fighting with him at Tisiphonisa.)</p><p>Zatch Hilliow,
+        born at Obroa-Skai. Attained knighthood. Was an Jedi archaeologist who worked
+        on Kashyyyk in the shadowlands. Location: Phaeda.</p><p>Psam Lucawah, born
+        on Lucazec. Attained knighthood and was a scholar. Escaped the temple with
+        several holocrons. May had met with Caili Karson at some point. Location:
+        Kashyyyk.</p><p>Hulia Saslie, born on Coruscant. Attained the rank of Master,
+        escaped with her former apprentice, Rodj Nahmi, from Order 66 on Merla. Currently
+        leading guerilla activity, costing Imperial resources in that sector. Location:
+        Merla.</p><p>Asta Jeslen, born on Brentaal. Attained Master rank. His apprentice
+        died on Saleucami in the last weeks of the Clone Wars. Mastered Soresu combat.
+        Fought at Boz Pity and Rendilli. Thought to have been shot at Columus during
+        Order 66. Recently resurfaced raiding Imperial convoys in Belsmuth Sector.
+        Location: Unknown.</p><p>Masidon Bailesrid, born on Togruta. Trained by Rahm
+        Kota. Considered a ground military genius. Survived Order 66 on Kashyyyk.
+        Leading wookiee resistance currently. Location: Kashyyk. (She seems to be
+        the candidate, yet nowhere near the loss of the ship at that time.)</p><p>Sydlin
+        Klangensmit, born on the Luxury Liner \"Casalan\". Trained under Shaak Ti.
+        Been a secret operative on Felucia since the start of the Clone Wars. Was
+        away from any contact, thus surviving Order 66. Priority target as she could
+        aid any Rebel operative with her information. Location: Felucia.</p><p>Grif
+        Lamda, born on Cartao. Attained Knighthood and participated in the Battle
+        of Cartao. After the battle, he left the order after being traumatized by
+        the loss of civilians. Currently a Photographer on Taanab. Location: Taanab.</p><p>Sav
+        Tambert, born on Caamas. Attained the rank of master. Her apprenticed died
+        on Geonosis. Revered as a diplomat by the people of Terminus for peacefully
+        resolving the gang wars. Fled Terminus when news of the Jedi betrayal was
+        broadcasted. Location: unknown.</p><p>Mari and Jalob Miok, born on Ukio. Attained
+        knighthood and work as a duo to hunt Sith artifacts. Still unaware of the
+        Jedi's downfall. Both utilize Jar'kai and makashi. Location: Asation.</p><p>Kal
+        Oldela, born on Byblos. Attained rank of Master. Her apprentice was executed
+        by Clones during Knightfall, but she escaped the temple. She escaped and was
+        last seen leaving on a freighter for Sleheydron. Location: unknown.</p><p>Ran
+        Sonly, born on Quellor. Attained knighthood and assigned Watchman over Rhomamool.
+        Location: Spirana.</p><p>Pers Linda and Ison Dersi, born on Lindos and Ospo.
+        Works as partners to hunt down gangs in the Outer Rim. Both knights were lasted
+        reported on Enarc. Location: unknown.</p><p>Nise Scos, born on Gyndine, attained
+        master rank. Her apprentice died in a terrorist bombing. Suspected to be helping
+        Sen Lesbos. Been leading rebel activity in the expansion and mid rim. Been
+        suspected in destruction of several convoys and prisons. Location: unknown.
+        (This has to be our suspected Jedi. I think I'll pay her a visit.)</p><p>Ifllere
+        Anchal, borned on Caamas, raised on Danuta. Attained rank of Master. Apprentice
+        was hunted down by Vader. Regarded as one of the greatest diplomats, famed
+        for settling peace negotiations on Jamsa, Livosa, and Torrtan. Not to be underestimated
+        in lightsaber combat, as he held his own against Grievous. Slaughtered his
+        troops on Manaan when Order 66 was issued, he;s now on Kashyyyk. Location:
+        Kashyyyk.</p><p>Dys Tyesd, born on Lantilles. Attained knighthood and was
+        sentinel over Dantoonie. Escaped order 66 as she was alone. Location: Kashyyyk.</p><p>Lexa
+        Valanrezo, born on Humbarine. Was a mathematician on Yag'Dhul helping feed
+        information to Republic forces on Separatist movements. Escaped Imperial Blockade.
+        Location: unknown.</p><p>Emm Mesner, born to Jedi Parents. Attained knighthood
+        and commanded Republic special commandos on Separatist worlds. Last seen on
+        Antar 4. Location: unknown.</p><p>Tinaus Ilwis, born on Meridian. Taught by
+        Cin Drallig. Attained masterhood. Apprentice killed by Grievous on Duro. Taught
+        swordfighting skills at the temple. Seen escaping the temple along with Shaak
+        Ti, after conducting evacuations. Location: Unknown.</p><p>Eths W'Ayat, born
+        on Ayas. Attained masterhood, apprentice killed on Muunilinst by Durge. Survived
+        Order 66 on Mygeeto. Location: Kashyyyk.</p><p>Emil Yatess, born on Jedha.
+        Gained rank of Master. Her apprentice was struck down by Vader during Knightfall
+        . Taught meditation classes and capable of using the force well. She was seen
+        on temple camera struck in the admoden by Vader, thought dead. Only recently
+        have cameras shown she was only injured and after Knightfall, escaped the
+        temple past troopers. Location: unknown.</p><p>Vader putted down the datapad
+        and sat there thinking to himself. He was very angry at the fact Emil Yatess
+        survived. He could have sworn he felt her joining the force when he stabbed
+        her. He enjoyed his fight with her as she was the first challenging duel he
+        faced during Knightfall. His mind turned to Nise Scos, his main suspect in
+        the destruction of \"Killblow\" and he knew he needed to go to the Imperial
+        garrison on Eyhines, near New Cov. He called the shuttle to take him up to
+        \"Exactor\".</p><p>19 BBY. Crooked Nose Bar. Eyhines.</p><p>Chels Relacay
+        sat at one of the tables in the bar, hiding herself. She whispered</p><p>\"We
+        got a starship, we could just go now to the outer rim, hide ourselves! Remind
+        me why we are even here again!?\" Gracas sighed in defeat, knowing she had
+        to reveal the reason now.</p><p>\"I felt the hushed presence of a Jedi here.
+        I felt this Jedi in Hyperdrive. If this Jedi survives, we need their help.\"
+        Gracas whispered, still pained by her memories.</p><p>Chels sighed, feeling
+        Gracas's pain. She remembered escaping the burning Temple, guiding a Knight
+        out when he got shot in the back by a Clone. She wanted to turn and save him
+        but felt him join the Force. She escaped to a spaceport and encountered her
+        old friend Gracas, who recounted her story of failing to defend the younglings
+        after barely surviving a duel with Skywalker, who she felt was infected by
+        the dark side of the force. She ran and slaughtered the clones trying to kill
+        her. They both sneaked aboard a freighter for Alderaan before buying a starship
+        covertly and now they were here.</p><p>\"I felt that presence again!\" Gracas
+        whispered excitedly. Chels felt it too and jump up, heading for the bar. She
+        needed a drink before finding the Jedi.</p><p>\"Hey. May I ha-\" Chels started
+        asking before being interrupted by a figure, whose face she couldn't see.</p><p>\"You're
+        here for me?! I'll much rather die than let you take me!\" The clearly feminine
+        voice screamed and punch Chels.</p><p><em>Well, I ended it in a cliffhanger.
+        Thanks for reading my 1st story1 We got a whole new cast and locations. Can
+        Vader kill them? Can he complete his objective? We'll just have to see!</em></p>\r\n</div>\r\n</div><div
+        style='height:5px'></div><div style='clear:both;text-align:right;'> <SELECT
+        id=chap_select title=\"Chapter Navigation\" Name=chapter onChange=\"self.location
+        = '/s/12734411/'+ this.options[this.selectedIndex].value + '/Cobalt-s-Edge';\"><option
+        \ value=1 selected>1. Chapter 1<option  value=2 >2. Everything falls into
+        place</select> <button class=btn TYPE=BUTTON onClick=\"self.location='/s/12734411/2/Cobalt-s-Edge'\">Next
+        &gt;</button></div><div style='height:5px'></div>\r\n<script>\r\n    function
+        review_init() {\r\n         if(XUNAME) {\r\n             $('#review_name').hide();\r\n
+        \            $('#review_postbutton').html('Post Review as ' + XUNAME);\r\n
+        \            $('.login_items').hide();\r\n             $('#alert_subs').show();\r\n
+        \        }\r\n         else {\r\n             $('#review_name').show();\r\n
+        \            //$('#review_name').html(\"<input type=text name='name' placeholder='Name:'>\");\r\n\r\n
+        \            $('.login_items').show();\r\n             $('#alert_subs').hide();\r\n
+        \        }\r\n    }\r\n\r\n    //call back\r\n    function login_success_default()
+        {\r\n        //$('#name_login').html(render_login(XUNAME));\r\n\r\n        //focus
+        on review\r\n        $('#review_review').focus();\r\n\r\n        //you have
+        now logged in\r\n        xtoast(\"You have logged-in as \"+XUNAME+'.');\r\n\r\n
+        \       //close all open dialogs\r\n        //$('#please_login').modal('hide');\r\n\r\n\r\n\r\n
+        \   }\r\n\r\n    function login_success() {\r\n         login_success_default();\r\n
+        \        review_init();\r\n    }\r\n\r\n    function self_login(target) {\r\n
+        \       xwindow('https://www.fanfiction.net/api/login_state_proxy.php?src=popup&target='+target,450,450);\r\n
+        \   }\r\n\r\n    function post_q() {\r\n        if(!XUNAME) {\r\n            please_login();\r\n
+        \           return;\r\n        }\r\n\r\n        if($('#q_follow_author').prop('checked')
+        == 0 && $('#q_follow_story').prop('checked') == 0 && $('#q_fav_author').prop('checked')
+        == 0 && $('#q_fav_story').prop('checked') ==0) {\r\n            xtoast('Please
+        select at least one follow or favorite action');\r\n            return;\r\n
+        \       }\r\n\r\n        $('#q_working').toggle();\r\n\r\n        $.post('/api/ajax_subs.php',
+        {\r\n            storyid: storyid,\r\n            userid: userid,\r\n\r\n
+        \           authoralert: $('#q_follow_author').prop('checked') ? 1 : 0,\r\n
+        \           storyalert: $('#q_follow_story').prop('checked') ? 1 : 0,\r\n
+        \           favstory: $('#q_fav_story').prop('checked') ? 1 : 0,\r\n            favauthor:
+        $('#q_fav_author').prop('checked') ? 1 : 0\r\n        },\r\n        function(data)
+        {\r\n            //console.log(data);\r\n            //alert(data);\r\n            if(data.error)
+        {\r\n                $('#q_working').toggle();\r\n\r\n                xtoast(\"We
+        are unable to process your request due to an network error. Please try again
+        later.\");\r\n            }\r\n            else {\r\n                xtoast(\"We
+        have successfully processed the following:\" + data.payload_data,3500);\r\n
+        \               $('#q_working').toggle();\r\n                $('#follow_area').modal('hide');\r\n
+        \            }\r\n        },\r\n        'json'\r\n        ).error(function()
+        {\r\n            xtoast(\"We are unable to process your request due to an
+        network error. Please try again later.\");\r\n\r\n            $('#q_working').toggle();\r\n
+        \       });\r\n    }\r\n\r\n    function please_login() {\r\n         xtoast(\"Please
+        login or signup to access this feature.\");\r\n    }\r\n\r\n    function post_review()
+        {\r\n        var review = $('#review_review').val();\r\n        var name =
+        $('#review_name_value') ? $('#review_name_value').val() : '';\r\n\r\n        //make
+        sure we don't submit default\r\n        if(review == '') {\r\n            xtoast(\"Please
+        type up your review for this story.\");\r\n            return;\r\n        }\r\n\r\n
+        \       $('#review_postbutton').html(\"Posting. Please wait...\");\r\n        $('#review_postbutton').prop('disabled',true);\r\n\r\n
+        \       $.post('/api/ajax_review.php', {\r\n            storyid: storyid,\r\n
+        \           storytextid: storytextid,\r\n            chapter: chapter,\r\n\r\n
+        \           authoralert: $('#review_authoralert').prop('checked') ? 1 : 0,\r\n
+        \           storyalert: $('#review_storyalert').prop('checked') ? 1 : 0,\r\n
+        \           favstory: $('#review_favstory').prop('checked') ? 1 : 0,\r\n            favauthor:
+        $('#review_favauthor').prop('checked') ? 1 : 0,\r\n\r\n            name: name,\r\n
+        \           review: review\r\n        },\r\n        function(data) {\r\n            //console.log(data);\r\n
+        \           //alert(data);\r\n            if(data.error) {\r\n                $('#review_postbutton').html('Post
+        Review as'+XUNAME);\r\n                $('#review_postbutton').prop('disabled',
+        false);\r\n\r\n                xtoast(\"We are unable to post your review
+        due to the following reason:<br><br>\" + data.error_msg);\r\n            }\r\n
+        \           else {\r\n                xtoast(\"The author would like to thank
+        you for your continued support. Your review has been posted.\",3500);\r\n
+        \               review_success();\r\n            }\r\n        },\r\n        'json'\r\n
+        \       ).error(function() {\r\n            xtoast(\"We are unable to process
+        your review due to an network error. Please try again later.\");\r\n\r\n            $('#review_postbutton').html(\"Post
+        Review as\"+XUNAME);\r\n            $('#review_postbutton').prop('disabled',
+        false);\r\n        });\r\n\r\n    }\r\n\r\n    function review_success() {\r\n
+        \        $('#review').hide();\r\n         $('#review_success').show();\r\n\r\n
+        \        //must clear textarea of auto-save would save old data\r\n         $('#review_review').val('');\r\n
+        \        \nif(!$.storage) {\n    $.storage = new $.store();\n    //console.log('new
+        storage');\n}\n$.storage.del('review:12734411:1');\n//console.log('del review:12734411:1');\n
+        \       \r\n    }\r\n\r\n    function review_failure() {\r\n\r\n    }\r\n\r\n
+        \   $().ready(function() {\r\n        review_init();\r\n    });\r\n</script>\r\n<div
+        id='review_success' style='display:none;width:500px;height:100px;clear:both;margin-right:auto;margin-left:auto;'>\r\n
+        \   The author would like to thank you for your continued support. Your review
+        has been posted.\r\n</div>\r\n<div id=review>\r\n<table border=0 padding=0
+        cellspacing=0 style='width:100%;'> <!-- min-width:500px;max-width:975px;clear:both;margin-right:auto;margin-left:auto;-->\r\n
+        \   <tr>\r\n        <td width=336  valign=top>\n            <!-- startz -->\n
+        \           <ins class=\"adsbygoogle\" style=\"display:inline-block;width:336px;height:280px\"
+        data-ad-client=\"ca-pub-8698054525611092\" data-ad-slot=\"8107878760\"></ins>\n
+        \           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n
+        \           <!-- endz -->    </td>\r\n        <td width=10></td>\r\n        <td
+        valign=top>\r\n            <div style='width:100%;max-width:700px;'>\r\n            <table
+        style='width:100%;'>\r\n            <tr>\r\n            <td colspan=2>\r\n\r\n
+        \           <div id=review_name style=''> <!-- min-width:500px;max-width:975px;
+        \ style='padding:0.5em;width:98%;' -->\r\n                <input class='input-block-level'
+        \ style='max-width:700px' type=text name='name' id='review_name_value' maxlength=16
+        placeholder=\"Name:\" >\r\n                <div style='height:4px'></div>\r\n
+        \           </div>\r\n\r\n\r\n\r\n            <textarea class='input-block-level'
+        style='max-width:700px' rows=10 placeholder=\"Type your review for this chapter
+        here...\" name=review id=review_review></textarea>\r\n            </td>\r\n
+        \           </tr>\r\n            <tr>\r\n            <td style='vertical-align:middle;'>\r\n
+        \               <div id='alert_subs' class='hide xcontrast_txt'>\r\n                  Favorite
+        :\r\n                  Story <input style='margin:-2px 0 0 0' type=checkbox
+        name=favstory id=review_favstory>\r\n                  Author <input style='margin:-2px
+        0 0 0' type=checkbox name=favauthor id=review_favauthor>\r\n                  &#160;\r\n
+        \                 Follow :\r\n                  Story <input style='margin:-2px
+        0 0 0' type=checkbox name=storyalert id=review_storyalert>\r\n                  Author
+        <input style='margin:-2px 0 0 0' type=checkbox name=authoralert id=review_authoralert>\r\n
+        \               </div>\r\n            </td>\r\n            <td align=right>\r\n
+        \           <!-- Split button -->\r\n<div class='btn-group xreset-left'>\r\n
+        \ <button type='button' class='btn icon-edit-1' onClick='post_review();' id=review_postbutton>Post
+        Review</button>\r\n  <button type='button' class='btn dropdown-toggle login_items'
+        data-toggle='dropdown'>\r\n\r\n    <span class='sr-only '>As</span>\r\n     <span
+        class='caret '></span>\r\n  </button>\r\n <ul class='dropdown-menu' role='menu'>\r\n
+        \                       <li><a href='#' onclick=\"self_login('self');\" class=xdrop_login>FanFiction</a></li>\r\n
+        \                       <li><a href='#' onclick=\"self_login('sister');\"
+        class=xdrop_login>FictionPress</a></li>\r\n                        <li><a
+        href='#' onclick=\"self_login('google');\" lass=xdrop_login>Google</a></li>\r\n
+        \                       <li><a href='#' onclick=\"self_login('facebook');\"
+        class=xdrop_login>Facebook</a></li>\r\n                        <li><a href='#'
+        onclick=\"self_login('twitter');\" class=xdrop_login>Twitter</a></li>\r\n
+        \                       <li><a href='#' onclick=\"self_login('amazon');\"
+        class=xdrop_login>Amazon</a></li>\r\n                    </ul>\r\n</div>\r\n\r\n\r\n
+        \           </td>\r\n            </tr>\r\n            </table>\r\n            </div>\r\n
+        \       </td>\r\n    </tr>\r\n</table>\r\n</div>\r\n\r\n<!-- <div id='please_login'
+        class='modal hide fade'></div> -->\r\n\n<script src='//ff74.b-cdn.net/static/scripts/jquery.jstore_01_09_2012.js'></script>\n<script>\n$().ready(function(){\n\n
+        \   if(!$.storage) {\n        $.storage = new $.store(); //init\n    }\n\n
+        \   var t_read = $.storage.get('review:12734411:1');\n\n    if(t_read && t_read.length
+        > 0 ) {\n        //alert('recovered data' + t_read);\n\n        var temp =
+        $('textarea#review_review').val(); //NO SPACES .replace(/^\\s+|\\s+$/g,'')\n\n
+        \       if(!temp || temp.length == 0 || temp == \"Type your comments here.\")
+        {\n            //alert('set good');\n            $('textarea#review_review').val(t_read);\n
+        \           //console.log('got'+t_read);\n        }\n    }\n    else {\n        //alert('no
+        data');\n    }\n\n    var rTimer = setInterval(saveReview, 2000); //every
+        2s\n\n    function saveReview() {\n        var temp = $('textarea#review_review').val();
+        \ //make sure we don't save spaces .replace(/^\\s+|\\s+$/g,'');\n\n        if(temp
+        && temp.length > 0 &&  temp != \"Type your comments here.\") {\n            $.storage.set('review:12734411:1',
+        temp);\n            //console.log('set'+temp);\n        }\n    }\n});\n</script>\n
+        \       <div style='height:15px'></div>\r\n<div  align=center class=lc-wrapper><div
+        class=lc>\r\n<FORM name=myselect onsubmit='return false;'><TABLE style='min-width;400px;margin-left:auto;margin-right:auto;'
+        cellpadding=4>\r\n            <TR>\r\n                <TD>\r\n                <script>\r\n
+        \ var storyid = 12734411;\r\n  var userid = 10001408;\r\n  var storytextid
+        = storytextid=49722449;\r\n  var chapter = 1;\r\n  var title = 'Cobalt%27s+Edge';\r\n
+        \ var logind = 'https://www.fanfiction.net';\r\n\r\n\r\nfunction select_drop(sel_value)
+        {\r\n  var t;\r\n\r\n  if (sel_value == 'abuse') {\r\n      t = xwindow(logind+'/report.php?chapter='+chapter+'&storyid='+storyid+'&title='+title,560,510);\r\n
+        \ }\r\n  else if (sel_value == 'c2') {\r\n     t = xwindow(logind+'/c2_addstory.php?action=add&storyid='+storyid,560,470);\r\n
+        \ }\r\n}\r\n</SCRIPT>\r\n<div class='btn-group '  id='story_actions'>\r\n
+        \   <div class='btn-group dropup'align=left>\r\n    <button class='btn dropdown-toggle'
+        data-toggle='dropdown'>\r\n        <span >Actions</span>\r\n        <span
+        class='caret'></span>\r\n    </button>\r\n    <ul class='dropdown-menu' >\r\n
+        \      <li><a onclick=\"select_drop('c2')\">Add to Community</a></li>\r\n
+        \       <li><a onclick=\"select_drop('abuse')\">Report Abuse</a></li>\r\n
+        \   </ul>\r\n    </div>\r\n</div>\r\n\r\n<div class='btn-group '  id='share_providers'>\r\n
+        \   <div class='btn-group dropup'align=left>\r\n    <button class='btn dropdown-toggle'
+        data-toggle='dropdown'>\r\n        <span class='icon-share'> Share</span>\r\n\r\n
+        \   </button>\r\n    <ul class='dropdown-menu' >\r\n        <li><a href='//plus.google.com/share?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Google+</a></li>\r\n        <li><a href='//twitter.com/home?status=Reading+story%3A+https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Twitter</a></li>\r\n        <li><a href='//www.tumblr.com/share/link?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Tumblr</a></li>\r\n        <li><a href='//www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Facebook</a></li>\r\n    </ul>\r\n    </div>\r\n</div>\r\n\r\n<button
+        class='btn icon-heart' type=button onClick='$(\"#follow_area\").modal();'>
+        Follow/Favorite</button>\r\n<style>\r\n    label input[type=checkbox]{\r\n
+        \       position: relative;\r\n        vertical-align: middle;\r\n        bottom:
+        -5px;\r\n    }\r\n</style>\r\n<div class='modal fade hide' id=follow_area>\r\n
+        \ <div class='modal-body'>\r\n        <center>\r\n        <table style='padding:6px;color:black
+        !important;'>\r\n        <tr><td valign=top>\r\n        + Follow\r\n        <hr>\r\n
+        \         <label class='checkbox'>\r\n            <input type='checkbox' id=q_follow_story>
+        Story\r\n           </label>\r\n            <label class='checkbox'>\r\n            <input
+        type='checkbox' id=q_follow_author> Writer\r\n           </label>\r\n        </td>\r\n
+        \       <td width=20></td>\r\n        <td valign=top>\r\n        + Favorite\r\n
+        \       <hr>\r\n             <label class='checkbox'>\r\n            <input
+        type='checkbox' id=q_fav_story> Story\r\n           </label>\r\n            <label
+        class='checkbox'>\r\n            <input type='checkbox' id=q_fav_author> Writer\r\n
+        \          </label>\r\n        </td>\r\n        </tr>\r\n        </table>\r\n
+        \       </center>\r\n  </div>\r\n  <div class='modal-footer'>\r\n\r\n\r\n
+        \   <span class='btn pull-left' data-dismiss='modal'>Close</span>\r\n<span
+        id='q_working' class='hide'>Working...&nbsp;&nbsp;</span>\r\n    <span  class='btn
+        btn-primary' onClick='post_q();'>Save</span>\r\n  </div>\r\n\r\n </div>\r\n</TD>\r\n</TR>\r\n</TABLE></form>\r\n</div></div>\r\n
+        \       <div style='height:5px'></div></div></div></div><div id=p_footer class=maxwidth
+        style='clear:all;padding:1em 0 1em 0;'><div style='text-align:center'><a href='/support/'>Help</a>
+        . <a href='/cookies/'>Cookies</a>  . <a href='/privacy/'>Privacy</a> . <a
+        href='/tos/'>Terms of Service</a>  . <a href='#top'>Top</a></div><div style='height:10px'></div><div
+        style='text-align:center'><a href='//www.twitter.com/fictionpress'><span class='icon-twitter-3'
+        style='color:rgb(104, 100, 100);font-size:18px;height:20px;width:20px;'></span></a></div><div
+        style='height:15px'></div></div>\r\n<script>\r\n$(function() {\r\n    $('img.lazy').lazyload({\r\n
+        \       //skip_invisible : false\r\n    });\r\n});\r\n</script>\r\n        \r\n<style>\r\n
+        \   .hv_center {\r\n        bottom: 0px;\r\n        position: fixed;\r\n        left:
+        0;\r\n        right: 0;\r\n        height: 55px;\r\n        background-color:
+        #363636;\r\n        color: #e4e4e4;\r\n\r\n        /* IE 10 */\r\n        display:-ms-flexbox;\r\n
+        \       -ms-flex-pack:center;\r\n        -ms-flex-align:center;\r\n\r\n        /*
+        FF */\r\n        display:-moz-box;\r\n        -moz-box-pack:center;\r\n        -moz-box-align:center;\r\n\r\n
+        \       /* Safari, Opera, and Chrome */\r\n        display:-webkit-box;\r\n
+        \       -webkit-box-pack:center;\r\n        -webkit-box-align:center;\r\n
+        \   }\r\n\r\n    #cookie_notice {\r\n        font-size: 0.9em;\r\n    }\r\n
+        \   #cookie_notice a:link, \r\n    #cookie_notice a:hover, \r\n    #cookie_notice
+        a:active, \r\n    #cookie_notice a:visited {\r\n        color: #e4e4e4;\r\n
+        \       text-decoration: underline;\r\n    }\r\n</style>\r\n <script>\r\n
+        \   var _cookie_policy = 'cookies';\r\n\r\n    //cookie functions\r\n    function
+        _sCookieGet(cookieName) {\r\n        var theCookie=\"\"+document.cookie;\r\n
+        \       var ind=theCookie.indexOf(cookieName);\r\n        if (ind==-1 || cookieName==\"\")
+        return false;\r\n        var ind1=theCookie.indexOf(';',ind);\r\n        if
+        (ind1==-1) ind1=theCookie.length;\r\n        return unescape(theCookie.substring(ind+cookieName.length+1,ind1));\r\n
+        \   };\r\n    function _sCookieSet(NameOfCookie, value, expirehours, path,
+        domain) {\r\n        if(!path)  path = \"/\";\r\n        var ExpireDate =
+        new Date ();\r\n        ExpireDate.setTime(ExpireDate.getTime() + (expirehours
+        * 3600 * 1000));\r\n        document.cookie = NameOfCookie + \"=\" + escape(value)
+        + (!expirehours ? \"\" : \"; expires=\" + ExpireDate.toGMTString()) + \";
+        path=\"+path+\";\" +(!domain ? \"\" : \"domain=\" + domain + \";\");\r\n    };\r\n\r\n
+        \   function _cookieAccept() {\r\n        _sCookieSet(_cookie_policy,'yes',365
+        * 24,'/');\r\n        document.getElementById('cookie_notice').style.display
+        = 'none';\r\n    }\r\n\r\n    var c = _sCookieGet(_cookie_policy)\r\n\r\n
+        \   if(c != \"yes\") {\r\n        document.write(\"<div id='cookie_notice'
+        class='hv_center'>\" +\r\n            \"    <div style='padding-left:50px;padding-right:50px'>\"
+        +\r\n            \"        <table>\" +\r\n            \"            <tr>\"
+        +\r\n            \"                <td> We use cookies. By using our services,
+        you acknowledge that you have read and accept our <a href='/cookies/'>Cookies</a>
+        & <a href='/privacy/'>Privacy</a> Policies.</td>\" +\r\n            \"                <td><div
+        style='border:1px whitesmoke solid;padding:5px;margin-left:10px;cursor: pointer;'
+        onClick='_cookieAccept()'>Accept</div></td>\" +\r\n            \"            </tr>\"
+        +\r\n            \"        </table>\" +\r\n            \"    </div>\" +\r\n
+        \           \"</div>\");\r\n    }\r\n</script>\r\n        </body></html>"
+    http_version: 
+  recorded_at: Sun, 05 May 2019 22:12:23 GMT
+- request:
+    method: get
+    uri: https://www.fanfiction.net/s/12734411//1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.fanfiction.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 May 2019 22:12:24 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Cache-Control:
+      - public,max-age=3600
+      Last-Modified:
+      - Sun, 05 May 2019 22:12:24 GMT
+      X-Xss-Protection:
+      - 1;mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Age:
+      - '0'
+      X-Monk:
+      - M
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html><html><head>\n        <meta charset='utf-8'>\n        <META
+        NAME='ROBOTS' CONTENT='NOARCHIVE'>\n        <META http-equiv='X-UA-Compatible'
+        content='IE=edge'>\n        <META NAME='format-detection' content='telephone=no'>\n
+        \       <META NAME='apple-itunes-app' content='app-id=1192753879'>\n        \n
+        \       <link href='//adservice.google.com' rel='preconnect'>\n        <link
+        href='//googleads.g.doubleclick.net' rel='preconnect'>\n        <META NAME='viewport'
+        content='width=device-width'><link rel=\"canonical\" href=\"//www.fanfiction.net/s/12734411/1/Cobalt-s-Edge\">\n<title>Cobalt's
+        Edge Chapter 1, a star wars fanfic | FanFiction</title>\n\n        <link rel='shortcut
+        icon'  href='/static/images/favicon_2010_site.ico'>\n        <link rel='icon'
+        type='image/png' href='/static/images/favicon_2010_site.png'>\n        <link
+        rel='apple-touch-icon' href='/static/images/favicon_2010_iphone.png'>\n       \n\n
+        \       <link rel='stylesheet' href='/static/styles/xss26.css'>\n        <script
+        src='/static/scripts/combo5.js'></script>\n        <!--[if lt IE 8]>\n        <link
+        rel=\"stylesheet\" href=\"/cors/fontello-f1bf7dee/css/fontello-ie7.css\">\n
+        \       <script src='/static/scripts/json2.min.js'></script>\n        <![endif]-->\n\n
+        \       \n        <script>\n        xcookie_read();\n        xfont_auto_loader();\n
+        \       if(XCOOKIE.gui_font != 'Open Sans') {\n            document.write('<style>body{font-family:\"'+XCOOKIE.gui_font+'\",Verdana,
+        Arial;}</style>');\n        }\n        </script>\n        <!-- startz --><script
+        async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><!--
+        endz -->\n        <style>\n        .dropdown-menu > li > a { padding: 3px
+        50px 3px 30px; }\nbody { min-width:750px; height:100%; }\n.maxwidth { min-width:730px;margin-left:auto;margin-right:auto;}\n
+        \           \n\n\n        </style>\n        <script>\n        if(isAndroid
+        && !isChrome) {\n            document.write('<style> body {font-size:1em;}</style>');\n
+        \       }\n        </script>\n        <script>\n\n                        xauto_width_init();\n
+        \                       xauto_fontsize();\n\n                        if(!isIphone
+        && !isIpad) {\n                            $(function() {\n                                $(window).resize(xauto_width);\n
+        \                           });\n                        }\n\n                    </script></head><body
+        style='background-color:#E4E3D5;margin-top:0px;'  ><script>xfont_fix_smooth();</script>\n\n\n<div
+        id=top style='width:100%;background-color: #333399; ' >\n<div class='menulink
+        maxwidth' style='padding:0.5em 10px 0.5em 10px; vertical-align:middle;'>\n\n
+        \       <script>\n//init jquery\nif (!window.jQuery) {\n  var jq = document.createElement('script');
+        jq.type = 'text/javascript';\n  jq.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js';\n
+        \ document.getElementsByTagName('head')[0].appendChild(jq);\n  console.log('loading
+        preq: jquery');\n}\n\n\n var _fp = {\n    logout : function() {\n            $.get('/logout.php',
+        function() {\n            console.log('starting logout');\n                     var
+        m = $('#_fp_modal_logged_out');\n                    if(!m.length) {\n                        $('body').append(\"<div
+        id='_fp_modal_logged_out' data-backdrop='static' class='modal fade hide'><div
+        class='modal-body'><div align=cener>You have successfully logged out. <span
+        onClick='' type=button class='btn icon-edit-1'>Login</span> <span onClick=''
+        type=button class='btn icon-edit-1'>Stay on this Page</span></div></div></div>\");\n
+        \                       m = $('#_fp_modal_logged_out');\n                    }\n\n
+        \                   m.modal();\n\n                     console.log('modal
+        finished');\n                    //xtoast('You have been logged out.');\n
+        \                   if(_fp.cb_loggedout) _fp.cb_loggedout();\n                     console.log('callback
+        complete');\n            })\n          .fail(function() {\n            //m.modal('hide');\n
+        \           xtoast('An error has ocurred. Please try again later.');\n          });\n
+        \           //\n    }\n};\n\n//real function\n\n\n        </script>\n        \n<script>\nfunction
+        render_login(uname) {\n     var s = \"<a href='/login.php?cache=bust' style='color:orange;'>\"+uname+\"</a>
+        | <span id='' xonClick='_fp.logout();' onclick=\\\"location = '/logout.php';\\\"
+        style='color:white;cursor: pointer;'>Logout</span>\";\n     return s;\n}\n\n</script>\n<span
+        id=name_login class=pull-right>\n<script>\nif(XUNAME) {\n    document.write(render_login(XUNAME));\n}\nelse
+        {\n    document.write(\"<a href='/login.php?cache=bust' style='color:white;'><span
+        class='icon-lock' style='font-size:15px;position:relative;top:1px'></span>
+        Login</a> | <a href='/signup.php' style='color:white;'>Sign Up</a>\");\n}\n</script></span><a
+        href='/' style='font-size:1.1em;border:none;'>FanFiction</a>&#160;&#160;<small>|</small>&#160;&#160;unleash
+        your imagination <span class='icon-kub-mobile' style='font-size:14px;margin-left:10px;'
+        title='Mobile Edition'  onclick=\"location = '//m.fanfiction.net/m/yes_mobile.php'\"></span><span
+        title='Fontastic Panel: UI Settings' class='icon-tl-text' style='font-size:14px;margin-left:10px;'
+        onClick=\"_fontastic_init('ui'); $('#_fontastic_ui').modal('show');\"></span></div>\n</div>\n<script>if(!isMobile){document.write(\"<div
+        class='zmenu' style='text-align:center;padding-top:5px;background-color: #f6f7ee;'>\");}</script>\n
+        \           <!-- startz -->\n            <ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\"
+        data-ad-client=\"ca-pub-8698054525611092\" data-ad-slot=\"5792940767\"></ins>\n
+        \           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n
+        \           <!-- endz --><script>if(!isMobile){document.write(\"</div>\");}</script>\n<div
+        style='width:100%;' class=zmenu>\n    <div  id=zmenu  class='maxwidth' style='vertical-align:middle;padding:5px;'>\n<span
+        class=zui >\n\n<!-- new stuff -->\n<table class='maxwidth'><tr><td valign=middle
+        >\n\n\n            <div class='dropdown xmenu_item'>\n                    <a
+        class='dropdown-toggle' data-toggle='dropdown' href='#'>Browse <b class='caret'></b></a>\n
+        \                   <ul class='dropdown-menu'>\n\n            <li class=disabled
+        style='text-align:center'><a href='#'>Stories</a></li>\n\n            <li><a
+        href='/anime/'>Anime</a></li>\n            <li><a href='/book/'>Books</a></li>\n
+        \           <li><a href='/cartoon/'>Cartoons</a></li>\n            <li><a
+        href='/comic/'>Comics</a></li>\n            <li><a href='/game/'>Games</a></li>\n
+        \           <li><a href='/misc/'>Misc</a></li>\n            <li><a href='/play/'>Plays</a></li>\n
+        \           <li><a href='/movie/'>Movies</a></li>\n            <li><a href='/tv/'>TV</a></li>\n
+        \           <li class='disabled' style='text-align:center'><a href='#'>Crossovers</a></li>\n\n
+        \           <li><a href='/crossovers/anime/'>Anime</a></li>\n            <li><a
+        href='/crossovers/book/'>Books</a></li>\n            <li><a href='/crossovers/cartoon/'>Cartoons</a></li>\n
+        \           <li><a href='/crossovers/comic/'>Comics</a></li>\n            <li><a
+        href='/crossovers/game/'>Games</a></li>\n            <li><a href='/crossovers/misc/'>Misc</a></li>\n
+        \           <li><a href='/crossovers/play/'>Plays</a></li>\n            <li><a
+        href='/crossovers/movie/'>Movies</a></li>\n            <li><a href='/crossovers/tv/'>TV</a></li>\n\n
+        \              \n\n                    </ul>\n                </div>\n                <div
+        class='dropdown xmenu_item'>\n                    <a class='dropdown-toggle'
+        data-toggle='dropdown' href='#'>Just In <b class='caret'></b></a>\n                    <ul
+        class='dropdown-menu'>\n            <li><a href='/j/0/0/0/'>All</a></li>\n\n
+        \           <li><a href='/j/0/1/0/'>Stories: New</a><li>\n            <li><a
+        href='/j/0/2/0/'>Stories: Updated</a></li>\n\n            <li class='divider'></li>\n
+        \           <li><a href='/j/0/3/0/'>Crossovers: New</a><li>\n            <li><a
+        href='/j/0/4/0/'>Crossovers: Updated</a><li>\n\n                    </ul>\n
+        \               </div>\n                <div class='dropdown xmenu_item'>\n
+        \                   <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Community
+        <b class='caret'></b></a>\n                    <ul class='dropdown-menu'>\n
+        \           <li><a href='/communities/general/0/'>General</a></li>\n            <li><a
+        href='/communities/anime/'>Anime</a></li>\n            <li><a href='/communities/book/'>Books</a></li>\n
+        \           <li><a href='/communities/cartoon/'>Cartoons</a></li>\n            <li><a
+        href='/communities/comic/'>Comics</a></li>\n            <li><a href='/communities/game/'>Games</a></li>\n
+        \           <li><a href='/communities/misc/'>Misc</a></li>\n            <li><a
+        href='/communities/movie/'>Movies</a></li>\n            <li><a href='/communities/play/'>Plays</a></li>\n
+        \           <li><a href='/communities/tv/'>TV</a></li>\n                    </ul>\n
+        \               </div>\n                <div class='dropdown xmenu_item'>\n
+        \                   <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Forum
+        <b class='caret'></b></a>\n                    <ul class='dropdown-menu'>\n
+        \           <li><a href='/forums/general/0/'>General</a></li>\n            <li><a
+        href='/forums/anime/'>Anime</a></li>\n            <li><a href='/forums/book/'>Books</a></li>\n
+        \           <li><a href='/forums/cartoon/'>Cartoons</a></li>\n            <li><a
+        href='/forums/comic/'>Comics</a></li>\n            <li><a href='/forums/game/'>Games</a></li>\n
+        \           <li><a href='/forums/misc/'>Misc</a></li>\n            <li><a
+        href='/forums/movie/'>Movies</a></li>\n            <li><a href='/forums/play/'>Plays</a></li>\n
+        \           <li><a href='/forums/tv/'>TV</a></li>           </ul>\n                </div>\n\n
+        \                <div class='dropdown xmenu_item'>\n                    <a
+        class='dropdown-toggle' data-toggle='dropdown' href='#'>Betas <b class='caret'></b></a>\n
+        \                   <ul class='dropdown-menu'>\n\n            <li class=disabled
+        style='text-align:center'><a href='#'>All</a></li>\n\n            <li><a href='/betareaders/all/anime/'>Anime</a></li>\n
+        \           <li><a href='/betareaders/all/book/'>Books</a></li>\n            <li><a
+        href='/betareaders/all/cartoon/'>Cartoons</a></li>\n            <li><a href='/betareaders/all/comic/'>Comics</a></li>\n
+        \           <li><a href='/betareaders/all/game/'>Games</a></li>\n            <li><a
+        href='/betareaders/all/misc/'>Misc</a></li>\n            <li><a href='/betareaders/all/play/'>Plays</a></li>\n
+        \           <li><a href='/betareaders/all/movie/'>Movies</a></li>\n            <li><a
+        href='/betareaders/all/tv/'>TV</a></li>\n            <li class='disabled'
+        style='text-align:center'><a href='#'>Specific</a></li>\n\n            <li><a
+        href='/betareaders/anime/'>Anime</a></li>\n            <li><a href='/betareaders/book/'>Books</a></li>\n
+        \           <li><a href='/betareaders/cartoon/'>Cartoons</a></li>\n            <li><a
+        href='/betareaders/comic/'>Comics</a></li>\n            <li><a href='/betareaders/game/'>Games</a></li>\n
+        \           <li><a href='/betareaders/misc/'>Misc</a></li>\n            <li><a
+        href='/betareaders/play/'>Plays</a></li>\n            <li><a href='/betareaders/movie/'>Movies</a></li>\n
+        \           <li><a href='/betareaders/tv/'>TV</a></li>\n\n               \n\n
+        \                   </ul>\n                </div>\n        </td>\n        <td
+        valign=middle>\n\n            <script>\n                $(document).ready(function()
+        {\n                    $('.xdrop_search').click(function() {\n                        var
+        v = $(this).html();;\n\n                        $('#search_type').val(v.toLowerCase());\n
+        \                       $('#search_head').html(v);\n                    });\n\n
+        \                   $('#search_keywords').onEnterKey(function(){\n                        $('form#search_form').submit();\n
+        \                   });\n\n                });\n\n            </script>\n
+        \           <FORM method=get id=search_form action='/search/' class='pull-right'>\n
+        \               <div class='input-prepend'>\n                    <div class='btn-group'>\n
+        \                       <button class='btn dropdown-toggle' data-toggle='dropdown'>\n
+        \                           <span id=search_head>Story</span>\n                            <span
+        class='caret'></span>\n                        </button>\n                        <ul
+        class='dropdown-menu'>\n                            <li><a href='#' class=xdrop_search>Story</a></li>\n
+        \                           <li><a href='#' class=xdrop_search>Writer</a></li>\n
+        \                           <li><a href='#' class=xdrop_search>Forum</a></li>\n
+        \                           <!-- <li class='divider'></li> -->\n                            <li><a
+        href='#' class=xdrop_search>Community</a></li>\n                        </ul>\n
+        \                   </div>\n                    <input class='span2' name='keywords'
+        id=search_keywords type='text' placeholder='Search' title='Search'>\n                    <!--
+        \ input-append <button class='btn' type='submit'>Go</button> -->\n                </div>\n
+        \               <!-- <input class=searchfield type=text name='keywords' placeholder='Search'
+        title='Search' style='width:100px'> -->\n                <input type=hidden
+        name=ready value=1>\n                <input type=hidden name=type id=search_type
+        value=story>\n            </FORM>\n        </td>\n    </tr>\n</table>\n\n</span>\n</div>\n</div>\n<div
+        style='width:100%;' class=xcontrast_outer id=content_parent><div class='xcontrast
+        maxwidth' id=content_wrapper style='background-color: white;'><div id=content_wrapper_inner
+        style='padding:0.5em;'>\n<script>\nif(XCOOKIE.read_theme == 'dark') {\n     $(function(){\n
+        \       _fontastic_change_theme('dark');\n\n     });\n }\n else if(XCOOKIE.read_light_texture)
+        {\n   _fontastic_change_texture(XCOOKIE.read_light_texture);\n }\n\n </script><div
+        style='margin-bottom: 10px' class='lc-wrapper' id=pre_story_links><span class=lc-left><a
+        class=xcontrast_txt href='/movie/'>Movies</a><span class='xcontrast_txt icon-chevron-right
+        xicon-section-arrow'></span><a class=xcontrast_txt href=\"/movie/Star-Wars/\">Star
+        Wars</a>\n</span>\n</div>\n<script>\n//_fontastic_theme_css();\n\nfunction
+        toggleTheme() {\n    if(XCOOKIE.read_theme == 'light') {\n        _fontastic_change_theme('dark');\n
+        \   }\n    else {\n        _fontastic_change_theme('light');\n    }\n}\n</script><div
+        id=img_large class='hide modal fade' style='color:black;'><div class='modal-body'
+        align=center><img class='cimage ' style='padding:2px;border:1px solid #ccc;-moz-border-radius:2px;-webkit-border-radius:2px;'
+        src='//ff74.b-cdn.net/static/images/d_60_90.jpg' width=180 height=240></div></div><div
+        id=profile_top style='min-height:112px;'><button class='btn pull-right icon-heart'
+        type=button onClick='$(\"#follow_area\").modal();'> Follow/Fav</button><b
+        class='xcontrast_txt'>Cobalt's Edge</b>\n<span class='xcontrast_txt'><div
+        style='height:5px'></div>By:</span> <a class='xcontrast_txt' href='/u/10001408/MeridianAntemeridian'>MeridianAntemeridian</a>
+        <span class='icon-mail-1  xcontrast_txt' ></span> <a class='xcontrast_txt'
+        title=\"Send Private Message\" href='https://www.fanfiction.net/pm2/post.php?uid=10001408'></a>\n<div
+        style='margin-top:2px' class='xcontrast_txt'>The Empire has received new information
+        of more Jedi surviving the initial stages of the Jedi Purge. Worse, news have
+        been received a star destroyer was blown up by a Jedi. The Emperor has ordered
+        Vader to track the Jedi down and killed the Jedi and kill any other Jedi he
+        encounters. Meanwhile, two survivors of Operation: Knightfall, Chels and Gracas
+        struggles to survive.</div>\n<span class='xgray xcontrast_txt'>Rated: <a class='xcontrast_txt'
+        href='https://www.fictionratings.com/' target='rating'>Fiction  T</a> - English
+        - Adventure - Chapters: 2   - Words: 3,655 - Favs: 2 - Follows: 1 - Updated:
+        <span data-xutime='1511640201'>11/25/2017</span> - Published: <span data-xutime='1511403999'>11/22/2017</span>
+        - id: 12734411 </span>\n</div>\n<div align=center class='lc-wrapper' style='margin-top:10px;'><div
+        class='lc'>\n<span class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;'
+        title=\"+ Font Size\" onClick=\"_fontastic_change_size('u');\" ></span>+</span>&#160;&#160;<span
+        class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;'
+        title=\"- Font Size\" onClick=\"_fontastic_change_size('d');\" ></span>-</span>&#160;&#160;<span
+        style='font-size:14px;cursor:pointer;' class='icon-tl-text xcontrast_txt'
+        onclick=\"_fontastic_init('reading');$('#_fontastic_reading').modal('show');\"
+        \ title=\"Fonts\"></span>&#160;&#160;\n\n<span class='icon-align-justify xcontrast_txt'
+        onclick=\"$('#f_width').slideToggle();\" style='font-size:14px' title=\"Story
+        Width\"></span> <span id=f_width class='hide xcontrast_txt'><span  onclick='_fontastic_change_width(100);'>Full</span>
+        <span onclick='_fontastic_change_width(75);'>3/4</span> <span  onclick='_fontastic_change_width(50);'>1/2</span></span>
+        &#160;&#160; <span class='icon-tl-text-height xcontrast_txt' onclick=\"$('#f_size').slideToggle();\"
+        style='font-size:14px;cursor:pointer;' title=\"Line Spacing\"></span> <span
+        id=f_size class='hide xcontrast_txt'> <span onclick='_fontastic_change_line_height(\"u\");'>Expand</span>
+        <span onclick='_fontastic_change_line_height(\"d\");'>Tighten</span></span>&#160;&#160;<span
+        class='xcontrast_txt icon-tl-contrast' onclick=\"toggleTheme();\" style='margin-left:2px;margin-right:2px;font-size:14px;'
+        align=absmiddle title=\"Story Contrast\"></div></div>\n    <span style='float:right;
+        ' > <SELECT id=chap_select title=\"Chapter Navigation\" Name=chapter onChange=\"self.location
+        = '/s/12734411/'+ this.options[this.selectedIndex].value + '/Cobalt-s-Edge';\"><option
+        \ value=1 selected>1. Chapter 1<option  value=2 >2. Everything falls into
+        place</select> <button class=btn TYPE=BUTTON onClick=\"self.location='/s/12734411/2/Cobalt-s-Edge'\">Next
+        &gt;</button></span><div style='height:5px'></div><script>\ndocument.write('<style>
+        .storytext { max-height: 999999px; width: '+XCOOKIE.read_width+'%; font-size:'
+        + XCOOKIE.read_font_size + 'em; font-family: \"'+XCOOKIE.read_font+'\"; line-height:
+        '+XCOOKIE.read_line_height+'; text-align: left;} </style>');\n\n$(function()
+        {\n    $.get('/eye/0/1/49722449/12734411/');\n});\n</script>\n\n<div role='main'
+        aria-label='story content' class='storytextp' id='storytextp'  align=center
+        style='padding:0 0.5em 0 0.5em;'>\n<div class='storytext xcontrast_txt nocopy'
+        id='storytext'><p style='text-align:center;'>Prologue:</p><p>19 BBY, Imperial
+        Palace, Coruscant.</p><p>As Vader walked into the Emperor's office, he felt
+        exhausted, having failed to bring Master Kys to the Emperor. Vader killed
+        the Twi'lek in anger after the aged master taunted him by saying she knew
+        there was still goodness in him.</p><p>He bowed down and said \"Master, Kys
+        died, she refused to come with me peacefully and killed herself.\" Vader lied,
+        knowing the Emperor didn't cared, the Jedi had to died anyway.</p><p>\"She
+        is of no use now, we got the information we needed now. She is now eliminated
+        at least. Our best slicers manage to get a new list of Jedi and compared it
+        to our list and I feared more Jedi has survived our opening plans than thought.
+        As of now, I'm sending the dossier on each one. Your mission is of course,
+        to hunt them down.\" Palpatine commanded his apprentice.</p><p>Grand Moff
+        Tarkin walked in at that moment.</p><p>\"Emperor, one of our star destroyer,
+        Killblow, was destroyed over Drunckenwell. We managed to determine that a
+        Jedi somehow broke out a former Separatist general, Ins Hevert, and sabotaged
+        the engines. Unfortunately, we can't figure the identity.\"</p><p>The Emperor
+        was visibly frustrated at this sudden development and looked at Vader.</p><p>\"Your
+        secondary objective is to figure out this Jedi's identity and capture this
+        Jedi for me.\" Vader nodded and left the room.</p><p>Vader sat in his meditation
+        chamber, looking over the dossiers.</p><p>\"Indeed, concerning so many Jedi
+        survived, especially Operation: Knightfall, how could I had fail to get them?\"
+        He started reading over it in detail.</p><p>Chels Relacay, born on Delaya.
+        Apprenticed to Depa Billaba, she passed her trials but never took on a padawan.
+        Instead, she joined the Med Corps in order to pursue a interest in mental
+        health. Never active on the front lines, it should be known she mastered Shii-Cho
+        and is best known for holding off an Droid Army as three battalions were evacuated
+        at Tropha. She escaped Knightfall. Location unknown.</p><p>Tors Annaki, borned
+        on Tholoth, she managed to become a master at 29 years and excels at Soresu.
+        Usually sent on diplomatic missions, she saved Senator Amidala's life at one
+        point (Vader felt emotional pain at reading that.) She managed to killed the
+        troops at the Senate building when Order 66 was issued. Last seen leaving
+        Corellia. Location unknown. (Vader remembered she and his former master, Kenobi,
+        were close friends. He would be sure to get the information from her about
+        his location, she has to know, before killing her.)</p><p>Gracas Kim-Hui,
+        borned on Taris, she was 4 years old when discovered by Yoda. She was accepted
+        and taught by Yoda. She trained two padawans to knighthood. One died in action
+        on Geonosis, the other via Order 66 at Murkhana. She mastered Ataru and seems
+        to have escaped Knightfall as revealed by Temple cameras, slaughtering the
+        Clones in her way (Didn't I fight her before killing the younglings?). Last
+        seen near Sector Zero.</p><p>Katya Adkis, born on Nar Shadda. Attained knighthood.
+        Survived numerous battles with Greivous, showing she is capable at Makashi.
+        Last seen at the temple, location unknown.</p><p>Lyd Bassick, borned on Kalarba,
+        attained knighthood. Seemed more interested in meditation. Never participated
+        in the Clone Wars. Location: Llanic.</p><p>Sen Lesbos, born on Chandrilla.
+        She was exiled as a padawan for forbidden emotional attachments. She seemed
+        to have master Makashi and Ataru as demonstrated by her guerilla actions at
+        Cerea against the Separatists. Suspected to be near Yag'Dhul, running an organization
+        dedicated to helping Jedi. Marked as a high-priority target. May have info
+        on other Jedis. Location:unknown.</p><p>Graya Mersid, born on Arkania. Attained
+        the rank of Master, Former Padawan Lyc Jusfeswer, eliminated by Vader in front
+        of her. Location: Alsakan.</p><p>Eilean Rasdes, born on Tralus. Famed for
+        her unusual red hair among Humans. Was a Consular based on New Cov when Order
+        66 was issued. Escaped. Suspected to be in league with the Rebels at Corellia.
+        Location: Selonia.</p><p>Caili Karson, born on Azure. Attained knighthood
+        under Jocasta Nu. Was an Archaeologist on Korriban. She could be useful as
+        her knowledge on Sith lore is extensive. Location: unknown.</p><p>Adda Dosime,
+        born on Telos. Mastered Makashi, Attained Masterhood. Trained 4 padawans.
+        All were executed by Vader during Knightfall. Close friends with Eilean Rasdes
+        and suspected to be in league with rebels on Corellia. Location: Selonia.</p><p>Halcyon
+        Aegis-Musea, raised on Virgillia. Was accepted at 7 years old. Originally
+        taught by Ur-Sema Du, then Yoda. Finally passed knighthood under the Dark
+        Women. Master Makashi and Jar'Kai. Trained 2 students to knighthood, becoming
+        master. Both died at Geonosis. Survived Geonosis. One of the few Jedis to
+        survived Grievous (I remember his fight with him on Tisiphonisa), Fought up
+        to 9 months before the end of the Clone Wars. Resigned from the Order over
+        ideological differences. Known as a master strategist in Space Combat. Thought
+        dead at Lipsec by Imperials after killing a Emperor's hand. May had resurfaced,
+        Status unknown. (Could this be our unknown Jedi? Yet, he doesn't seemed to
+        be that type from my time fighting with him at Tisiphonisa.)</p><p>Zatch Hilliow,
+        born at Obroa-Skai. Attained knighthood. Was an Jedi archaeologist who worked
+        on Kashyyyk in the shadowlands. Location: Phaeda.</p><p>Psam Lucawah, born
+        on Lucazec. Attained knighthood and was a scholar. Escaped the temple with
+        several holocrons. May had met with Caili Karson at some point. Location:
+        Kashyyyk.</p><p>Hulia Saslie, born on Coruscant. Attained the rank of Master,
+        escaped with her former apprentice, Rodj Nahmi, from Order 66 on Merla. Currently
+        leading guerilla activity, costing Imperial resources in that sector. Location:
+        Merla.</p><p>Asta Jeslen, born on Brentaal. Attained Master rank. His apprentice
+        died on Saleucami in the last weeks of the Clone Wars. Mastered Soresu combat.
+        Fought at Boz Pity and Rendilli. Thought to have been shot at Columus during
+        Order 66. Recently resurfaced raiding Imperial convoys in Belsmuth Sector.
+        Location: Unknown.</p><p>Masidon Bailesrid, born on Togruta. Trained by Rahm
+        Kota. Considered a ground military genius. Survived Order 66 on Kashyyyk.
+        Leading wookiee resistance currently. Location: Kashyyk. (She seems to be
+        the candidate, yet nowhere near the loss of the ship at that time.)</p><p>Sydlin
+        Klangensmit, born on the Luxury Liner \"Casalan\". Trained under Shaak Ti.
+        Been a secret operative on Felucia since the start of the Clone Wars. Was
+        away from any contact, thus surviving Order 66. Priority target as she could
+        aid any Rebel operative with her information. Location: Felucia.</p><p>Grif
+        Lamda, born on Cartao. Attained Knighthood and participated in the Battle
+        of Cartao. After the battle, he left the order after being traumatized by
+        the loss of civilians. Currently a Photographer on Taanab. Location: Taanab.</p><p>Sav
+        Tambert, born on Caamas. Attained the rank of master. Her apprenticed died
+        on Geonosis. Revered as a diplomat by the people of Terminus for peacefully
+        resolving the gang wars. Fled Terminus when news of the Jedi betrayal was
+        broadcasted. Location: unknown.</p><p>Mari and Jalob Miok, born on Ukio. Attained
+        knighthood and work as a duo to hunt Sith artifacts. Still unaware of the
+        Jedi's downfall. Both utilize Jar'kai and makashi. Location: Asation.</p><p>Kal
+        Oldela, born on Byblos. Attained rank of Master. Her apprentice was executed
+        by Clones during Knightfall, but she escaped the temple. She escaped and was
+        last seen leaving on a freighter for Sleheydron. Location: unknown.</p><p>Ran
+        Sonly, born on Quellor. Attained knighthood and assigned Watchman over Rhomamool.
+        Location: Spirana.</p><p>Pers Linda and Ison Dersi, born on Lindos and Ospo.
+        Works as partners to hunt down gangs in the Outer Rim. Both knights were lasted
+        reported on Enarc. Location: unknown.</p><p>Nise Scos, born on Gyndine, attained
+        master rank. Her apprentice died in a terrorist bombing. Suspected to be helping
+        Sen Lesbos. Been leading rebel activity in the expansion and mid rim. Been
+        suspected in destruction of several convoys and prisons. Location: unknown.
+        (This has to be our suspected Jedi. I think I'll pay her a visit.)</p><p>Ifllere
+        Anchal, borned on Caamas, raised on Danuta. Attained rank of Master. Apprentice
+        was hunted down by Vader. Regarded as one of the greatest diplomats, famed
+        for settling peace negotiations on Jamsa, Livosa, and Torrtan. Not to be underestimated
+        in lightsaber combat, as he held his own against Grievous. Slaughtered his
+        troops on Manaan when Order 66 was issued, he;s now on Kashyyyk. Location:
+        Kashyyyk.</p><p>Dys Tyesd, born on Lantilles. Attained knighthood and was
+        sentinel over Dantoonie. Escaped order 66 as she was alone. Location: Kashyyyk.</p><p>Lexa
+        Valanrezo, born on Humbarine. Was a mathematician on Yag'Dhul helping feed
+        information to Republic forces on Separatist movements. Escaped Imperial Blockade.
+        Location: unknown.</p><p>Emm Mesner, born to Jedi Parents. Attained knighthood
+        and commanded Republic special commandos on Separatist worlds. Last seen on
+        Antar 4. Location: unknown.</p><p>Tinaus Ilwis, born on Meridian. Taught by
+        Cin Drallig. Attained masterhood. Apprentice killed by Grievous on Duro. Taught
+        swordfighting skills at the temple. Seen escaping the temple along with Shaak
+        Ti, after conducting evacuations. Location: Unknown.</p><p>Eths W'Ayat, born
+        on Ayas. Attained masterhood, apprentice killed on Muunilinst by Durge. Survived
+        Order 66 on Mygeeto. Location: Kashyyyk.</p><p>Emil Yatess, born on Jedha.
+        Gained rank of Master. Her apprentice was struck down by Vader during Knightfall
+        . Taught meditation classes and capable of using the force well. She was seen
+        on temple camera struck in the admoden by Vader, thought dead. Only recently
+        have cameras shown she was only injured and after Knightfall, escaped the
+        temple past troopers. Location: unknown.</p><p>Vader putted down the datapad
+        and sat there thinking to himself. He was very angry at the fact Emil Yatess
+        survived. He could have sworn he felt her joining the force when he stabbed
+        her. He enjoyed his fight with her as she was the first challenging duel he
+        faced during Knightfall. His mind turned to Nise Scos, his main suspect in
+        the destruction of \"Killblow\" and he knew he needed to go to the Imperial
+        garrison on Eyhines, near New Cov. He called the shuttle to take him up to
+        \"Exactor\".</p><p>19 BBY. Crooked Nose Bar. Eyhines.</p><p>Chels Relacay
+        sat at one of the tables in the bar, hiding herself. She whispered</p><p>\"We
+        got a starship, we could just go now to the outer rim, hide ourselves! Remind
+        me why we are even here again!?\" Gracas sighed in defeat, knowing she had
+        to reveal the reason now.</p><p>\"I felt the hushed presence of a Jedi here.
+        I felt this Jedi in Hyperdrive. If this Jedi survives, we need their help.\"
+        Gracas whispered, still pained by her memories.</p><p>Chels sighed, feeling
+        Gracas's pain. She remembered escaping the burning Temple, guiding a Knight
+        out when he got shot in the back by a Clone. She wanted to turn and save him
+        but felt him join the Force. She escaped to a spaceport and encountered her
+        old friend Gracas, who recounted her story of failing to defend the younglings
+        after barely surviving a duel with Skywalker, who she felt was infected by
+        the dark side of the force. She ran and slaughtered the clones trying to kill
+        her. They both sneaked aboard a freighter for Alderaan before buying a starship
+        covertly and now they were here.</p><p>\"I felt that presence again!\" Gracas
+        whispered excitedly. Chels felt it too and jump up, heading for the bar. She
+        needed a drink before finding the Jedi.</p><p>\"Hey. May I ha-\" Chels started
+        asking before being interrupted by a figure, whose face she couldn't see.</p><p>\"You're
+        here for me?! I'll much rather die than let you take me!\" The clearly feminine
+        voice screamed and punch Chels.</p><p><em>Well, I ended it in a cliffhanger.
+        Thanks for reading my 1st story1 We got a whole new cast and locations. Can
+        Vader kill them? Can he complete his objective? We'll just have to see!</em></p>\n</div>\n</div><div
+        style='height:5px'></div><div style='clear:both;text-align:right;'> <SELECT
+        id=chap_select title=\"Chapter Navigation\" Name=chapter onChange=\"self.location
+        = '/s/12734411/'+ this.options[this.selectedIndex].value + '/Cobalt-s-Edge';\"><option
+        \ value=1 selected>1. Chapter 1<option  value=2 >2. Everything falls into
+        place</select> <button class=btn TYPE=BUTTON onClick=\"self.location='/s/12734411/2/Cobalt-s-Edge'\">Next
+        &gt;</button></div><div style='height:5px'></div>\n<script>\n    function
+        review_init() {\n         if(XUNAME) {\n             $('#review_name').hide();\n
+        \            $('#review_postbutton').html('Post Review as ' + XUNAME);\n             $('.login_items').hide();\n
+        \            $('#alert_subs').show();\n         }\n         else {\n             $('#review_name').show();\n
+        \            //$('#review_name').html(\"<input type=text name='name' placeholder='Name:'>\");\n\n
+        \            $('.login_items').show();\n             $('#alert_subs').hide();\n
+        \        }\n    }\n\n    //call back\n    function login_success_default()
+        {\n        //$('#name_login').html(render_login(XUNAME));\n\n        //focus
+        on review\n        $('#review_review').focus();\n\n        //you have now
+        logged in\n        xtoast(\"You have logged-in as \"+XUNAME+'.');\n\n        //close
+        all open dialogs\n        //$('#please_login').modal('hide');\n\n\n\n    }\n\n
+        \   function login_success() {\n         login_success_default();\n         review_init();\n
+        \   }\n\n    function self_login(target) {\n        xwindow('https://www.fanfiction.net/api/login_state_proxy.php?src=popup&target='+target,450,450);\n
+        \   }\n\n    function post_q() {\n        if(!XUNAME) {\n            please_login();\n
+        \           return;\n        }\n\n        if($('#q_follow_author').prop('checked')
+        == 0 && $('#q_follow_story').prop('checked') == 0 && $('#q_fav_author').prop('checked')
+        == 0 && $('#q_fav_story').prop('checked') ==0) {\n            xtoast('Please
+        select at least one follow or favorite action');\n            return;\n        }\n\n
+        \       $('#q_working').toggle();\n\n        $.post('/api/ajax_subs.php',
+        {\n            storyid: storyid,\n            userid: userid,\n\n            authoralert:
+        $('#q_follow_author').prop('checked') ? 1 : 0,\n            storyalert: $('#q_follow_story').prop('checked')
+        ? 1 : 0,\n            favstory: $('#q_fav_story').prop('checked') ? 1 : 0,\n
+        \           favauthor: $('#q_fav_author').prop('checked') ? 1 : 0\n        },\n
+        \       function(data) {\n            //console.log(data);\n            //alert(data);\n
+        \           if(data.error) {\n                $('#q_working').toggle();\n\n
+        \               xtoast(\"We are unable to process your request due to an network
+        error. Please try again later.\");\n            }\n            else {\n                xtoast(\"We
+        have successfully processed the following:\" + data.payload_data,3500);\n
+        \               $('#q_working').toggle();\n                $('#follow_area').modal('hide');\n
+        \            }\n        },\n        'json'\n        ).error(function() {\n
+        \           xtoast(\"We are unable to process your request due to an network
+        error. Please try again later.\");\n\n            $('#q_working').toggle();\n
+        \       });\n    }\n\n    function please_login() {\n         xtoast(\"Please
+        login or signup to access this feature.\");\n    }\n\n    function post_review()
+        {\n        var review = $('#review_review').val();\n        var name = $('#review_name_value')
+        ? $('#review_name_value').val() : '';\n\n        //make sure we don't submit
+        default\n        if(review == '') {\n            xtoast(\"Please type up your
+        review for this story.\");\n            return;\n        }\n\n        $('#review_postbutton').html(\"Posting.
+        Please wait...\");\n        $('#review_postbutton').prop('disabled',true);\n\n
+        \       $.post('/api/ajax_review.php', {\n            storyid: storyid,\n
+        \           storytextid: storytextid,\n            chapter: chapter,\n\n            authoralert:
+        $('#review_authoralert').prop('checked') ? 1 : 0,\n            storyalert:
+        $('#review_storyalert').prop('checked') ? 1 : 0,\n            favstory: $('#review_favstory').prop('checked')
+        ? 1 : 0,\n            favauthor: $('#review_favauthor').prop('checked') ?
+        1 : 0,\n\n            name: name,\n            review: review\n        },\n
+        \       function(data) {\n            //console.log(data);\n            //alert(data);\n
+        \           if(data.error) {\n                $('#review_postbutton').html('Post
+        Review as'+XUNAME);\n                $('#review_postbutton').prop('disabled',
+        false);\n\n                xtoast(\"We are unable to post your review due
+        to the following reason:<br><br>\" + data.error_msg);\n            }\n            else
+        {\n                xtoast(\"The author would like to thank you for your continued
+        support. Your review has been posted.\",3500);\n                review_success();\n
+        \           }\n        },\n        'json'\n        ).error(function() {\n
+        \           xtoast(\"We are unable to process your review due to an network
+        error. Please try again later.\");\n\n            $('#review_postbutton').html(\"Post
+        Review as\"+XUNAME);\n            $('#review_postbutton').prop('disabled',
+        false);\n        });\n\n    }\n\n    function review_success() {\n         $('#review').hide();\n
+        \        $('#review_success').show();\n\n         //must clear textarea of
+        auto-save would save old data\n         $('#review_review').val('');\n         \nif(!$.storage)
+        {\n    $.storage = new $.store();\n    //console.log('new storage');\n}\n$.storage.del('review:12734411:1');\n//console.log('del
+        review:12734411:1');\n        \n    }\n\n    function review_failure() {\n\n
+        \   }\n\n    $().ready(function() {\n        review_init();\n    });\n</script>\n<div
+        id='review_success' style='display:none;width:500px;height:100px;clear:both;margin-right:auto;margin-left:auto;'>\n
+        \   The author would like to thank you for your continued support. Your review
+        has been posted.\n</div>\n<div id=review>\n<table border=0 padding=0 cellspacing=0
+        style='width:100%;'> <!-- min-width:500px;max-width:975px;clear:both;margin-right:auto;margin-left:auto;-->\n
+        \   <tr>\n        <td width=336  valign=top>\n            <!-- startz -->\n
+        \           <ins class=\"adsbygoogle\" style=\"display:inline-block;width:336px;height:280px\"
+        data-ad-client=\"ca-pub-8698054525611092\" data-ad-slot=\"8107878760\"></ins>\n
+        \           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n
+        \           <!-- endz -->    </td>\n        <td width=10></td>\n        <td
+        valign=top>\n            <div style='width:100%;max-width:700px;'>\n            <table
+        style='width:100%;'>\n            <tr>\n            <td colspan=2>\n\n            <div
+        id=review_name style=''> <!-- min-width:500px;max-width:975px;  style='padding:0.5em;width:98%;'
+        -->\n                <input class='input-block-level'  style='max-width:700px'
+        type=text name='name' id='review_name_value' maxlength=16 placeholder=\"Name:\"
+        >\n                <div style='height:4px'></div>\n            </div>\n\n\n\n
+        \           <textarea class='input-block-level' style='max-width:700px' rows=10
+        placeholder=\"Type your review for this chapter here...\" name=review id=review_review></textarea>\n
+        \           </td>\n            </tr>\n            <tr>\n            <td style='vertical-align:middle;'>\n
+        \               <div id='alert_subs' class='hide xcontrast_txt'>\n                  Favorite
+        :\n                  Story <input style='margin:-2px 0 0 0' type=checkbox
+        name=favstory id=review_favstory>\n                  Author <input style='margin:-2px
+        0 0 0' type=checkbox name=favauthor id=review_favauthor>\n                  &#160;\n
+        \                 Follow :\n                  Story <input style='margin:-2px
+        0 0 0' type=checkbox name=storyalert id=review_storyalert>\n                  Author
+        <input style='margin:-2px 0 0 0' type=checkbox name=authoralert id=review_authoralert>\n
+        \               </div>\n            </td>\n            <td align=right>\n
+        \           <!-- Split button -->\n<div class='btn-group xreset-left'>\n  <button
+        type='button' class='btn icon-edit-1' onClick='post_review();' id=review_postbutton>Post
+        Review</button>\n  <button type='button' class='btn dropdown-toggle login_items'
+        data-toggle='dropdown'>\n\n    <span class='sr-only '>As</span>\n     <span
+        class='caret '></span>\n  </button>\n <ul class='dropdown-menu' role='menu'>\n
+        \                       <li><a href='#' onclick=\"self_login('self');\" class=xdrop_login>FanFiction</a></li>\n
+        \                       <li><a href='#' onclick=\"self_login('sister');\"
+        class=xdrop_login>FictionPress</a></li>\n                        <li><a href='#'
+        onclick=\"self_login('google');\" lass=xdrop_login>Google</a></li>\n                        <li><a
+        href='#' onclick=\"self_login('facebook');\" class=xdrop_login>Facebook</a></li>\n
+        \                       <li><a href='#' onclick=\"self_login('twitter');\"
+        class=xdrop_login>Twitter</a></li>\n                        <li><a href='#'
+        onclick=\"self_login('amazon');\" class=xdrop_login>Amazon</a></li>\n                    </ul>\n</div>\n\n\n
+        \           </td>\n            </tr>\n            </table>\n            </div>\n
+        \       </td>\n    </tr>\n</table>\n</div>\n\n<!-- <div id='please_login'
+        class='modal hide fade'></div> -->\n\n<script src='//ff74.b-cdn.net/static/scripts/jquery.jstore_01_09_2012.js'></script>\n<script>\n$().ready(function(){\n\n
+        \   if(!$.storage) {\n        $.storage = new $.store(); //init\n    }\n\n
+        \   var t_read = $.storage.get('review:12734411:1');\n\n    if(t_read && t_read.length
+        > 0 ) {\n        //alert('recovered data' + t_read);\n\n        var temp =
+        $('textarea#review_review').val(); //NO SPACES .replace(/^\\s+|\\s+$/g,'')\n\n
+        \       if(!temp || temp.length == 0 || temp == \"Type your comments here.\")
+        {\n            //alert('set good');\n            $('textarea#review_review').val(t_read);\n
+        \           //console.log('got'+t_read);\n        }\n    }\n    else {\n        //alert('no
+        data');\n    }\n\n    var rTimer = setInterval(saveReview, 2000); //every
+        2s\n\n    function saveReview() {\n        var temp = $('textarea#review_review').val();
+        \ //make sure we don't save spaces .replace(/^\\s+|\\s+$/g,'');\n\n        if(temp
+        && temp.length > 0 &&  temp != \"Type your comments here.\") {\n            $.storage.set('review:12734411:1',
+        temp);\n            //console.log('set'+temp);\n        }\n    }\n});\n</script>\n
+        \       <div style='height:15px'></div>\n<div  align=center class=lc-wrapper><div
+        class=lc>\n<FORM name=myselect onsubmit='return false;'><TABLE style='min-width;400px;margin-left:auto;margin-right:auto;'
+        cellpadding=4>\n            <TR>\n                <TD>\n                <script>\n
+        \ var storyid = 12734411;\n  var userid = 10001408;\n  var storytextid = storytextid=49722449;\n
+        \ var chapter = 1;\n  var title = 'Cobalt%27s+Edge';\n  var logind = 'https://www.fanfiction.net';\n\n\nfunction
+        select_drop(sel_value) {\n  var t;\n\n  if (sel_value == 'abuse') {\n      t
+        = xwindow(logind+'/report.php?chapter='+chapter+'&storyid='+storyid+'&title='+title,560,510);\n
+        \ }\n  else if (sel_value == 'c2') {\n     t = xwindow(logind+'/c2_addstory.php?action=add&storyid='+storyid,560,470);\n
+        \ }\n}\n</SCRIPT>\n<div class='btn-group '  id='story_actions'>\n    <div
+        class='btn-group dropup'align=left>\n    <button class='btn dropdown-toggle'
+        data-toggle='dropdown'>\n        <span >Actions</span>\n        <span class='caret'></span>\n
+        \   </button>\n    <ul class='dropdown-menu' >\n       <li><a onclick=\"select_drop('c2')\">Add
+        to Community</a></li>\n        <li><a onclick=\"select_drop('abuse')\">Report
+        Abuse</a></li>\n    </ul>\n    </div>\n</div>\n\n<div class='btn-group '  id='share_providers'>\n
+        \   <div class='btn-group dropup'align=left>\n    <button class='btn dropdown-toggle'
+        data-toggle='dropdown'>\n        <span class='icon-share'> Share</span>\n\n
+        \   </button>\n    <ul class='dropdown-menu' >\n        <li><a href='//plus.google.com/share?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Google+</a></li>\n        <li><a href='//twitter.com/home?status=Reading+story%3A+https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Twitter</a></li>\n        <li><a href='//www.tumblr.com/share/link?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Tumblr</a></li>\n        <li><a href='//www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F12734411%2F1%2F'
+        target=_new>Facebook</a></li>\n    </ul>\n    </div>\n</div>\n\n<button class='btn
+        icon-heart' type=button onClick='$(\"#follow_area\").modal();'> Follow/Favorite</button>\n<style>\n
+        \   label input[type=checkbox]{\n        position: relative;\n        vertical-align:
+        middle;\n        bottom: -5px;\n    }\n</style>\n<div class='modal fade hide'
+        id=follow_area>\n  <div class='modal-body'>\n        <center>\n        <table
+        style='padding:6px;color:black !important;'>\n        <tr><td valign=top>\n
+        \       + Follow\n        <hr>\n          <label class='checkbox'>\n            <input
+        type='checkbox' id=q_follow_story> Story\n           </label>\n            <label
+        class='checkbox'>\n            <input type='checkbox' id=q_follow_author>
+        Writer\n           </label>\n        </td>\n        <td width=20></td>\n        <td
+        valign=top>\n        + Favorite\n        <hr>\n             <label class='checkbox'>\n
+        \           <input type='checkbox' id=q_fav_story> Story\n           </label>\n
+        \           <label class='checkbox'>\n            <input type='checkbox' id=q_fav_author>
+        Writer\n           </label>\n        </td>\n        </tr>\n        </table>\n
+        \       </center>\n  </div>\n  <div class='modal-footer'>\n\n\n    <span class='btn
+        pull-left' data-dismiss='modal'>Close</span>\n<span id='q_working' class='hide'>Working...&nbsp;&nbsp;</span>\n
+        \   <span  class='btn btn-primary' onClick='post_q();'>Save</span>\n  </div>\n\n
+        </div>\n</TD>\n</TR>\n</TABLE></form>\n</div></div>\n        <div style='height:5px'></div></div></div></div><div
+        id=p_footer class=maxwidth style='clear:all;padding:1em 0 1em 0;'><div style='text-align:center'><a
+        href='/support/'>Help</a> . <a href='/cookies/'>Cookies</a>  . <a href='/privacy/'>Privacy</a>
+        . <a href='/tos/'>Terms of Service</a>  . <a href='#top'>Top</a></div><div
+        style='height:10px'></div><div style='text-align:center'><a href='//www.twitter.com/fictionpress'><span
+        class='icon-twitter-3' style='color:rgb(104, 100, 100);font-size:18px;height:20px;width:20px;'></span></a></div><div
+        style='height:15px'></div></div>\n<script>\n$(function() {\n    $('img.lazy').lazyload({\n
+        \       //skip_invisible : false\n    });\n});\n</script>\n        \n<style>\n
+        \   .hv_center {\n        bottom: 0px;\n        position: fixed;\n        left:
+        0;\n        right: 0;\n        height: 55px;\n        background-color: #363636;\n
+        \       color: #e4e4e4;\n\n        /* IE 10 */\n        display:-ms-flexbox;\n
+        \       -ms-flex-pack:center;\n        -ms-flex-align:center;\n\n        /*
+        FF */\n        display:-moz-box;\n        -moz-box-pack:center;\n        -moz-box-align:center;\n\n
+        \       /* Safari, Opera, and Chrome */\n        display:-webkit-box;\n        -webkit-box-pack:center;\n
+        \       -webkit-box-align:center;\n    }\n\n    #cookie_notice {\n        font-size:
+        0.9em;\n    }\n    #cookie_notice a:link, \n    #cookie_notice a:hover, \n
+        \   #cookie_notice a:active, \n    #cookie_notice a:visited {\n        color:
+        #e4e4e4;\n        text-decoration: underline;\n    }\n</style>\n <script>\n
+        \   var _cookie_policy = 'cookies';\n\n    //cookie functions\n    function
+        _sCookieGet(cookieName) {\n        var theCookie=\"\"+document.cookie;\n        var
+        ind=theCookie.indexOf(cookieName);\n        if (ind==-1 || cookieName==\"\")
+        return false;\n        var ind1=theCookie.indexOf(';',ind);\n        if (ind1==-1)
+        ind1=theCookie.length;\n        return unescape(theCookie.substring(ind+cookieName.length+1,ind1));\n
+        \   };\n    function _sCookieSet(NameOfCookie, value, expirehours, path, domain)
+        {\n        if(!path)  path = \"/\";\n        var ExpireDate = new Date ();\n
+        \       ExpireDate.setTime(ExpireDate.getTime() + (expirehours * 3600 * 1000));\n
+        \       document.cookie = NameOfCookie + \"=\" + escape(value) + (!expirehours
+        ? \"\" : \"; expires=\" + ExpireDate.toGMTString()) + \"; path=\"+path+\";\"
+        +(!domain ? \"\" : \"domain=\" + domain + \";\");\n    };\n\n    function
+        _cookieAccept() {\n        _sCookieSet(_cookie_policy,'yes',365 * 24,'/');\n
+        \       document.getElementById('cookie_notice').style.display = 'none';\n
+        \   }\n\n    var c = _sCookieGet(_cookie_policy)\n\n    if(c != \"yes\") {\n
+        \       document.write(\"<div id='cookie_notice' class='hv_center'>\" +\n
+        \           \"    <div style='padding-left:50px;padding-right:50px'>\" +\n
+        \           \"        <table>\" +\n            \"            <tr>\" +\n            \"
+        \               <td> We use cookies. By using our services, you acknowledge
+        that you have read and accept our <a href='/cookies/'>Cookies</a> & <a href='/privacy/'>Privacy</a>
+        Policies.</td>\" +\n            \"                <td><div style='border:1px
+        whitesmoke solid;padding:5px;margin-left:10px;cursor: pointer;' onClick='_cookieAccept()'>Accept</div></td>\"
+        +\n            \"            </tr>\" +\n            \"        </table>\" +\n
+        \           \"    </div>\" +\n            \"</div>\");\n    }\n</script>\n
+        \       </body></html>"
+    http_version: 
+  recorded_at: Sun, 05 May 2019 22:12:24 GMT
+- request:
+    method: get
+    uri: https://www.fanfiction.net/s/12734411//2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.fanfiction.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 May 2019 22:12:24 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Cache-Control:
+      - public,max-age=3600
+      Last-Modified:
+      - Sun, 05 May 2019 22:12:24 GMT
+      X-Xss-Protection:
+      - 1;mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Age:
+      - '0'
+      X-Monk:
+      - M
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+DQogICAgICAgIDxtZXRhIGNoYXJzZXQ9J3V0Zi04Jz4NCiAgICAgICAgPE1FVEEgTkFNRT0nUk9CT1RTJyBDT05URU5UPSdOT0FSQ0hJVkUnPg0KICAgICAgICA8TUVUQSBodHRwLWVxdWl2PSdYLVVBLUNvbXBhdGlibGUnIGNvbnRlbnQ9J0lFPWVkZ2UnPg0KICAgICAgICA8TUVUQSBOQU1FPSdmb3JtYXQtZGV0ZWN0aW9uJyBjb250ZW50PSd0ZWxlcGhvbmU9bm8nPg0KICAgICAgICA8TUVUQSBOQU1FPSdhcHBsZS1pdHVuZXMtYXBwJyBjb250ZW50PSdhcHAtaWQ9MTE5Mjc1Mzg3OSc+DQogICAgICAgIA0KICAgICAgICA8bGluayBocmVmPScvL2Fkc2VydmljZS5nb29nbGUuY29tJyByZWw9J3ByZWNvbm5lY3QnPg0KICAgICAgICA8bGluayBocmVmPScvL2dvb2dsZWFkcy5nLmRvdWJsZWNsaWNrLm5ldCcgcmVsPSdwcmVjb25uZWN0Jz4NCiAgICAgICAgPE1FVEEgTkFNRT0ndmlld3BvcnQnIGNvbnRlbnQ9J3dpZHRoPWRldmljZS13aWR0aCc+PGxpbmsgcmVsPSJjYW5vbmljYWwiIGhyZWY9Ii8vd3d3LmZhbmZpY3Rpb24ubmV0L3MvMTI3MzQ0MTEvMi9Db2JhbHQtcy1FZGdlIj4KPHRpdGxlPkNvYmFsdCdzIEVkZ2UgQ2hhcHRlciAyOiBFdmVyeXRoaW5nIGZhbGxzIGludG8gcGxhY2UsIGEgc3RhciB3YXJzIGZhbmZpYyB8IEZhbkZpY3Rpb248L3RpdGxlPgoNCiAgICAgICAgPGxpbmsgcmVsPSdzaG9ydGN1dCBpY29uJyAgaHJlZj0nL3N0YXRpYy9pbWFnZXMvZmF2aWNvbl8yMDEwX3NpdGUuaWNvJz4NCiAgICAgICAgPGxpbmsgcmVsPSdpY29uJyB0eXBlPSdpbWFnZS9wbmcnIGhyZWY9Jy9zdGF0aWMvaW1hZ2VzL2Zhdmljb25fMjAxMF9zaXRlLnBuZyc+DQogICAgICAgIDxsaW5rIHJlbD0nYXBwbGUtdG91Y2gtaWNvbicgaHJlZj0nL3N0YXRpYy9pbWFnZXMvZmF2aWNvbl8yMDEwX2lwaG9uZS5wbmcnPg0KICAgICAgIA0KDQogICAgICAgIDxsaW5rIHJlbD0nc3R5bGVzaGVldCcgaHJlZj0nL3N0YXRpYy9zdHlsZXMveHNzMjYuY3NzJz4NCiAgICAgICAgPHNjcmlwdCBzcmM9Jy9zdGF0aWMvc2NyaXB0cy9jb21ibzUuanMnPjwvc2NyaXB0Pg0KICAgICAgICA8IS0tW2lmIGx0IElFIDhdPg0KICAgICAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii9jb3JzL2ZvbnRlbGxvLWYxYmY3ZGVlL2Nzcy9mb250ZWxsby1pZTcuY3NzIj4NCiAgICAgICAgPHNjcmlwdCBzcmM9Jy9zdGF0aWMvc2NyaXB0cy9qc29uMi5taW4uanMnPjwvc2NyaXB0Pg0KICAgICAgICA8IVtlbmRpZl0tLT4NCg0KICAgICAgICANCiAgICAgICAgPHNjcmlwdD4NCiAgICAgICAgeGNvb2tpZV9yZWFkKCk7DQogICAgICAgIHhmb250X2F1dG9fbG9hZGVyKCk7DQogICAgICAgIGlmKFhDT09LSUUuZ3VpX2ZvbnQgIT0gJ09wZW4gU2FucycpIHsNCiAgICAgICAgICAgIGRvY3VtZW50LndyaXRlKCc8c3R5bGU+Ym9keXtmb250LWZhbWlseToiJytYQ09PS0lFLmd1aV9mb250KyciLFZlcmRhbmEsIEFyaWFsO308L3N0eWxlPicpOw0KICAgICAgICB9DQogICAgICAgIDwvc2NyaXB0Pg0KICAgICAgICA8IS0tIHN0YXJ0eiAtLT48c2NyaXB0IGFzeW5jIHNyYz0iLy9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wYWdlYWQvanMvYWRzYnlnb29nbGUuanMiPjwvc2NyaXB0PjwhLS0gZW5keiAtLT4NCiAgICAgICAgPHN0eWxlPg0KICAgICAgICAuZHJvcGRvd24tbWVudSA+IGxpID4gYSB7IHBhZGRpbmc6IDNweCA1MHB4IDNweCAzMHB4OyB9DQpib2R5IHsgbWluLXdpZHRoOjc1MHB4OyBoZWlnaHQ6MTAwJTsgfQ0KLm1heHdpZHRoIHsgbWluLXdpZHRoOjczMHB4O21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87fQ0KICAgICAgICAgICAgDQoNCg0KICAgICAgICA8L3N0eWxlPg0KICAgICAgICA8c2NyaXB0Pg0KICAgICAgICBpZihpc0FuZHJvaWQgJiYgIWlzQ2hyb21lKSB7DQogICAgICAgICAgICBkb2N1bWVudC53cml0ZSgnPHN0eWxlPiBib2R5IHtmb250LXNpemU6MWVtO308L3N0eWxlPicpOw0KICAgICAgICB9DQogICAgICAgIDwvc2NyaXB0Pg0KICAgICAgICA8c2NyaXB0Pg0KDQogICAgICAgICAgICAgICAgICAgICAgICB4YXV0b193aWR0aF9pbml0KCk7DQogICAgICAgICAgICAgICAgICAgICAgICB4YXV0b19mb250c2l6ZSgpOw0KDQogICAgICAgICAgICAgICAgICAgICAgICBpZighaXNJcGhvbmUgJiYgIWlzSXBhZCkgew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICQoZnVuY3Rpb24oKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICQod2luZG93KS5yZXNpemUoeGF1dG9fd2lkdGgpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgICAgIDwvc2NyaXB0PjwvaGVhZD48Ym9keSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojRTRFM0Q1O21hcmdpbi10b3A6MHB4OycgID48c2NyaXB0Pnhmb250X2ZpeF9zbW9vdGgoKTs8L3NjcmlwdD4NCg0KDQo8ZGl2IGlkPXRvcCBzdHlsZT0nd2lkdGg6MTAwJTtiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzk5OyAnID4NCjxkaXYgY2xhc3M9J21lbnVsaW5rIG1heHdpZHRoJyBzdHlsZT0ncGFkZGluZzowLjVlbSAxMHB4IDAuNWVtIDEwcHg7IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsnPg0KDQogICAgICAgIDxzY3JpcHQ+DQovL2luaXQganF1ZXJ5DQppZiAoIXdpbmRvdy5qUXVlcnkpIHsNCiAgdmFyIGpxID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7IGpxLnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsNCiAganEuc3JjID0gJy8vYWpheC5nb29nbGVhcGlzLmNvbS9hamF4L2xpYnMvanF1ZXJ5LzEuMTEuMC9qcXVlcnkubWluLmpzJzsNCiAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ2hlYWQnKVswXS5hcHBlbmRDaGlsZChqcSk7DQogIGNvbnNvbGUubG9nKCdsb2FkaW5nIHByZXE6IGpxdWVyeScpOw0KfQ0KDQoNCiB2YXIgX2ZwID0gew0KICAgIGxvZ291dCA6IGZ1bmN0aW9uKCkgew0KICAgICAgICAgICAgJC5nZXQoJy9sb2dvdXQucGhwJywgZnVuY3Rpb24oKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnc3RhcnRpbmcgbG9nb3V0Jyk7DQogICAgICAgICAgICAgICAgICAgICB2YXIgbSA9ICQoJyNfZnBfbW9kYWxfbG9nZ2VkX291dCcpOw0KICAgICAgICAgICAgICAgICAgICBpZighbS5sZW5ndGgpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICQoJ2JvZHknKS5hcHBlbmQoIjxkaXYgaWQ9J19mcF9tb2RhbF9sb2dnZWRfb3V0JyBkYXRhLWJhY2tkcm9wPSdzdGF0aWMnIGNsYXNzPSdtb2RhbCBmYWRlIGhpZGUnPjxkaXYgY2xhc3M9J21vZGFsLWJvZHknPjxkaXYgYWxpZ249Y2VuZXI+WW91IGhhdmUgc3VjY2Vzc2Z1bGx5IGxvZ2dlZCBvdXQuIDxzcGFuIG9uQ2xpY2s9JycgdHlwZT1idXR0b24gY2xhc3M9J2J0biBpY29uLWVkaXQtMSc+TG9naW48L3NwYW4+IDxzcGFuIG9uQ2xpY2s9JycgdHlwZT1idXR0b24gY2xhc3M9J2J0biBpY29uLWVkaXQtMSc+U3RheSBvbiB0aGlzIFBhZ2U8L3NwYW4+PC9kaXY+PC9kaXY+PC9kaXY+Iik7DQogICAgICAgICAgICAgICAgICAgICAgICBtID0gJCgnI19mcF9tb2RhbF9sb2dnZWRfb3V0Jyk7DQogICAgICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgICAgICBtLm1vZGFsKCk7DQoNCiAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdtb2RhbCBmaW5pc2hlZCcpOw0KICAgICAgICAgICAgICAgICAgICAvL3h0b2FzdCgnWW91IGhhdmUgYmVlbiBsb2dnZWQgb3V0LicpOw0KICAgICAgICAgICAgICAgICAgICBpZihfZnAuY2JfbG9nZ2Vkb3V0KSBfZnAuY2JfbG9nZ2Vkb3V0KCk7DQogICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnY2FsbGJhY2sgY29tcGxldGUnKTsNCiAgICAgICAgICAgIH0pDQogICAgICAgICAgLmZhaWwoZnVuY3Rpb24oKSB7DQogICAgICAgICAgICAvL20ubW9kYWwoJ2hpZGUnKTsNCiAgICAgICAgICAgIHh0b2FzdCgnQW4gZXJyb3IgaGFzIG9jdXJyZWQuIFBsZWFzZSB0cnkgYWdhaW4gbGF0ZXIuJyk7DQogICAgICAgICAgfSk7DQogICAgICAgICAgICAvLw0KICAgIH0NCn07DQoNCi8vcmVhbCBmdW5jdGlvbg0KDQoNCiAgICAgICAgPC9zY3JpcHQ+DQogICAgICAgIA0KPHNjcmlwdD4NCmZ1bmN0aW9uIHJlbmRlcl9sb2dpbih1bmFtZSkgew0KICAgICB2YXIgcyA9ICI8YSBocmVmPScvbG9naW4ucGhwP2NhY2hlPWJ1c3QnIHN0eWxlPSdjb2xvcjpvcmFuZ2U7Jz4iK3VuYW1lKyI8L2E+IHwgPHNwYW4gaWQ9JycgeG9uQ2xpY2s9J19mcC5sb2dvdXQoKTsnIG9uY2xpY2s9XCJsb2NhdGlvbiA9ICcvbG9nb3V0LnBocCc7XCIgc3R5bGU9J2NvbG9yOndoaXRlO2N1cnNvcjogcG9pbnRlcjsnPkxvZ291dDwvc3Bhbj4iOw0KICAgICByZXR1cm4gczsNCn0NCg0KPC9zY3JpcHQ+DQo8c3BhbiBpZD1uYW1lX2xvZ2luIGNsYXNzPXB1bGwtcmlnaHQ+DQo8c2NyaXB0Pg0KaWYoWFVOQU1FKSB7DQogICAgZG9jdW1lbnQud3JpdGUocmVuZGVyX2xvZ2luKFhVTkFNRSkpOw0KfQ0KZWxzZSB7DQogICAgZG9jdW1lbnQud3JpdGUoIjxhIGhyZWY9Jy9sb2dpbi5waHA/Y2FjaGU9YnVzdCcgc3R5bGU9J2NvbG9yOndoaXRlOyc+PHNwYW4gY2xhc3M9J2ljb24tbG9jaycgc3R5bGU9J2ZvbnQtc2l6ZToxNXB4O3Bvc2l0aW9uOnJlbGF0aXZlO3RvcDoxcHgnPjwvc3Bhbj4gTG9naW48L2E+IHwgPGEgaHJlZj0nL3NpZ251cC5waHAnIHN0eWxlPSdjb2xvcjp3aGl0ZTsnPlNpZ24gVXA8L2E+Iik7DQp9DQo8L3NjcmlwdD48L3NwYW4+PGEgaHJlZj0nLycgc3R5bGU9J2ZvbnQtc2l6ZToxLjFlbTtib3JkZXI6bm9uZTsnPkZhbkZpY3Rpb248L2E+JiMxNjA7JiMxNjA7PHNtYWxsPnw8L3NtYWxsPiYjMTYwOyYjMTYwO3VubGVhc2ggeW91ciBpbWFnaW5hdGlvbiA8c3BhbiBjbGFzcz0naWNvbi1rdWItbW9iaWxlJyBzdHlsZT0nZm9udC1zaXplOjE0cHg7bWFyZ2luLWxlZnQ6MTBweDsnIHRpdGxlPSdNb2JpbGUgRWRpdGlvbicgIG9uY2xpY2s9ImxvY2F0aW9uID0gJy8vbS5mYW5maWN0aW9uLm5ldC9tL3llc19tb2JpbGUucGhwJyI+PC9zcGFuPjxzcGFuIHRpdGxlPSdGb250YXN0aWMgUGFuZWw6IFVJIFNldHRpbmdzJyBjbGFzcz0naWNvbi10bC10ZXh0JyBzdHlsZT0nZm9udC1zaXplOjE0cHg7bWFyZ2luLWxlZnQ6MTBweDsnIG9uQ2xpY2s9Il9mb250YXN0aWNfaW5pdCgndWknKTsgJCgnI19mb250YXN0aWNfdWknKS5tb2RhbCgnc2hvdycpOyI+PC9zcGFuPjwvZGl2Pg0KPC9kaXY+DQo8c2NyaXB0PmlmKCFpc01vYmlsZSl7ZG9jdW1lbnQud3JpdGUoIjxkaXYgY2xhc3M9J3ptZW51JyBzdHlsZT0ndGV4dC1hbGlnbjpjZW50ZXI7cGFkZGluZy10b3A6NXB4O2JhY2tncm91bmQtY29sb3I6ICNmNmY3ZWU7Jz4iKTt9PC9zY3JpcHQ+CiAgICAgICAgICAgIDwhLS0gc3RhcnR6IC0tPgogICAgICAgICAgICA8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjcyOHB4O2hlaWdodDo5MHB4IiBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTg2OTgwNTQ1MjU2MTEwOTIiIGRhdGEtYWQtc2xvdD0iNTc5Mjk0MDc2NyI+PC9pbnM+CiAgICAgICAgICAgIDxzY3JpcHQ+KGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTs8L3NjcmlwdD4KICAgICAgICAgICAgPCEtLSBlbmR6IC0tPjxzY3JpcHQ+aWYoIWlzTW9iaWxlKXtkb2N1bWVudC53cml0ZSgiPC9kaXY+Iik7fTwvc2NyaXB0Pg0KPGRpdiBzdHlsZT0nd2lkdGg6MTAwJTsnIGNsYXNzPXptZW51Pg0KICAgIDxkaXYgIGlkPXptZW51ICBjbGFzcz0nbWF4d2lkdGgnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7cGFkZGluZzo1cHg7Jz4NCjxzcGFuIGNsYXNzPXp1aSA+DQoNCjwhLS0gbmV3IHN0dWZmIC0tPg0KPHRhYmxlIGNsYXNzPSdtYXh3aWR0aCc+PHRyPjx0ZCB2YWxpZ249bWlkZGxlID4NCg0KDQogICAgICAgICAgICA8ZGl2IGNsYXNzPSdkcm9wZG93biB4bWVudV9pdGVtJz4NCiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9J2Ryb3Bkb3duLXRvZ2dsZScgZGF0YS10b2dnbGU9J2Ryb3Bkb3duJyBocmVmPScjJz5Ccm93c2UgPGIgY2xhc3M9J2NhcmV0Jz48L2I+PC9hPg0KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3M9J2Ryb3Bkb3duLW1lbnUnPg0KDQogICAgICAgICAgICA8bGkgY2xhc3M9ZGlzYWJsZWQgc3R5bGU9J3RleHQtYWxpZ246Y2VudGVyJz48YSBocmVmPScjJz5TdG9yaWVzPC9hPjwvbGk+DQoNCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYW5pbWUvJz5BbmltZTwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9ib29rLyc+Qm9va3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY2FydG9vbi8nPkNhcnRvb25zPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2NvbWljLyc+Q29taWNzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2dhbWUvJz5HYW1lczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9taXNjLyc+TWlzYzwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9wbGF5Lyc+UGxheXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvbW92aWUvJz5Nb3ZpZXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvdHYvJz5UVjwvYT48L2xpPg0KICAgICAgICAgICAgPGxpIGNsYXNzPSdkaXNhYmxlZCcgc3R5bGU9J3RleHQtYWxpZ246Y2VudGVyJz48YSBocmVmPScjJz5Dcm9zc292ZXJzPC9hPjwvbGk+DQoNCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY3Jvc3NvdmVycy9hbmltZS8nPkFuaW1lPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2Nyb3Nzb3ZlcnMvYm9vay8nPkJvb2tzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2Nyb3Nzb3ZlcnMvY2FydG9vbi8nPkNhcnRvb25zPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2Nyb3Nzb3ZlcnMvY29taWMvJz5Db21pY3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY3Jvc3NvdmVycy9nYW1lLyc+R2FtZXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY3Jvc3NvdmVycy9taXNjLyc+TWlzYzwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jcm9zc292ZXJzL3BsYXkvJz5QbGF5czwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jcm9zc292ZXJzL21vdmllLyc+TW92aWVzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2Nyb3Nzb3ZlcnMvdHYvJz5UVjwvYT48L2xpPg0KDQogICAgICAgICAgICAgICANCg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9J2Ryb3Bkb3duIHhtZW51X2l0ZW0nPg0KICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0nZHJvcGRvd24tdG9nZ2xlJyBkYXRhLXRvZ2dsZT0nZHJvcGRvd24nIGhyZWY9JyMnPkp1c3QgSW4gPGIgY2xhc3M9J2NhcmV0Jz48L2I+PC9hPg0KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3M9J2Ryb3Bkb3duLW1lbnUnPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9qLzAvMC8wLyc+QWxsPC9hPjwvbGk+DQoNCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvai8wLzEvMC8nPlN0b3JpZXM6IE5ldzwvYT48bGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2ovMC8yLzAvJz5TdG9yaWVzOiBVcGRhdGVkPC9hPjwvbGk+DQoNCiAgICAgICAgICAgIDxsaSBjbGFzcz0nZGl2aWRlcic+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvai8wLzMvMC8nPkNyb3Nzb3ZlcnM6IE5ldzwvYT48bGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2ovMC80LzAvJz5Dcm9zc292ZXJzOiBVcGRhdGVkPC9hPjxsaT4NCg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9J2Ryb3Bkb3duIHhtZW51X2l0ZW0nPg0KICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0nZHJvcGRvd24tdG9nZ2xlJyBkYXRhLXRvZ2dsZT0nZHJvcGRvd24nIGhyZWY9JyMnPkNvbW11bml0eSA8YiBjbGFzcz0nY2FyZXQnPjwvYj48L2E+DQogICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0nZHJvcGRvd24tbWVudSc+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2NvbW11bml0aWVzL2dlbmVyYWwvMC8nPkdlbmVyYWw8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY29tbXVuaXRpZXMvYW5pbWUvJz5BbmltZTwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jb21tdW5pdGllcy9ib29rLyc+Qm9va3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY29tbXVuaXRpZXMvY2FydG9vbi8nPkNhcnRvb25zPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2NvbW11bml0aWVzL2NvbWljLyc+Q29taWNzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2NvbW11bml0aWVzL2dhbWUvJz5HYW1lczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jb21tdW5pdGllcy9taXNjLyc+TWlzYzwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jb21tdW5pdGllcy9tb3ZpZS8nPk1vdmllczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9jb21tdW5pdGllcy9wbGF5Lyc+UGxheXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvY29tbXVuaXRpZXMvdHYvJz5UVjwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9J2Ryb3Bkb3duIHhtZW51X2l0ZW0nPg0KICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0nZHJvcGRvd24tdG9nZ2xlJyBkYXRhLXRvZ2dsZT0nZHJvcGRvd24nIGhyZWY9JyMnPkZvcnVtIDxiIGNsYXNzPSdjYXJldCc+PC9iPjwvYT4NCiAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzPSdkcm9wZG93bi1tZW51Jz4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvZm9ydW1zL2dlbmVyYWwvMC8nPkdlbmVyYWw8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvZm9ydW1zL2FuaW1lLyc+QW5pbWU8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvZm9ydW1zL2Jvb2svJz5Cb29rczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9mb3J1bXMvY2FydG9vbi8nPkNhcnRvb25zPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2ZvcnVtcy9jb21pYy8nPkNvbWljczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9mb3J1bXMvZ2FtZS8nPkdhbWVzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2ZvcnVtcy9taXNjLyc+TWlzYzwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9mb3J1bXMvbW92aWUvJz5Nb3ZpZXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvZm9ydW1zL3BsYXkvJz5QbGF5czwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9mb3J1bXMvdHYvJz5UVjwvYT48L2xpPiAgICAgICAgICAgPC91bD4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCg0KICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSdkcm9wZG93biB4bWVudV9pdGVtJz4NCiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9J2Ryb3Bkb3duLXRvZ2dsZScgZGF0YS10b2dnbGU9J2Ryb3Bkb3duJyBocmVmPScjJz5CZXRhcyA8YiBjbGFzcz0nY2FyZXQnPjwvYj48L2E+DQogICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0nZHJvcGRvd24tbWVudSc+DQoNCiAgICAgICAgICAgIDxsaSBjbGFzcz1kaXNhYmxlZCBzdHlsZT0ndGV4dC1hbGlnbjpjZW50ZXInPjxhIGhyZWY9JyMnPkFsbDwvYT48L2xpPg0KDQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2JldGFyZWFkZXJzL2FsbC9hbmltZS8nPkFuaW1lPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2JldGFyZWFkZXJzL2FsbC9ib29rLyc+Qm9va3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvYWxsL2NhcnRvb24vJz5DYXJ0b29uczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9hbGwvY29taWMvJz5Db21pY3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvYWxsL2dhbWUvJz5HYW1lczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9hbGwvbWlzYy8nPk1pc2M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvYWxsL3BsYXkvJz5QbGF5czwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9hbGwvbW92aWUvJz5Nb3ZpZXM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvYWxsL3R2Lyc+VFY8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaSBjbGFzcz0nZGlzYWJsZWQnIHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcic+PGEgaHJlZj0nIyc+U3BlY2lmaWM8L2E+PC9saT4NCg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9hbmltZS8nPkFuaW1lPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2JldGFyZWFkZXJzL2Jvb2svJz5Cb29rczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9jYXJ0b29uLyc+Q2FydG9vbnM8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvY29taWMvJz5Db21pY3M8L2E+PC9saT4NCiAgICAgICAgICAgIDxsaT48YSBocmVmPScvYmV0YXJlYWRlcnMvZ2FtZS8nPkdhbWVzPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2JldGFyZWFkZXJzL21pc2MvJz5NaXNjPC9hPjwvbGk+DQogICAgICAgICAgICA8bGk+PGEgaHJlZj0nL2JldGFyZWFkZXJzL3BsYXkvJz5QbGF5czwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy9tb3ZpZS8nPk1vdmllczwvYT48L2xpPg0KICAgICAgICAgICAgPGxpPjxhIGhyZWY9Jy9iZXRhcmVhZGVycy90di8nPlRWPC9hPjwvbGk+DQoNCiAgICAgICAgICAgICAgIA0KDQogICAgICAgICAgICAgICAgICAgIDwvdWw+DQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvdGQ+DQogICAgICAgIDx0ZCB2YWxpZ249bWlkZGxlPg0KDQogICAgICAgICAgICA8c2NyaXB0Pg0KICAgICAgICAgICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgew0KICAgICAgICAgICAgICAgICAgICAkKCcueGRyb3Bfc2VhcmNoJykuY2xpY2soZnVuY3Rpb24oKSB7DQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgdiA9ICQodGhpcykuaHRtbCgpOzsNCg0KICAgICAgICAgICAgICAgICAgICAgICAgJCgnI3NlYXJjaF90eXBlJykudmFsKHYudG9Mb3dlckNhc2UoKSk7DQogICAgICAgICAgICAgICAgICAgICAgICAkKCcjc2VhcmNoX2hlYWQnKS5odG1sKHYpOw0KICAgICAgICAgICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgICAgICAgICAkKCcjc2VhcmNoX2tleXdvcmRzJykub25FbnRlcktleShmdW5jdGlvbigpew0KICAgICAgICAgICAgICAgICAgICAgICAgJCgnZm9ybSNzZWFyY2hfZm9ybScpLnN1Ym1pdCgpOw0KICAgICAgICAgICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICA8L3NjcmlwdD4NCiAgICAgICAgICAgIDxGT1JNIG1ldGhvZD1nZXQgaWQ9c2VhcmNoX2Zvcm0gYWN0aW9uPScvc2VhcmNoLycgY2xhc3M9J3B1bGwtcmlnaHQnPg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9J2lucHV0LXByZXBlbmQnPg0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSdidG4tZ3JvdXAnPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0nYnRuIGRyb3Bkb3duLXRvZ2dsZScgZGF0YS10b2dnbGU9J2Ryb3Bkb3duJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBpZD1zZWFyY2hfaGVhZD5TdG9yeTwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0nY2FyZXQnPjwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzPSdkcm9wZG93bi1tZW51Jz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0nIycgY2xhc3M9eGRyb3Bfc2VhcmNoPlN0b3J5PC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9JyMnIGNsYXNzPXhkcm9wX3NlYXJjaD5Xcml0ZXI8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0nIycgY2xhc3M9eGRyb3Bfc2VhcmNoPkZvcnVtPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPCEtLSA8bGkgY2xhc3M9J2RpdmlkZXInPjwvbGk+IC0tPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPScjJyBjbGFzcz14ZHJvcF9zZWFyY2g+Q29tbXVuaXR5PC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPGlucHV0IGNsYXNzPSdzcGFuMicgbmFtZT0na2V5d29yZHMnIGlkPXNlYXJjaF9rZXl3b3JkcyB0eXBlPSd0ZXh0JyBwbGFjZWhvbGRlcj0nU2VhcmNoJyB0aXRsZT0nU2VhcmNoJz4NCiAgICAgICAgICAgICAgICAgICAgPCEtLSAgaW5wdXQtYXBwZW5kIDxidXR0b24gY2xhc3M9J2J0bicgdHlwZT0nc3VibWl0Jz5HbzwvYnV0dG9uPiAtLT4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8IS0tIDxpbnB1dCBjbGFzcz1zZWFyY2hmaWVsZCB0eXBlPXRleHQgbmFtZT0na2V5d29yZHMnIHBsYWNlaG9sZGVyPSdTZWFyY2gnIHRpdGxlPSdTZWFyY2gnIHN0eWxlPSd3aWR0aDoxMDBweCc+IC0tPg0KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPWhpZGRlbiBuYW1lPXJlYWR5IHZhbHVlPTE+DQogICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9aGlkZGVuIG5hbWU9dHlwZSBpZD1zZWFyY2hfdHlwZSB2YWx1ZT1zdG9yeT4NCiAgICAgICAgICAgIDwvRk9STT4NCiAgICAgICAgPC90ZD4NCiAgICA8L3RyPg0KPC90YWJsZT4NCg0KPC9zcGFuPg0KPC9kaXY+DQo8L2Rpdj4NCjxkaXYgc3R5bGU9J3dpZHRoOjEwMCU7JyBjbGFzcz14Y29udHJhc3Rfb3V0ZXIgaWQ9Y29udGVudF9wYXJlbnQ+PGRpdiBjbGFzcz0neGNvbnRyYXN0IG1heHdpZHRoJyBpZD1jb250ZW50X3dyYXBwZXIgc3R5bGU9J2JhY2tncm91bmQtY29sb3I6IHdoaXRlOyc+PGRpdiBpZD1jb250ZW50X3dyYXBwZXJfaW5uZXIgc3R5bGU9J3BhZGRpbmc6MC41ZW07Jz4NCjxzY3JpcHQ+DQppZihYQ09PS0lFLnJlYWRfdGhlbWUgPT0gJ2RhcmsnKSB7DQogICAgICQoZnVuY3Rpb24oKXsNCiAgICAgICAgX2ZvbnRhc3RpY19jaGFuZ2VfdGhlbWUoJ2RhcmsnKTsNCg0KICAgICB9KTsNCiB9DQogZWxzZSBpZihYQ09PS0lFLnJlYWRfbGlnaHRfdGV4dHVyZSkgew0KICAgX2ZvbnRhc3RpY19jaGFuZ2VfdGV4dHVyZShYQ09PS0lFLnJlYWRfbGlnaHRfdGV4dHVyZSk7DQogfQ0KDQogPC9zY3JpcHQ+PGRpdiBzdHlsZT0nbWFyZ2luLWJvdHRvbTogMTBweCcgY2xhc3M9J2xjLXdyYXBwZXInIGlkPXByZV9zdG9yeV9saW5rcz48c3BhbiBjbGFzcz1sYy1sZWZ0PjxhIGNsYXNzPXhjb250cmFzdF90eHQgaHJlZj0nL21vdmllLyc+TW92aWVzPC9hPjxzcGFuIGNsYXNzPSd4Y29udHJhc3RfdHh0IGljb24tY2hldnJvbi1yaWdodCB4aWNvbi1zZWN0aW9uLWFycm93Jz48L3NwYW4+PGEgY2xhc3M9eGNvbnRyYXN0X3R4dCBocmVmPSIvbW92aWUvU3Rhci1XYXJzLyI+U3RhciBXYXJzPC9hPg0KPC9zcGFuPg0KPC9kaXY+DQo8c2NyaXB0Pg0KLy9fZm9udGFzdGljX3RoZW1lX2NzcygpOw0KDQpmdW5jdGlvbiB0b2dnbGVUaGVtZSgpIHsNCiAgICBpZihYQ09PS0lFLnJlYWRfdGhlbWUgPT0gJ2xpZ2h0Jykgew0KICAgICAgICBfZm9udGFzdGljX2NoYW5nZV90aGVtZSgnZGFyaycpOw0KICAgIH0NCiAgICBlbHNlIHsNCiAgICAgICAgX2ZvbnRhc3RpY19jaGFuZ2VfdGhlbWUoJ2xpZ2h0Jyk7DQogICAgfQ0KfQ0KPC9zY3JpcHQ+PGRpdiBpZD1pbWdfbGFyZ2UgY2xhc3M9J2hpZGUgbW9kYWwgZmFkZScgc3R5bGU9J2NvbG9yOmJsYWNrOyc+PGRpdiBjbGFzcz0nbW9kYWwtYm9keScgYWxpZ249Y2VudGVyPjxpbWcgY2xhc3M9J2NpbWFnZSAnIHN0eWxlPSdwYWRkaW5nOjJweDtib3JkZXI6MXB4IHNvbGlkICNjY2M7LW1vei1ib3JkZXItcmFkaXVzOjJweDstd2Via2l0LWJvcmRlci1yYWRpdXM6MnB4Oycgc3JjPScvL2ZmNzQuYi1jZG4ubmV0L3N0YXRpYy9pbWFnZXMvZF82MF85MC5qcGcnIHdpZHRoPTE4MCBoZWlnaHQ9MjQwPjwvZGl2PjwvZGl2PjxkaXYgaWQ9cHJvZmlsZV90b3Agc3R5bGU9J21pbi1oZWlnaHQ6MTEycHg7Jz48YnV0dG9uIGNsYXNzPSdidG4gcHVsbC1yaWdodCBpY29uLWhlYXJ0JyB0eXBlPWJ1dHRvbiBvbkNsaWNrPSckKCIjZm9sbG93X2FyZWEiKS5tb2RhbCgpOyc+IEZvbGxvdy9GYXY8L2J1dHRvbj48YiBjbGFzcz0neGNvbnRyYXN0X3R4dCc+Q29iYWx0J3MgRWRnZTwvYj4NCjxzcGFuIGNsYXNzPSd4Y29udHJhc3RfdHh0Jz48ZGl2IHN0eWxlPSdoZWlnaHQ6NXB4Jz48L2Rpdj5CeTo8L3NwYW4+IDxhIGNsYXNzPSd4Y29udHJhc3RfdHh0JyBocmVmPScvdS8xMDAwMTQwOC9NZXJpZGlhbkFudGVtZXJpZGlhbic+TWVyaWRpYW5BbnRlbWVyaWRpYW48L2E+IDxzcGFuIGNsYXNzPSdpY29uLW1haWwtMSAgeGNvbnRyYXN0X3R4dCcgPjwvc3Bhbj4gPGEgY2xhc3M9J3hjb250cmFzdF90eHQnIHRpdGxlPSJTZW5kIFByaXZhdGUgTWVzc2FnZSIgaHJlZj0naHR0cHM6Ly93d3cuZmFuZmljdGlvbi5uZXQvcG0yL3Bvc3QucGhwP3VpZD0xMDAwMTQwOCc+PC9hPg0KPGRpdiBzdHlsZT0nbWFyZ2luLXRvcDoycHgnIGNsYXNzPSd4Y29udHJhc3RfdHh0Jz5UaGUgRW1waXJlIGhhcyByZWNlaXZlZCBuZXcgaW5mb3JtYXRpb24gb2YgbW9yZSBKZWRpIHN1cnZpdmluZyB0aGUgaW5pdGlhbCBzdGFnZXMgb2YgdGhlIEplZGkgUHVyZ2UuIFdvcnNlLCBuZXdzIGhhdmUgYmVlbiByZWNlaXZlZCBhIHN0YXIgZGVzdHJveWVyIHdhcyBibG93biB1cCBieSBhIEplZGkuIFRoZSBFbXBlcm9yIGhhcyBvcmRlcmVkIFZhZGVyIHRvIHRyYWNrIHRoZSBKZWRpIGRvd24gYW5kIGtpbGxlZCB0aGUgSmVkaSBhbmQga2lsbCBhbnkgb3RoZXIgSmVkaSBoZSBlbmNvdW50ZXJzLiBNZWFud2hpbGUsIHR3byBzdXJ2aXZvcnMgb2YgT3BlcmF0aW9uOiBLbmlnaHRmYWxsLCBDaGVscyBhbmQgR3JhY2FzIHN0cnVnZ2xlcyB0byBzdXJ2aXZlLjwvZGl2Pg0KPHNwYW4gY2xhc3M9J3hncmF5IHhjb250cmFzdF90eHQnPlJhdGVkOiA8YSBjbGFzcz0neGNvbnRyYXN0X3R4dCcgaHJlZj0naHR0cHM6Ly93d3cuZmljdGlvbnJhdGluZ3MuY29tLycgdGFyZ2V0PSdyYXRpbmcnPkZpY3Rpb24gIFQ8L2E+IC0gRW5nbGlzaCAtIEFkdmVudHVyZSAtIENoYXB0ZXJzOiAyICAgLSBXb3JkczogMyw2NTUgLSBGYXZzOiAyIC0gRm9sbG93czogMSAtIFVwZGF0ZWQ6IDxzcGFuIGRhdGEteHV0aW1lPScxNTExNjQwMjAxJz4xMS8yNS8yMDE3PC9zcGFuPiAtIFB1Ymxpc2hlZDogPHNwYW4gZGF0YS14dXRpbWU9JzE1MTE0MDM5OTknPjExLzIyLzIwMTc8L3NwYW4+IC0gaWQ6IDEyNzM0NDExIDwvc3Bhbj4NCjwvZGl2Pg0KPGRpdiBhbGlnbj1jZW50ZXIgY2xhc3M9J2xjLXdyYXBwZXInIHN0eWxlPSdtYXJnaW4tdG9wOjEwcHg7Jz48ZGl2IGNsYXNzPSdsYyc+DQo8c3BhbiBjbGFzcz0neGNvbnRyYXN0X3R4dCc+PHNwYW4gY2xhc3M9J2ljb24tdGwtdGV4dCcgc3R5bGU9J2ZvbnQtc2l6ZToxNHB4O2N1cnNvcjpwb2ludGVyOycgdGl0bGU9IisgRm9udCBTaXplIiBvbkNsaWNrPSJfZm9udGFzdGljX2NoYW5nZV9zaXplKCd1Jyk7IiA+PC9zcGFuPis8L3NwYW4+JiMxNjA7JiMxNjA7PHNwYW4gY2xhc3M9J3hjb250cmFzdF90eHQnPjxzcGFuIGNsYXNzPSdpY29uLXRsLXRleHQnIHN0eWxlPSdmb250LXNpemU6MTRweDtjdXJzb3I6cG9pbnRlcjsnIHRpdGxlPSItIEZvbnQgU2l6ZSIgb25DbGljaz0iX2ZvbnRhc3RpY19jaGFuZ2Vfc2l6ZSgnZCcpOyIgPjwvc3Bhbj4tPC9zcGFuPiYjMTYwOyYjMTYwOzxzcGFuIHN0eWxlPSdmb250LXNpemU6MTRweDtjdXJzb3I6cG9pbnRlcjsnIGNsYXNzPSdpY29uLXRsLXRleHQgeGNvbnRyYXN0X3R4dCcgb25jbGljaz0iX2ZvbnRhc3RpY19pbml0KCdyZWFkaW5nJyk7JCgnI19mb250YXN0aWNfcmVhZGluZycpLm1vZGFsKCdzaG93Jyk7IiAgdGl0bGU9IkZvbnRzIj48L3NwYW4+JiMxNjA7JiMxNjA7DQoNCjxzcGFuIGNsYXNzPSdpY29uLWFsaWduLWp1c3RpZnkgeGNvbnRyYXN0X3R4dCcgb25jbGljaz0iJCgnI2Zfd2lkdGgnKS5zbGlkZVRvZ2dsZSgpOyIgc3R5bGU9J2ZvbnQtc2l6ZToxNHB4JyB0aXRsZT0iU3RvcnkgV2lkdGgiPjwvc3Bhbj4gPHNwYW4gaWQ9Zl93aWR0aCBjbGFzcz0naGlkZSB4Y29udHJhc3RfdHh0Jz48c3BhbiAgb25jbGljaz0nX2ZvbnRhc3RpY19jaGFuZ2Vfd2lkdGgoMTAwKTsnPkZ1bGw8L3NwYW4+IDxzcGFuIG9uY2xpY2s9J19mb250YXN0aWNfY2hhbmdlX3dpZHRoKDc1KTsnPjMvNDwvc3Bhbj4gPHNwYW4gIG9uY2xpY2s9J19mb250YXN0aWNfY2hhbmdlX3dpZHRoKDUwKTsnPjEvMjwvc3Bhbj48L3NwYW4+ICYjMTYwOyYjMTYwOyA8c3BhbiBjbGFzcz0naWNvbi10bC10ZXh0LWhlaWdodCB4Y29udHJhc3RfdHh0JyBvbmNsaWNrPSIkKCcjZl9zaXplJykuc2xpZGVUb2dnbGUoKTsiIHN0eWxlPSdmb250LXNpemU6MTRweDtjdXJzb3I6cG9pbnRlcjsnIHRpdGxlPSJMaW5lIFNwYWNpbmciPjwvc3Bhbj4gPHNwYW4gaWQ9Zl9zaXplIGNsYXNzPSdoaWRlIHhjb250cmFzdF90eHQnPiA8c3BhbiBvbmNsaWNrPSdfZm9udGFzdGljX2NoYW5nZV9saW5lX2hlaWdodCgidSIpOyc+RXhwYW5kPC9zcGFuPiA8c3BhbiBvbmNsaWNrPSdfZm9udGFzdGljX2NoYW5nZV9saW5lX2hlaWdodCgiZCIpOyc+VGlnaHRlbjwvc3Bhbj48L3NwYW4+JiMxNjA7JiMxNjA7PHNwYW4gY2xhc3M9J3hjb250cmFzdF90eHQgaWNvbi10bC1jb250cmFzdCcgb25jbGljaz0idG9nZ2xlVGhlbWUoKTsiIHN0eWxlPSdtYXJnaW4tbGVmdDoycHg7bWFyZ2luLXJpZ2h0OjJweDtmb250LXNpemU6MTRweDsnIGFsaWduPWFic21pZGRsZSB0aXRsZT0iU3RvcnkgQ29udHJhc3QiPjwvZGl2PjwvZGl2Pg0KICAgIDxzcGFuIHN0eWxlPSdmbG9hdDpyaWdodDsgJyA+PGJ1dHRvbiBjbGFzcz1idG4gVFlQRT1CVVRUT04gIG9uQ2xpY2s9InNlbGYubG9jYXRpb249Jy9zLzEyNzM0NDExLzEvQ29iYWx0LXMtRWRnZSciPiZsdDsgUHJldjwvYnV0dG9uPiA8U0VMRUNUIGlkPWNoYXBfc2VsZWN0IHRpdGxlPSJDaGFwdGVyIE5hdmlnYXRpb24iIE5hbWU9Y2hhcHRlciBvbkNoYW5nZT0ic2VsZi5sb2NhdGlvbiA9ICcvcy8xMjczNDQxMS8nKyB0aGlzLm9wdGlvbnNbdGhpcy5zZWxlY3RlZEluZGV4XS52YWx1ZSArICcvQ29iYWx0LXMtRWRnZSc7Ij48b3B0aW9uICB2YWx1ZT0xID4xLiBDaGFwdGVyIDE8b3B0aW9uICB2YWx1ZT0yIHNlbGVjdGVkPjIuIEV2ZXJ5dGhpbmcgZmFsbHMgaW50byBwbGFjZTwvc2VsZWN0PiA8L3NwYW4+PGRpdiBzdHlsZT0naGVpZ2h0OjVweCc+PC9kaXY+PHNjcmlwdD4NCmRvY3VtZW50LndyaXRlKCc8c3R5bGU+IC5zdG9yeXRleHQgeyBtYXgtaGVpZ2h0OiA5OTk5OTlweDsgd2lkdGg6ICcrWENPT0tJRS5yZWFkX3dpZHRoKyclOyBmb250LXNpemU6JyArIFhDT09LSUUucmVhZF9mb250X3NpemUgKyAnZW07IGZvbnQtZmFtaWx5OiAiJytYQ09PS0lFLnJlYWRfZm9udCsnIjsgbGluZS1oZWlnaHQ6ICcrWENPT0tJRS5yZWFkX2xpbmVfaGVpZ2h0Kyc7IHRleHQtYWxpZ246IGxlZnQ7fSA8L3N0eWxlPicpOw0KDQokKGZ1bmN0aW9uKCkgew0KICAgICQuZ2V0KCcvZXllLzAvMS80OTczNjkzMi8xMjczNDQxMS8nKTsNCn0pOw0KPC9zY3JpcHQ+DQoNCjxkaXYgcm9sZT0nbWFpbicgYXJpYS1sYWJlbD0nc3RvcnkgY29udGVudCcgY2xhc3M9J3N0b3J5dGV4dHAnIGlkPSdzdG9yeXRleHRwJyAgYWxpZ249Y2VudGVyIHN0eWxlPSdwYWRkaW5nOjAgMC41ZW0gMCAwLjVlbTsnPg0KPGRpdiBjbGFzcz0nc3Rvcnl0ZXh0IHhjb250cmFzdF90eHQgbm9jb3B5JyBpZD0nc3Rvcnl0ZXh0Jz48cD4xOSBCQlkuIENyb29rZWQgTm9zZSBCYXIsIEV5aGluZXM8L3A+PHA+Q2hlbHMgcmVjb2lsZWQgYmFja3dhcmQsIG5vdCBleHBlY3RpbmcgdGhpcyBzdWRkZW4gZGV2ZWxvcG1lbnQuIFNoZSB0cmllZCB0byBkb2RnZSB0aGUgbmV4dCBwdW5jaCBidXQgZ290IGhpdHRlZCBpbiB0aGUgc2hvdWxkZXIuIFNoZSBjb3VsZG4ndCBiZWxpZXZlIHNoZSB3YXMgYmVpbmcgYXR0YWNrZWQgYW5kIGFsbW9zdCByZWFjaGVkIGZvciBoZXIgbGlnaHRzYWJlciBidXQgcHVsbCBiYWNrIGFzIHNoZSBrbmV3IGl0IHdvdWxkIGJlIGEgZGVhdGggc2VudGVuY2UgaWYgc2hlIHNob3dlZCBpdC4gVGhlIGZlbWFsZSBmaWd1cmUgdGhyZXcgaGVyIGFjcm9zcyB0aGUgcm9vbSBhbmQgQ2hlbHMgc21hc2hlZCBpbnRvIGEgdGFibGUuPC9wPjxwPkdyYWNhcyB0aG91Z2h0IHNoZSByZWNvZ25pemVkIHRoZSBmaWd1cmUgYW5kIG1vdmVkIGhlciBoYW5kIGRpc2NyZWV0bHksIHRoZSBmb3JjZSBtb3ZlZCB0aGUgaG9vZCBvZmYgdGhlIGZpZ3VyZS4gR3JhY2FzIHJhbiBhY3Jvc3MgdGhlIHJvb20gYW5kIGdyYWIgdGhlIGZpZ3VyZS4gVGhlIGZpZ3VyZSBpZ25pdGVkIGhlciBsaWdodHNhYmVyLCB3aGljaCB3YXMgYSBpY3ktYmx1ZSBjb2xvci48L3A+PHA+IllvdSB3b3JrIGZvciB0aG9zZSBJbXBlcmlhbCBTY3VtcyEiIFRoZSBmaWd1cmUgc2FpZC4gIkknbSBub3QgZ29pbmcgZG93biB3aXRob3V0IGEgZmlnaHQhIjwvcD48cD4iVG9ycyBBbm5ha2khIEl0J3MgbWUgYW5kIENoZWxzISIgR3JhY2FzIHNhaWQuIFNoZSB3YXMgY29uZnVzZWQsIGFzIHNoZSBkaWRuJ3QgZmVlbCBoZXIgaW4gdGhlIGZvcmNlLiBHcmFjYXMgdGhvdWdodCBUb3JzIGRpZWQgYXQgdGhlIGZvcm1lciBTZW5hdGUgQnVpbGRpbmcuPC9wPjxwPlRvcnMgaGVsZCBoZXIgc3RhbmNlIGZvciBhIGZldyBzZWNvbmRzLiBUaGUgd2hvbGUgYmFyIHN0YXJlZCBhdCBoZXIuIFRvcnMgcmVsYXhlZCBoZXIgc3RhbmNlIGFuZCBkZWFjdGl2YXRlZCBoZXIgbGlnaHRzYWJlci4gVGhlIHBhdHJvbnMgaW4gdGhlIGJhciBnb3QgYmFjayB0byB0aGVpciBidXNpbmVzcy4gVG9ycyB3YWxrZWQgb3ZlciB0byB0byBDaGVscyBhbmQgR3JhY2FzLiBUaGV5IGFsbCB3YWxrZWQgdG8gdGhlaXIgdGFibGUgYW5kIHNhdCBkb3duLDwvcD48cD5DaGVscyBsb29rZWQgYXQgVG9ycyBhbmQgcmVhbGl6ZWQgc2hlIHdhcyBzaGFraW5nIGFuZCB0aGluLjwvcD48cD5Ub3JzIGJyZWF0aGVkIGVhc2lseSBmb3IgdGhlIGZpcnN0IHRpbWUgc2luY2UgT3JkZXIgNjYuIEdyYWNhcyBtb3Rpb25lZCBmb3IgaGVyIHRvIHRlbGwgaGVyIHN0b3J5LjwvcD48cD4iSSBtYW5hZ2VkIHRvIGRlY2FwaXRhdGUgbXkgZm9ybWVyIGNvbXJhZGVzIGFzIHdlIHdlcmUgcGF0cm9sbGluZyBvdXRzaWRlIHRoZSBTZW5hdGUgYnVpbGRpbmcuIEkgcmFuIHRvIHRoZSBUZW1wbGUgdG8gd2FybiB0aGUgSmVkaSBidXQgSSBzYXcgSmVkaSBiZWluZyBzdHJ1Y2sgYnkgY2xvbmVzLiBJIGZlbHQgc28gbXVjaCBwYWluIEkgcmFuIHRvIHRoZSBzcGFjZXBvcnQgYW5kIGVzY2FwZWQgdG8gQ29yZWxsaWEuIEkgbGllZCBsb3cgdW50aWwgSSBjb3VsZCBmaW5kIGEgd2F5IG9mZiBidXQgdGhleSBkaXNjb3ZlcmVkIG1lIGFuZCBJIGtpbGxlZCB0aGUgY29tbWFuZGVyLiBJIHNudWNrIGFib2FyZCBhIHNoaXAgYW5kIEkgYXJyaXZlZCBoZXJlLiBJIHN0aWxsIGZlbHQgdGhlIHBhaW4gc28gSSBnb3QgYWRkaWN0ZWQgdG8gRGVhdGggU3RpY2tzIHRvIG51bWIgdGhlIGZvcmNlIGNvbm5lY3Rpb24uIEkgdXNlZCB0aGUgZm9yY2UgdG8gY2xlYW5zZSBteSBzeXN0ZW0gb2YgdG94aW5zIGFzIEkgdXNlZCB0aGVtLiBUaGV5IGFmZmVjdGVkIG1lIG1lbnRhbGx5IGFzIEkgZmVhcmVkIHRoaXMgVmFkZXIgZmlndXJlIHdvdWxkIGZpbmQgbWUuIFRoYXQncyB3aHkgSSBhdHRhY2tlZCB5b3UsIEkgdGhvdWdodCB5b3Ugd2VyZSBhIHRyb29wIGFuZCBmb3IgdGhhdCBJIG9mZmVyIG15IGh1bWJsZXN0IGFwb2xvZ2llcy4gTm93IEknbSBoZXJlLiIgVG9ycyByZWNvdW50ZWQgYW5kIENoZWxzIHRvbGQgdGhlaXIgc3RvcnkgYW5kIHdoeSB0aGVpciBoZXJlLjwvcD48cD4iSSBjZXJ0YWlubHkgaGF2ZW4ndCBoZWFyZCBhbnl0aGluZyBhYm91dCBhIEplZGkgaGVyZSBidXQgSSBhZ3JlZSB3ZSBzaG91bGQgZmluZCB0aGlzIEplZGkuIEl0IHdvdWxkIGhlbHAgdXMuIiBUb3JzIHNhaWQgYW5kIHdhcyBhYm91dCB0byBzYXkgc29tZXRoaW5nIGVsc2Ugd2hlbiB0aGUgaG9sb25ldCBsaXQgdXAuPC9wPjxwPiJWYWRlciBraWxsZWQgNTAgSmVkaXMgb24gS2Vzc2VsIGFzIHNvbWUgb2YgdGhlIEplZGkga2lsbGVkIGVhY2ggb3RoZXIgaW4gcG93ZXIgYmlkcy4iIEl0IHRoZW4gZmxhc2hlZCBhbmQgZW5kZWQuIEFsbCB0aHJlZSB3ZXJlIGluIHNob2NrLjwvcD48cD4iV2hvIGlzIHRoaXMgVmFkZXIgZmlndXJlPyBJZiBoZSBjYW4ga2lsbCA1MCBKZWRpLCB3ZSBkb24ndCBoYXZlIGEgY2hhbmNl4oCmIiBHcmFjYXMgd2hpc3BlcmVkIGluIHNob2NrIGFuZCBnb3QgdXAuPC9wPjxwPiJXZSBnb3QgdG8gZ28sIGl0J3Mgbm90IHNhZmUgaGVyZSBhbnltb3JlIG5vdyB0aGF0IHRoZXkga25vdyBUb3JzIGlzIGEgSmVkaS4iIENoZWxzIHNhaWQgYXMgdGhleSBhbGwgd2Fsa2VkIG91dCBvZiB0aGUgYmFyLjwvcD48cD4xOSBCQlkuIFNwYWNlcG9ydC4gRXloaW5lcy48L3A+PHA+VmFkZXIgc3Rvb2QgaW4gZnJvbnQgb2YgYSBIZXJha2xvbi1DbGFzcyB0cmFuc3BvcnQgbmFtZWQgIkplc3RlciIuIEltcGVyaWFsIGdhcnJpc29uIHJlY29yZHMgc2hvd3MgdGhpcyBzaGlwIHdhcyBwdXJjaGFzZWQgb24gQWxkZXJhYW4gYnkgdHdvIGN1c3RvbWVycyBmb3IgMzUwMDAgY3JlZGl0cy4gVGhleSBhcnJpdmVkIGhlcmUsIHRoZSByZWFzb24gY2l0ZWQgYXMgYmVpbmcgInJlZnVlbGluZyIuIFJlY29yZHMgc2hvd3MgdGhlIGN1c3RvbWVycyBjYW1lIGZyb20gQ29ydXNjYW50IHNob3J0bHkgYWZ0ZXIgT3BlcmF0aW9uOiBLbmlnaHRmYWxsLiBUaGF0IHdhcyBlbm91Z2ggdG8gbWVyaXQgSW1wZXJpYWwgYXR0ZW50aW9uIGFuZCBhZnRlciBWYWRlciBvcmdhbml6ZWQgZGVmZW5zZXMgaW4gdGhpcyBzZWN0b3IgYXQgdGhlIGdhcnJpc29uLCBoZSBjYW1lIGhlcmUuIE5vdyBoZSBmZWx0IHRocmVlIGZpZ3VyZXMgaW4gdGhlIGZvcmNlIGFwcHJvYWNoaW5nIGhpbS4gVmFkZXIgc21pbGVkLjwvcD48cD4iTW9yZSBKZWRpIHRvIGtpbGwuIiBWYWRlciBzYWlkIGFuZCBvcmRlciB0aGUgdHJvb3BzIHRvIGhvbGQgdGhlaXIgZmlyZS4gSGUgd291bGQgdGFrZSBjYXJlIG9mIHRoaXMuPC9wPjxwPlRocmVlIGZpZ3VyZXMgd2Fsa2VkIGludG8gdGhlIHNwYWNlcG9ydCB0b3dhcmQgdGhlICJKZXN0ZXIiLiBKdXN0IHRoZW4sIGEgdHJvb3AgZXNjb3J0aW5nIGEgUm9kaWFuIGFwcHJvYWNoZWQgVmFkZXIuPC9wPjxwPiJUaGlzIGJhcnRlbmRlciBnb3QgaW50ZXJlc3RpbmcgbmV3cywgc2lyLiIgVGhlIHRyb29wIHNhaWQuPC9wPjxwPiJZZXMuIEEgSmVkaSB3aXRoIGEgYmx1ZSBsaWdodHNhYmVyIHVzZWQgaXQgaW4gYSBmaWdodCBpbiBteSBiYXIhIiBUaGUgUm9kaWFuIHNhaWQsIGhvcGluZyBmb3IgYSByZXdhcmQuICJMb29rLCB0aGVyZSBzaGUgaXMhIiBUaGUgYmFydGVuZGVyIHBvaW50ZWQgdG8gb25lIG9mIHRoZSBmaWd1cmUuPC9wPjxwPlZhZGVyIGlnbml0ZWQgaGlzIGNyaW1zb24gbGlnaHRzYWJlci48L3A+PHA+VGhlIGZpZ3VyZXMgc3Rvb2QgdGhlaXIgZ3JvdW5kIGFuZCBWYWRlciByZWNvZ25pemVkIHRoZW0gYXMgR3JhY2FzLCBDaGVscywgYW5kIFRvcnMuIFN0cmFuZ2UsIGhlIGNvdWxkbid0IGZlZWwgVG9ycyBpbiB0aGUgZm9yY2UuPC9wPjxwPiJXaGVyZSdzIHRoZSBvdGhlciBKZWRpIHdpdGggeW91LiBJIGZlZWwgdGhpcyBmaWd1cmUgaW4gdGhlIGZvcmNlISBUb3JzLCB3aGVyZSdzIEtlbm9iaSE/IjwvcD48cD5HcmFjYXMgd2FzIGNvbmZ1c2VkLiBXaG8gd2FzIHRoaXMgZmlndXJlPyBXaGVyZSB3YXMgdGhpcyBKZWRpIHRoZXkgYWxsIHdlcmUgc2Vuc2luZz8gVG9ycyByZWFsaXplZCBLZW5vYmkgaGFkIHRvIHN0aWxsIGJlIGFsaXZlIGJ1dCBoYWQgbm8gY2x1ZSB3aGVyZSBoZSB3YXMuPC9wPjxwPiJUaGlzIEplZGkgeW91IHNlbnNlIGlzIFRvcnMuIEkgZ3Vlc3MgeW91J3JlIHdlYWshIFdlIHdpbGwgbmV2ZXIgcmV2ZWFsIEtlbm9iaSdzIGxvY2F0aW9uISIgQ2hlbHMgc2FpZCwgYmx1ZmZpbmcuIENoZWxzIGlnbml0ZWQgaGVyIHBpbmsgYmxhZGVkIGxpZ2h0c2FiZXIgYW5kIEdyYWNhcyBmb2xsb3dlZCwgaWduaXRpbmcgaGVyIGJhYnktYmx1ZSBsaWdodHNhYmVyLiBUb3JzIGxvb2tlZCBhdCB0aGUgYmFydGVuZGVyIGFuZCByZWFsaXplZCBoZSB0b2xkIHRoaXMgZmlndXJlIGFib3V0IGhlci4gU2hlIGtuZXcgc2hlIHdhcyBiYXJlbHkgY29ubmVjdGVkIHRvIHRoZSBmb3JjZSBidXQgc2hlIHdvdWxkIGZpZ2h0IGFuZCBpZ25pdGVkIGhlciBpY3ktYmx1ZSBsaWdodHNhYmVyLjwvcD48cD5UaGUgYmFydGVuZGVyIHR1cm4gYXJvdW5kIGFuZCByYW4gZm9yIHRoZSBuZWFyZXN0IGV4aXQgYnV0IGJlZm9yZSBoZSBrbmV3IGl0LCBUb3JzIGNhdWdodCB1cCBhbmQgYmlzZWN0ZWQgaGltLiAiVGhhdCdzIGZvciBydW5uaW5nIHlvdXIgbW91dGghIiBUb3JzIHNhaWQsIHNtaWxpbmcgYnV0IGJhcmVseSB0dXJuZWQgYXJvdW5kIGluIHRpbWUgdG8gYmxvY2sgdGhlIGJsb3cgYnkgdGhlIGRhcmsgZmlndXJlLiBHcmFjYXMganVtcGVkIGJlaGluZCB0aGUgZmlndXJlIGFuZCB0cmllZCB0byBzbGFzaCBhdCB0aGUgZmlndXJlJ3MgbGVnIGJ1dCB3YXMgZm9yY2UgcHVzaGVkIGJhY2sgYW5kIHNoZSB5ZWxsZWQ8L3A+PHA+LjwvcD48cD4iV2hvIGFyZSB5b3U/IiBDaGVscyBzY3JlYW1lZCBhcyBzaGUgc2xhc2hlZCBhdCB0aGUgZmlndXJlJ3MgY2hlc3QgYnV0IHRoZSBmaWd1cmUncyBjcmltc29uIHNhYmVyIGRlZmxlY3RlZCBpdCBhbmQgdXNlZCB0aGUgZm9yY2UgdG8gc2xhbSBDaGVscyBpbnRvIFRvcnMuPC9wPjxwPiJJJ20gTG9yZCBWYWRlciBhbmQgSSdsbCBiZSB5b3VyIGRvb20hIFRyb29wcywgZmlyZWQgZXhwbG9zaXZlcyBhdCB0aGVtLiBCVVQgTEVBVkUgVEhFIElDWS1CTFVFIFdJRUxERVIgQUxJVkUiIFZhZGVyIHllbGxlZCBhbmQgdGhlIHRyb29wcyBmaXJlZCByb2NrZXQgbGF1bmNoZXJzIGF0IHRoZW0uIENoZWxzIGFuZCBHcmFjYXMgY2xvc2VkIHRoZWlyIGV5ZXMsIHByZXBhcmluZyB0byBqb2luIHRoZSBmb3JjZS48L3A+PHA+VGhhdCBtb21lbnQgbmV2ZXIgY2FtZS4gVGhleSBvcGVuZWQgdGhlaXIgZXllcyBhbmQgc2F3IHRoZSByb2NrZXRzIGhpdHRpbmcgdGhlIHRyb29wcyB5ZXQgYWxzbyBoaXR0aW5nIHRoZSAiSmVzdGVyIi4gRXhwbG9zaW9ucyByb2NrZWQgdGhlIHBvcnQgYW5kIENoZWxzIG11dHRlcmVkICJDcmFwLiBXZSBsb3N0IG91ciByaWRlLiI8L3A+PHA+VmFkZXIgd2FzIHNsaWdodGx5IHNob2NrZWQgYW5kIHN0dW1ibGUgYmFjayB3aGVuIGhpcyBkdWVsaW5nIGhhbmQgZ290IGN1dCBvZmYuIFZhZGVyIHR1cm5lZCBhcm91bmQgYW5kIHNhdyBhIGphZGUgY29sb3JlZCBsaWdodHNhYmVyLiBIZSBsb29rZWQgYXQgdGhlIGZhY2UgYW5kIHNhdyBpdCB3YXMgRW1pbCBZYXRlc3MuPC9wPjxwPiJZb3UgeWV0IHN1cnZpdmUuIFlldCBJIHNoYWxsIGZpbmlzaCBTa3l3YWxrZXIncyB3b3JrLiIgVmFkZXIgc2FpZCBhbmQgRW1pbCBzbWlsZWQuPC9wPjxwPiJJbSBzdXJlIHlvdSB3b3VsZCBsb3ZlIHRvLiIgRW1pbCBsYXVnaGVkIGFuZCBDaGVscyBzYXcgYmFuZGFnZXMgd3JhcHBpbmcgaGVyIGFiZG9tZW4gYW5kIHdhcyBhbWF6ZWQgc2hlIHNvbWVob3cgc3Vydml2ZWQuIFZhZGVyIHVzZWQgdGhlIGZvcmNlIHRvIHRocm93IGEgZmxhbWluZyBjYW5uaXN0ZXIgYnV0IEVtaWwgc2xpY2VkIGl0IGluIGhhbGYgYW5kIGxhdW5jaGVkIHRoZSBjb250YWluZXJzIGJhY2sgYXQgaGltLiBWYWRlciBmbGV3IGJhY2sgaW50byBhIHdhbGwsIGNhdWdodCBvZmYgZ3VhcmQgYnkgaGVyLiBFbWlsIHVzZWQgdGhlIGZvcmNlIGFuZCBsYXVuY2hlZCBwcm9qZWN0aWxlcyBhdCBWYWRlciwgZXZlbnR1YWxseSBidXJ5aW5nIGhpbSBpbiBhIHBpbGUgb2YgZGVicmlzLjwvcD48cD5FbWlsIHdhbGtlZCB0byBUb3JzIGFuZCBDaGVscyBhbmQgaGVscGVkIHRoZW0gdXAuIEdyYWNhcyBoYWQgZ290dGVuIGhlcnNlbGYgdXAgYW5kIHNhaWQ8L3A+PHA+IlNvIHlvdSdyZSB0aGUgcHJlc2VuY2UgbWUgYW5kIENoZWxzIHNlbnNlZC4gSSBoYXZlIG5ldmVyIGJlZW4gaGFwcGllciB0byBzZWUgYSBKZWRpIHRoYW4gYXQgdGhpcyBtb21lbnQuIEhvdyBkaWQgeW91IGV2ZW4gc3Vydml2ZT8gSSBzYXcgeW91IHN0cnVjayBkb3duIGJ5IFNreXdhbGtlci4iPC9wPjxwPiJZb3UgYXJlIHJpZ2h0LiBJIHdhcyBzdHJ1Y2sgZG93biBieSBTa3l3YWxrZXIgYnV0IHRoYW5rcyB0byBteSBtZWRpdGF0aW9uIG1hc3RlcnksIEkgd2FzIGFibGUgdG8gaGVhbCBteXNlbGYgYW5kIHN0YXkgJ2RlYWQnIHVudGlsIHRoZSBiYXR0bGUgZGllZCBkb3duLiBJIHdhcyBhYmxlIHRvIHNuZWFrIHBhc3QgdGhlIHRyb29wZXJzIGFuZCBlc2NhcGUgb24gYSBmcmVpZ2h0ZXIgYW5kIEkgYmVlbiBzdHVjayBvbiB0aGlzIHdvcmxkIGV2ZXIgc2luY2UuSSBzYXcgeW91IHR3byBlbnRlciB0aGUgYmFyIGJ1dCBJIHN0YXllZCBoaWRkZW4gdW50aWwgSSBjb3VsZCBiZSBzdXJlIGl0IHdhcyByZWFsbHkgeW91IHR3by4gSSBmb2xsb3dlZCB5b3Ugb3V0IGFuZCBJIGRlY2lkZWQgdG8gam9pbiB0aGUgZmlnaHQsIEknbSBzbyBoYXBweSBzb21lIG90aGVyIEplZGkgc3Vydml2ZWQuIFdoYXQgd2VyZSB5b3UgZ3V5cyBnb2luZyB0byBkbz8iIEVtaWwgcmVjb3VudGVkLCB0aGVuIGFza2VkLjwvcD48cD4iV2VsbCwgd2UgYWN0dWFsbHkgd2VyZSBsb29raW5nLCBmb3IgYSBKZWRpIGFzIHdlIGZlbHQgdGhpcyBKZWRpLCB3aGljaCB0dXJuZWQgb3V0IHRvIGJlIHlvdS4gV2Ugd2VyZSBnb2luZyB0byB0aGUgT3V0ZXIgUmltIGJ1dCBub3cgb3VyIHNoaXAgaXMgZGVzdHJveWVkLiIgR3JhY2FzIHNhaWQsIHRoZW4gbG9va2VkIGF0IHRoZSBwaWxlIG9mIGRlYnJpcyBhbmQgc2FpZCAiSSBjYW4ndCBiZWxpZXZlIHRoYXQgd2FzIFZhZGVyLCB5b3UgbWFuYWdlZCB0byBkZWZlYXQgaGltLiBJIGNvbmdyYXRzIHlvdS4iPC9wPjxwPiJUaGFua3MgYW5kIHNvcnJ5IGZvciB5b3VyIHNoaXAuIEkgaG9uZXN0bHkgdGhpbmsgd2UgbmVlZCB0byBzdGVhbCBhIHNoaXAsIGFuZCB3ZSBuZWVkIHRvIGdvIHRvIEZlbHVjaWEuIEZpbmQgU3lkbGluIEtsYWdlbnNtaXQsIHNoZSBnb3QgdmFsdWFibGUgaW5mb3JtYXRpb24gYW5kIGEgaG9sb2Nyb24gZGV0YWlsaW5nIHdoaWNoIEplZGkgYXJlIGFsaXZlIGFuZCB0aGVpciBsb2NhdGlvbi4gV2UgbmVlZCBoZXIuIiBFbWlsIHNhaWQgYW5kIGxvb2tlZCBhcm91bmQuICJXZSBjb3VsZCB0YWtlIHRoZSBZVC0xMjUwIHRyYW5zcG9ydCB0aGVyZSwgaGVyIGJvYXJkaW5nIHJhbXAgaXMgb3Blbi4iPC9wPjxwPkdyYWNhcywgQ2hlbHMsIGFuZCBUb3JzIGxvb2tlZCBhdCBlYWNoIG90aGVyIGFuZCB3ZXJlIGhlc2l0YW50LiBUaGV5IG5vZGRlZCBhbmQgVG9ycyBzYWlkICJJIGd1ZXNzIHRoYXQncyBvdXIgY291cnNlIG9mIGFjdGlvbi4iIFRoZXkgc3RhcnRlZCB3YWxraW5nIGJ1dCB3ZXJlIGludGVycnVwdGVkIGJ5IEltcGVyaWFsIHRyb29wcyBhcnJpdmluZy4gVGhleSBzdGFydGVkIHJ1bm5pbmcgYW5kIEVtaWwgYXJyaXZlZCBmaXJzdCwgZ29hZGluZyB0aGUgb3RoZXJzIGludG8gdGhlIHNoaXAuIE9uY2UgdGhlIG90aGVycyBnb3Qgb24gYm9hcmQsIEVtaWwgZ290IG9uIHRoZSByYW1wIGFuZCBzY3JlYW1lZCwgY29sbGFwc2luZy4gQ2hlbHMgdHVybmVkIGFyb3VuZCBhbmQgc2F3IFZhZGVyJ3MgbGlnaHRzYWJlciBoYWQgc2xhc2hlZCBhY3Jvc3MgaGVyIGxlZyBhbmQgbG93ZXIgYmFjayBhbmQgd2FzIGx5aW5nIG91dHNpZGUgdGhlIHNoaXAgbm93LiBDaGVscyBkcmFnZ2VkIEVtaWwgdW8gaW50byB0aGUgc2hpcCBhbmQgaW50byB0aGUgY29ycmlkb3IuPC9wPjxwPkdyYWNhcyBnb3QgaW50byB0aGUgY29ja3BpdCBhbmQgcGlsb3RlZCB0aGUgc2hpcCBvdXQgb2YgdGhlIHBvcnQgaW50byB0aGUgYXRtb3NwaGVyZS4gU2hlIGFsbW9zdCBoaXR0ZWQgYSBUaWUgRmlnaHRlciBhcyBzaGUgd2VudCBiZXlvbmQgdGhlIG1vb24gYW5kIGp1bXAgaW50byBIeXBlcnNwYWNlLiBTaGUgd2VudCBpbnRvIHRoZSBjb3JyaWRvciBhbmQgc2F3IFRvcnMgYW5kIENoZWxzIHVzaW5nIHNvbWUgYmFuZGFnZXMgdGhleSBmb3VuZCB0byBjb3ZlciBFbWlsJ3Mgd291bmRzLiBHcmFjYXMgZmVhcmVkIGhlciBkZWFkIGJ1dCBzYXcgc29tZSBzaGFsbG93IGJyZWF0aGluZyBhbmQgd2FzIHJlbGlldmVkLjwvcD48cD5TaGUgdHVybmVkIGFyb3VuZCB0byBzZWUgYSBHaWdvcmFuIHN0YW5kaW5nLCBhIGhlYXZ5IGJsYXN0ZXIgYWltZWQgYXQgaGVyIGZhY2UuPC9wPjxwPiJJIHdvdWxkbid0IG1vdmUgdW5sZXNzIHlvdSB3YW50IEJlc3BvbCB0byBzaG9vdCBhIGhvbGUgaW4gdGhlIG1pZGRsZSBvZiB5b3VyIGZhY2UuIiBBIGZlbWFsZSBmaWd1cmUgc2FpZCBhbmQgR3JhY2FzIGZpbmFsbHkgc2F3IGhlci48L3A+PHA+IlBsZWFzZSBkb24ndCBodXJ0IHVzLCBvdXIgZnJpZW5kIGlzIGh1cnQuIEknbSBzb3JyeSB3ZSBzdG9sZSB5b3VyIHNoaXAgYnV0IG91ciBmcmllbmQgbmVlZHMgaGVscC4gV2UgY2FuIHBheSB5b3UgYmFjay4iIEdyYWNhcyBiZWdnZWQuPC9wPjxwPlRoZSBmZW1hbGUgZmlndXJlIHNhdyB0aGUgbGlnaHRzYWJlciBhbmQgdG9sZCBCZXNwb2wgdG8gc3RhbmQgZG93bi4gTWVtb3JpZXMgZmxhc2hlZCBieSBhbmQgc2hlIGtuZXcgc2hlIGhhZCB0byBwYXkgdGhlIEplZGkgYmFjayBmb3IgdGhlaXIgaGVscCBsb25nIGFnby4gU2hlIHN0YXJ0ZWQgdG8gc3BlYWsuPC9wPjxwPiJXZWxsLi4gc29ycnkgZm9yIHRoZSBob3N0aWxlIHdlbGNvbWluZy4gSSdtIFNvbHMgSGFlJ0x5bi1DaHVwZXNzLiBXZWxjb21lIHRvIG15IHNoaXAuIFNoZSdzIHN0dXJkeSBhbmQgb2xkIGJ1dCBzaGUgaGFzIGJlZW4gbW9kaWZ5IHRvIG91dHJ1biBvciBvdXRmaWdodCBhbG1vc3QgYW55IHNoaXBzLiBIZXIgbmFtZSdzICdDb2JhbHQncyBFZGdlJy4iPC9wPjxwPjxlbT5XZWxsLCB3ZSBrbm93IGZvdW5kIG91dCBzZXZlcmFsIHN0dWZmLCBlc3BlY2lhbGx5IHRoZSB0aXRsZSBvZiB0aGlzIHN0b3J5J3Mgb3JpZ2luYXRpb24uIFVudGlsIHRoZW4sIGhvcGUgeW91IGVuam95ZWQgdGhlIHN0b3J5IGFuZCB1bnRpbCBuZXh0IHRpbWUsIHNlZSB5YSE8L2VtPjwvcD4NCjwvZGl2Pg0KPC9kaXY+PGRpdiBzdHlsZT0naGVpZ2h0OjVweCc+PC9kaXY+PGRpdiBzdHlsZT0nY2xlYXI6Ym90aDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PGJ1dHRvbiBjbGFzcz1idG4gVFlQRT1CVVRUT04gIG9uQ2xpY2s9InNlbGYubG9jYXRpb249Jy9zLzEyNzM0NDExLzEvQ29iYWx0LXMtRWRnZSciPiZsdDsgUHJldjwvYnV0dG9uPiA8U0VMRUNUIGlkPWNoYXBfc2VsZWN0IHRpdGxlPSJDaGFwdGVyIE5hdmlnYXRpb24iIE5hbWU9Y2hhcHRlciBvbkNoYW5nZT0ic2VsZi5sb2NhdGlvbiA9ICcvcy8xMjczNDQxMS8nKyB0aGlzLm9wdGlvbnNbdGhpcy5zZWxlY3RlZEluZGV4XS52YWx1ZSArICcvQ29iYWx0LXMtRWRnZSc7Ij48b3B0aW9uICB2YWx1ZT0xID4xLiBDaGFwdGVyIDE8b3B0aW9uICB2YWx1ZT0yIHNlbGVjdGVkPjIuIEV2ZXJ5dGhpbmcgZmFsbHMgaW50byBwbGFjZTwvc2VsZWN0PiA8L2Rpdj48ZGl2IHN0eWxlPSdoZWlnaHQ6NXB4Jz48L2Rpdj4NCjxzY3JpcHQ+DQogICAgZnVuY3Rpb24gcmV2aWV3X2luaXQoKSB7DQogICAgICAgICBpZihYVU5BTUUpIHsNCiAgICAgICAgICAgICAkKCcjcmV2aWV3X25hbWUnKS5oaWRlKCk7DQogICAgICAgICAgICAgJCgnI3Jldmlld19wb3N0YnV0dG9uJykuaHRtbCgnUG9zdCBSZXZpZXcgYXMgJyArIFhVTkFNRSk7DQogICAgICAgICAgICAgJCgnLmxvZ2luX2l0ZW1zJykuaGlkZSgpOw0KICAgICAgICAgICAgICQoJyNhbGVydF9zdWJzJykuc2hvdygpOw0KICAgICAgICAgfQ0KICAgICAgICAgZWxzZSB7DQogICAgICAgICAgICAgJCgnI3Jldmlld19uYW1lJykuc2hvdygpOw0KICAgICAgICAgICAgIC8vJCgnI3Jldmlld19uYW1lJykuaHRtbCgiPGlucHV0IHR5cGU9dGV4dCBuYW1lPSduYW1lJyBwbGFjZWhvbGRlcj0nTmFtZTonPiIpOw0KDQogICAgICAgICAgICAgJCgnLmxvZ2luX2l0ZW1zJykuc2hvdygpOw0KICAgICAgICAgICAgICQoJyNhbGVydF9zdWJzJykuaGlkZSgpOw0KICAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vY2FsbCBiYWNrDQogICAgZnVuY3Rpb24gbG9naW5fc3VjY2Vzc19kZWZhdWx0KCkgew0KICAgICAgICAvLyQoJyNuYW1lX2xvZ2luJykuaHRtbChyZW5kZXJfbG9naW4oWFVOQU1FKSk7DQoNCiAgICAgICAgLy9mb2N1cyBvbiByZXZpZXcNCiAgICAgICAgJCgnI3Jldmlld19yZXZpZXcnKS5mb2N1cygpOw0KDQogICAgICAgIC8veW91IGhhdmUgbm93IGxvZ2dlZCBpbg0KICAgICAgICB4dG9hc3QoIllvdSBoYXZlIGxvZ2dlZC1pbiBhcyAiK1hVTkFNRSsnLicpOw0KDQogICAgICAgIC8vY2xvc2UgYWxsIG9wZW4gZGlhbG9ncw0KICAgICAgICAvLyQoJyNwbGVhc2VfbG9naW4nKS5tb2RhbCgnaGlkZScpOw0KDQoNCg0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIGxvZ2luX3N1Y2Nlc3MoKSB7DQogICAgICAgICBsb2dpbl9zdWNjZXNzX2RlZmF1bHQoKTsNCiAgICAgICAgIHJldmlld19pbml0KCk7DQogICAgfQ0KDQogICAgZnVuY3Rpb24gc2VsZl9sb2dpbih0YXJnZXQpIHsNCiAgICAgICAgeHdpbmRvdygnaHR0cHM6Ly93d3cuZmFuZmljdGlvbi5uZXQvYXBpL2xvZ2luX3N0YXRlX3Byb3h5LnBocD9zcmM9cG9wdXAmdGFyZ2V0PScrdGFyZ2V0LDQ1MCw0NTApOw0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIHBvc3RfcSgpIHsNCiAgICAgICAgaWYoIVhVTkFNRSkgew0KICAgICAgICAgICAgcGxlYXNlX2xvZ2luKCk7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBpZigkKCcjcV9mb2xsb3dfYXV0aG9yJykucHJvcCgnY2hlY2tlZCcpID09IDAgJiYgJCgnI3FfZm9sbG93X3N0b3J5JykucHJvcCgnY2hlY2tlZCcpID09IDAgJiYgJCgnI3FfZmF2X2F1dGhvcicpLnByb3AoJ2NoZWNrZWQnKSA9PSAwICYmICQoJyNxX2Zhdl9zdG9yeScpLnByb3AoJ2NoZWNrZWQnKSA9PTApIHsNCiAgICAgICAgICAgIHh0b2FzdCgnUGxlYXNlIHNlbGVjdCBhdCBsZWFzdCBvbmUgZm9sbG93IG9yIGZhdm9yaXRlIGFjdGlvbicpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgJCgnI3Ffd29ya2luZycpLnRvZ2dsZSgpOw0KDQogICAgICAgICQucG9zdCgnL2FwaS9hamF4X3N1YnMucGhwJywgew0KICAgICAgICAgICAgc3RvcnlpZDogc3RvcnlpZCwNCiAgICAgICAgICAgIHVzZXJpZDogdXNlcmlkLA0KDQogICAgICAgICAgICBhdXRob3JhbGVydDogJCgnI3FfZm9sbG93X2F1dGhvcicpLnByb3AoJ2NoZWNrZWQnKSA/IDEgOiAwLA0KICAgICAgICAgICAgc3RvcnlhbGVydDogJCgnI3FfZm9sbG93X3N0b3J5JykucHJvcCgnY2hlY2tlZCcpID8gMSA6IDAsDQogICAgICAgICAgICBmYXZzdG9yeTogJCgnI3FfZmF2X3N0b3J5JykucHJvcCgnY2hlY2tlZCcpID8gMSA6IDAsDQogICAgICAgICAgICBmYXZhdXRob3I6ICQoJyNxX2Zhdl9hdXRob3InKS5wcm9wKCdjaGVja2VkJykgPyAxIDogMA0KICAgICAgICB9LA0KICAgICAgICBmdW5jdGlvbihkYXRhKSB7DQogICAgICAgICAgICAvL2NvbnNvbGUubG9nKGRhdGEpOw0KICAgICAgICAgICAgLy9hbGVydChkYXRhKTsNCiAgICAgICAgICAgIGlmKGRhdGEuZXJyb3IpIHsNCiAgICAgICAgICAgICAgICAkKCcjcV93b3JraW5nJykudG9nZ2xlKCk7DQoNCiAgICAgICAgICAgICAgICB4dG9hc3QoIldlIGFyZSB1bmFibGUgdG8gcHJvY2VzcyB5b3VyIHJlcXVlc3QgZHVlIHRvIGFuIG5ldHdvcmsgZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4gbGF0ZXIuIik7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlIHsNCiAgICAgICAgICAgICAgICB4dG9hc3QoIldlIGhhdmUgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCB0aGUgZm9sbG93aW5nOiIgKyBkYXRhLnBheWxvYWRfZGF0YSwzNTAwKTsNCiAgICAgICAgICAgICAgICAkKCcjcV93b3JraW5nJykudG9nZ2xlKCk7DQogICAgICAgICAgICAgICAgJCgnI2ZvbGxvd19hcmVhJykubW9kYWwoJ2hpZGUnKTsNCiAgICAgICAgICAgICB9DQogICAgICAgIH0sDQogICAgICAgICdqc29uJw0KICAgICAgICApLmVycm9yKGZ1bmN0aW9uKCkgew0KICAgICAgICAgICAgeHRvYXN0KCJXZSBhcmUgdW5hYmxlIHRvIHByb2Nlc3MgeW91ciByZXF1ZXN0IGR1ZSB0byBhbiBuZXR3b3JrIGVycm9yLiBQbGVhc2UgdHJ5IGFnYWluIGxhdGVyLiIpOw0KDQogICAgICAgICAgICAkKCcjcV93b3JraW5nJykudG9nZ2xlKCk7DQogICAgICAgIH0pOw0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIHBsZWFzZV9sb2dpbigpIHsNCiAgICAgICAgIHh0b2FzdCgiUGxlYXNlIGxvZ2luIG9yIHNpZ251cCB0byBhY2Nlc3MgdGhpcyBmZWF0dXJlLiIpOw0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIHBvc3RfcmV2aWV3KCkgew0KICAgICAgICB2YXIgcmV2aWV3ID0gJCgnI3Jldmlld19yZXZpZXcnKS52YWwoKTsNCiAgICAgICAgdmFyIG5hbWUgPSAkKCcjcmV2aWV3X25hbWVfdmFsdWUnKSA/ICQoJyNyZXZpZXdfbmFtZV92YWx1ZScpLnZhbCgpIDogJyc7DQoNCiAgICAgICAgLy9tYWtlIHN1cmUgd2UgZG9uJ3Qgc3VibWl0IGRlZmF1bHQNCiAgICAgICAgaWYocmV2aWV3ID09ICcnKSB7DQogICAgICAgICAgICB4dG9hc3QoIlBsZWFzZSB0eXBlIHVwIHlvdXIgcmV2aWV3IGZvciB0aGlzIHN0b3J5LiIpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgJCgnI3Jldmlld19wb3N0YnV0dG9uJykuaHRtbCgiUG9zdGluZy4gUGxlYXNlIHdhaXQuLi4iKTsNCiAgICAgICAgJCgnI3Jldmlld19wb3N0YnV0dG9uJykucHJvcCgnZGlzYWJsZWQnLHRydWUpOw0KDQogICAgICAgICQucG9zdCgnL2FwaS9hamF4X3Jldmlldy5waHAnLCB7DQogICAgICAgICAgICBzdG9yeWlkOiBzdG9yeWlkLA0KICAgICAgICAgICAgc3Rvcnl0ZXh0aWQ6IHN0b3J5dGV4dGlkLA0KICAgICAgICAgICAgY2hhcHRlcjogY2hhcHRlciwNCg0KICAgICAgICAgICAgYXV0aG9yYWxlcnQ6ICQoJyNyZXZpZXdfYXV0aG9yYWxlcnQnKS5wcm9wKCdjaGVja2VkJykgPyAxIDogMCwNCiAgICAgICAgICAgIHN0b3J5YWxlcnQ6ICQoJyNyZXZpZXdfc3RvcnlhbGVydCcpLnByb3AoJ2NoZWNrZWQnKSA/IDEgOiAwLA0KICAgICAgICAgICAgZmF2c3Rvcnk6ICQoJyNyZXZpZXdfZmF2c3RvcnknKS5wcm9wKCdjaGVja2VkJykgPyAxIDogMCwNCiAgICAgICAgICAgIGZhdmF1dGhvcjogJCgnI3Jldmlld19mYXZhdXRob3InKS5wcm9wKCdjaGVja2VkJykgPyAxIDogMCwNCg0KICAgICAgICAgICAgbmFtZTogbmFtZSwNCiAgICAgICAgICAgIHJldmlldzogcmV2aWV3DQogICAgICAgIH0sDQogICAgICAgIGZ1bmN0aW9uKGRhdGEpIHsNCiAgICAgICAgICAgIC8vY29uc29sZS5sb2coZGF0YSk7DQogICAgICAgICAgICAvL2FsZXJ0KGRhdGEpOw0KICAgICAgICAgICAgaWYoZGF0YS5lcnJvcikgew0KICAgICAgICAgICAgICAgICQoJyNyZXZpZXdfcG9zdGJ1dHRvbicpLmh0bWwoJ1Bvc3QgUmV2aWV3IGFzJytYVU5BTUUpOw0KICAgICAgICAgICAgICAgICQoJyNyZXZpZXdfcG9zdGJ1dHRvbicpLnByb3AoJ2Rpc2FibGVkJywgZmFsc2UpOw0KDQogICAgICAgICAgICAgICAgeHRvYXN0KCJXZSBhcmUgdW5hYmxlIHRvIHBvc3QgeW91ciByZXZpZXcgZHVlIHRvIHRoZSBmb2xsb3dpbmcgcmVhc29uOjxicj48YnI+IiArIGRhdGEuZXJyb3JfbXNnKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGVsc2Ugew0KICAgICAgICAgICAgICAgIHh0b2FzdCgiVGhlIGF1dGhvciB3b3VsZCBsaWtlIHRvIHRoYW5rIHlvdSBmb3IgeW91ciBjb250aW51ZWQgc3VwcG9ydC4gWW91ciByZXZpZXcgaGFzIGJlZW4gcG9zdGVkLiIsMzUwMCk7DQogICAgICAgICAgICAgICAgcmV2aWV3X3N1Y2Nlc3MoKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSwNCiAgICAgICAgJ2pzb24nDQogICAgICAgICkuZXJyb3IoZnVuY3Rpb24oKSB7DQogICAgICAgICAgICB4dG9hc3QoIldlIGFyZSB1bmFibGUgdG8gcHJvY2VzcyB5b3VyIHJldmlldyBkdWUgdG8gYW4gbmV0d29yayBlcnJvci4gUGxlYXNlIHRyeSBhZ2FpbiBsYXRlci4iKTsNCg0KICAgICAgICAgICAgJCgnI3Jldmlld19wb3N0YnV0dG9uJykuaHRtbCgiUG9zdCBSZXZpZXcgYXMiK1hVTkFNRSk7DQogICAgICAgICAgICAkKCcjcmV2aWV3X3Bvc3RidXR0b24nKS5wcm9wKCdkaXNhYmxlZCcsIGZhbHNlKTsNCiAgICAgICAgfSk7DQoNCiAgICB9DQoNCiAgICBmdW5jdGlvbiByZXZpZXdfc3VjY2VzcygpIHsNCiAgICAgICAgICQoJyNyZXZpZXcnKS5oaWRlKCk7DQogICAgICAgICAkKCcjcmV2aWV3X3N1Y2Nlc3MnKS5zaG93KCk7DQoNCiAgICAgICAgIC8vbXVzdCBjbGVhciB0ZXh0YXJlYSBvZiBhdXRvLXNhdmUgd291bGQgc2F2ZSBvbGQgZGF0YQ0KICAgICAgICAgJCgnI3Jldmlld19yZXZpZXcnKS52YWwoJycpOw0KICAgICAgICAgCmlmKCEkLnN0b3JhZ2UpIHsKICAgICQuc3RvcmFnZSA9IG5ldyAkLnN0b3JlKCk7CiAgICAvL2NvbnNvbGUubG9nKCduZXcgc3RvcmFnZScpOwp9CiQuc3RvcmFnZS5kZWwoJ3JldmlldzoxMjczNDQxMToyJyk7Ci8vY29uc29sZS5sb2coJ2RlbCByZXZpZXc6MTI3MzQ0MTE6MicpOwogICAgICAgIA0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIHJldmlld19mYWlsdXJlKCkgew0KDQogICAgfQ0KDQogICAgJCgpLnJlYWR5KGZ1bmN0aW9uKCkgew0KICAgICAgICByZXZpZXdfaW5pdCgpOw0KICAgIH0pOw0KPC9zY3JpcHQ+DQo8ZGl2IGlkPSdyZXZpZXdfc3VjY2Vzcycgc3R5bGU9J2Rpc3BsYXk6bm9uZTt3aWR0aDo1MDBweDtoZWlnaHQ6MTAwcHg7Y2xlYXI6Ym90aDttYXJnaW4tcmlnaHQ6YXV0bzttYXJnaW4tbGVmdDphdXRvOyc+DQogICAgVGhlIGF1dGhvciB3b3VsZCBsaWtlIHRvIHRoYW5rIHlvdSBmb3IgeW91ciBjb250aW51ZWQgc3VwcG9ydC4gWW91ciByZXZpZXcgaGFzIGJlZW4gcG9zdGVkLg0KPC9kaXY+DQo8ZGl2IGlkPXJldmlldz4NCjx0YWJsZSBib3JkZXI9MCBwYWRkaW5nPTAgY2VsbHNwYWNpbmc9MCBzdHlsZT0nd2lkdGg6MTAwJTsnPiA8IS0tIG1pbi13aWR0aDo1MDBweDttYXgtd2lkdGg6OTc1cHg7Y2xlYXI6Ym90aDttYXJnaW4tcmlnaHQ6YXV0bzttYXJnaW4tbGVmdDphdXRvOy0tPg0KICAgIDx0cj4NCiAgICAgICAgPHRkIHdpZHRoPTMzNiAgdmFsaWduPXRvcD4KICAgICAgICAgICAgPCEtLSBzdGFydHogLS0+CiAgICAgICAgICAgIDxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIiBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzM2cHg7aGVpZ2h0OjI4MHB4IiBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTg2OTgwNTQ1MjU2MTEwOTIiIGRhdGEtYWQtc2xvdD0iODEwNzg3ODc2MCI+PC9pbnM+CiAgICAgICAgICAgIDxzY3JpcHQ+KGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTs8L3NjcmlwdD4KICAgICAgICAgICAgPCEtLSBlbmR6IC0tPiAgICA8L3RkPg0KICAgICAgICA8dGQgd2lkdGg9MTA+PC90ZD4NCiAgICAgICAgPHRkIHZhbGlnbj10b3A+DQogICAgICAgICAgICA8ZGl2IHN0eWxlPSd3aWR0aDoxMDAlO21heC13aWR0aDo3MDBweDsnPg0KICAgICAgICAgICAgPHRhYmxlIHN0eWxlPSd3aWR0aDoxMDAlOyc+DQogICAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgY29sc3Bhbj0yPg0KDQogICAgICAgICAgICA8ZGl2IGlkPXJldmlld19uYW1lIHN0eWxlPScnPiA8IS0tIG1pbi13aWR0aDo1MDBweDttYXgtd2lkdGg6OTc1cHg7ICBzdHlsZT0ncGFkZGluZzowLjVlbTt3aWR0aDo5OCU7JyAtLT4NCiAgICAgICAgICAgICAgICA8aW5wdXQgY2xhc3M9J2lucHV0LWJsb2NrLWxldmVsJyAgc3R5bGU9J21heC13aWR0aDo3MDBweCcgdHlwZT10ZXh0IG5hbWU9J25hbWUnIGlkPSdyZXZpZXdfbmFtZV92YWx1ZScgbWF4bGVuZ3RoPTE2IHBsYWNlaG9sZGVyPSJOYW1lOiIgPg0KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9J2hlaWdodDo0cHgnPjwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQoNCg0KDQogICAgICAgICAgICA8dGV4dGFyZWEgY2xhc3M9J2lucHV0LWJsb2NrLWxldmVsJyBzdHlsZT0nbWF4LXdpZHRoOjcwMHB4JyByb3dzPTEwIHBsYWNlaG9sZGVyPSJUeXBlIHlvdXIgcmV2aWV3IGZvciB0aGlzIGNoYXB0ZXIgaGVyZS4uLiIgbmFtZT1yZXZpZXcgaWQ9cmV2aWV3X3Jldmlldz48L3RleHRhcmVhPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDwvdHI+DQogICAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTsnPg0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9J2FsZXJ0X3N1YnMnIGNsYXNzPSdoaWRlIHhjb250cmFzdF90eHQnPg0KICAgICAgICAgICAgICAgICAgRmF2b3JpdGUgOg0KICAgICAgICAgICAgICAgICAgU3RvcnkgPGlucHV0IHN0eWxlPSdtYXJnaW46LTJweCAwIDAgMCcgdHlwZT1jaGVja2JveCBuYW1lPWZhdnN0b3J5IGlkPXJldmlld19mYXZzdG9yeT4NCiAgICAgICAgICAgICAgICAgIEF1dGhvciA8aW5wdXQgc3R5bGU9J21hcmdpbjotMnB4IDAgMCAwJyB0eXBlPWNoZWNrYm94IG5hbWU9ZmF2YXV0aG9yIGlkPXJldmlld19mYXZhdXRob3I+DQogICAgICAgICAgICAgICAgICAmIzE2MDsNCiAgICAgICAgICAgICAgICAgIEZvbGxvdyA6DQogICAgICAgICAgICAgICAgICBTdG9yeSA8aW5wdXQgc3R5bGU9J21hcmdpbjotMnB4IDAgMCAwJyB0eXBlPWNoZWNrYm94IG5hbWU9c3RvcnlhbGVydCBpZD1yZXZpZXdfc3RvcnlhbGVydD4NCiAgICAgICAgICAgICAgICAgIEF1dGhvciA8aW5wdXQgc3R5bGU9J21hcmdpbjotMnB4IDAgMCAwJyB0eXBlPWNoZWNrYm94IG5hbWU9YXV0aG9yYWxlcnQgaWQ9cmV2aWV3X2F1dGhvcmFsZXJ0Pg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBhbGlnbj1yaWdodD4NCiAgICAgICAgICAgIDwhLS0gU3BsaXQgYnV0dG9uIC0tPg0KPGRpdiBjbGFzcz0nYnRuLWdyb3VwIHhyZXNldC1sZWZ0Jz4NCiAgPGJ1dHRvbiB0eXBlPSdidXR0b24nIGNsYXNzPSdidG4gaWNvbi1lZGl0LTEnIG9uQ2xpY2s9J3Bvc3RfcmV2aWV3KCk7JyBpZD1yZXZpZXdfcG9zdGJ1dHRvbj5Qb3N0IFJldmlldzwvYnV0dG9uPg0KICA8YnV0dG9uIHR5cGU9J2J1dHRvbicgY2xhc3M9J2J0biBkcm9wZG93bi10b2dnbGUgbG9naW5faXRlbXMnIGRhdGEtdG9nZ2xlPSdkcm9wZG93bic+DQoNCiAgICA8c3BhbiBjbGFzcz0nc3Itb25seSAnPkFzPC9zcGFuPg0KICAgICA8c3BhbiBjbGFzcz0nY2FyZXQgJz48L3NwYW4+DQogIDwvYnV0dG9uPg0KIDx1bCBjbGFzcz0nZHJvcGRvd24tbWVudScgcm9sZT0nbWVudSc+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0nIycgb25jbGljaz0ic2VsZl9sb2dpbignc2VsZicpOyIgY2xhc3M9eGRyb3BfbG9naW4+RmFuRmljdGlvbjwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9JyMnIG9uY2xpY2s9InNlbGZfbG9naW4oJ3Npc3RlcicpOyIgY2xhc3M9eGRyb3BfbG9naW4+RmljdGlvblByZXNzPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0nIycgb25jbGljaz0ic2VsZl9sb2dpbignZ29vZ2xlJyk7IiBsYXNzPXhkcm9wX2xvZ2luPkdvb2dsZTwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9JyMnIG9uY2xpY2s9InNlbGZfbG9naW4oJ2ZhY2Vib29rJyk7IiBjbGFzcz14ZHJvcF9sb2dpbj5GYWNlYm9vazwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9JyMnIG9uY2xpY2s9InNlbGZfbG9naW4oJ3R3aXR0ZXInKTsiIGNsYXNzPXhkcm9wX2xvZ2luPlR3aXR0ZXI8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPScjJyBvbmNsaWNrPSJzZWxmX2xvZ2luKCdhbWF6b24nKTsiIGNsYXNzPXhkcm9wX2xvZ2luPkFtYXpvbjwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KPC9kaXY+DQoNCg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDwvdHI+DQogICAgICAgICAgICA8L3RhYmxlPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvdGQ+DQogICAgPC90cj4NCjwvdGFibGU+DQo8L2Rpdj4NCg0KPCEtLSA8ZGl2IGlkPSdwbGVhc2VfbG9naW4nIGNsYXNzPSdtb2RhbCBoaWRlIGZhZGUnPjwvZGl2PiAtLT4NCgo8c2NyaXB0IHNyYz0nLy9mZjc0LmItY2RuLm5ldC9zdGF0aWMvc2NyaXB0cy9qcXVlcnkuanN0b3JlXzAxXzA5XzIwMTIuanMnPjwvc2NyaXB0Pgo8c2NyaXB0PgokKCkucmVhZHkoZnVuY3Rpb24oKXsKCiAgICBpZighJC5zdG9yYWdlKSB7CiAgICAgICAgJC5zdG9yYWdlID0gbmV3ICQuc3RvcmUoKTsgLy9pbml0CiAgICB9CgogICAgdmFyIHRfcmVhZCA9ICQuc3RvcmFnZS5nZXQoJ3JldmlldzoxMjczNDQxMToyJyk7CgogICAgaWYodF9yZWFkICYmIHRfcmVhZC5sZW5ndGggPiAwICkgewogICAgICAgIC8vYWxlcnQoJ3JlY292ZXJlZCBkYXRhJyArIHRfcmVhZCk7CgogICAgICAgIHZhciB0ZW1wID0gJCgndGV4dGFyZWEjcmV2aWV3X3JldmlldycpLnZhbCgpOyAvL05PIFNQQUNFUyAucmVwbGFjZSgvXlxzK3xccyskL2csJycpCgogICAgICAgIGlmKCF0ZW1wIHx8IHRlbXAubGVuZ3RoID09IDAgfHwgdGVtcCA9PSAiVHlwZSB5b3VyIGNvbW1lbnRzIGhlcmUuIikgewogICAgICAgICAgICAvL2FsZXJ0KCdzZXQgZ29vZCcpOwogICAgICAgICAgICAkKCd0ZXh0YXJlYSNyZXZpZXdfcmV2aWV3JykudmFsKHRfcmVhZCk7CiAgICAgICAgICAgIC8vY29uc29sZS5sb2coJ2dvdCcrdF9yZWFkKTsKICAgICAgICB9CiAgICB9CiAgICBlbHNlIHsKICAgICAgICAvL2FsZXJ0KCdubyBkYXRhJyk7CiAgICB9CgogICAgdmFyIHJUaW1lciA9IHNldEludGVydmFsKHNhdmVSZXZpZXcsIDIwMDApOyAvL2V2ZXJ5IDJzCgogICAgZnVuY3Rpb24gc2F2ZVJldmlldygpIHsKICAgICAgICB2YXIgdGVtcCA9ICQoJ3RleHRhcmVhI3Jldmlld19yZXZpZXcnKS52YWwoKTsgIC8vbWFrZSBzdXJlIHdlIGRvbid0IHNhdmUgc3BhY2VzIC5yZXBsYWNlKC9eXHMrfFxzKyQvZywnJyk7CgogICAgICAgIGlmKHRlbXAgJiYgdGVtcC5sZW5ndGggPiAwICYmICB0ZW1wICE9ICJUeXBlIHlvdXIgY29tbWVudHMgaGVyZS4iKSB7CiAgICAgICAgICAgICQuc3RvcmFnZS5zZXQoJ3JldmlldzoxMjczNDQxMToyJywgdGVtcCk7CiAgICAgICAgICAgIC8vY29uc29sZS5sb2coJ3NldCcrdGVtcCk7CiAgICAgICAgfQogICAgfQp9KTsKPC9zY3JpcHQ+CiAgICAgICAgPGRpdiBzdHlsZT0naGVpZ2h0OjE1cHgnPjwvZGl2Pg0KPGRpdiAgYWxpZ249Y2VudGVyIGNsYXNzPWxjLXdyYXBwZXI+PGRpdiBjbGFzcz1sYz4NCjxGT1JNIG5hbWU9bXlzZWxlY3Qgb25zdWJtaXQ9J3JldHVybiBmYWxzZTsnPjxUQUJMRSBzdHlsZT0nbWluLXdpZHRoOzQwMHB4O21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87JyBjZWxscGFkZGluZz00Pg0KICAgICAgICAgICAgPFRSPg0KICAgICAgICAgICAgICAgIDxURD4NCiAgICAgICAgICAgICAgICA8c2NyaXB0Pg0KICB2YXIgc3RvcnlpZCA9IDEyNzM0NDExOw0KICB2YXIgdXNlcmlkID0gMTAwMDE0MDg7DQogIHZhciBzdG9yeXRleHRpZCA9IHN0b3J5dGV4dGlkPTQ5NzM2OTMyOw0KICB2YXIgY2hhcHRlciA9IDI7DQogIHZhciB0aXRsZSA9ICdDb2JhbHQlMjdzK0VkZ2UnOw0KICB2YXIgbG9naW5kID0gJ2h0dHBzOi8vd3d3LmZhbmZpY3Rpb24ubmV0JzsNCg0KDQpmdW5jdGlvbiBzZWxlY3RfZHJvcChzZWxfdmFsdWUpIHsNCiAgdmFyIHQ7DQoNCiAgaWYgKHNlbF92YWx1ZSA9PSAnYWJ1c2UnKSB7DQogICAgICB0ID0geHdpbmRvdyhsb2dpbmQrJy9yZXBvcnQucGhwP2NoYXB0ZXI9JytjaGFwdGVyKycmc3RvcnlpZD0nK3N0b3J5aWQrJyZ0aXRsZT0nK3RpdGxlLDU2MCw1MTApOw0KICB9DQogIGVsc2UgaWYgKHNlbF92YWx1ZSA9PSAnYzInKSB7DQogICAgIHQgPSB4d2luZG93KGxvZ2luZCsnL2MyX2FkZHN0b3J5LnBocD9hY3Rpb249YWRkJnN0b3J5aWQ9JytzdG9yeWlkLDU2MCw0NzApOw0KICB9DQp9DQo8L1NDUklQVD4NCjxkaXYgY2xhc3M9J2J0bi1ncm91cCAnICBpZD0nc3RvcnlfYWN0aW9ucyc+DQogICAgPGRpdiBjbGFzcz0nYnRuLWdyb3VwIGRyb3B1cCdhbGlnbj1sZWZ0Pg0KICAgIDxidXR0b24gY2xhc3M9J2J0biBkcm9wZG93bi10b2dnbGUnIGRhdGEtdG9nZ2xlPSdkcm9wZG93bic+DQogICAgICAgIDxzcGFuID5BY3Rpb25zPC9zcGFuPg0KICAgICAgICA8c3BhbiBjbGFzcz0nY2FyZXQnPjwvc3Bhbj4NCiAgICA8L2J1dHRvbj4NCiAgICA8dWwgY2xhc3M9J2Ryb3Bkb3duLW1lbnUnID4NCiAgICAgICA8bGk+PGEgb25jbGljaz0ic2VsZWN0X2Ryb3AoJ2MyJykiPkFkZCB0byBDb21tdW5pdHk8L2E+PC9saT4NCiAgICAgICAgPGxpPjxhIG9uY2xpY2s9InNlbGVjdF9kcm9wKCdhYnVzZScpIj5SZXBvcnQgQWJ1c2U8L2E+PC9saT4NCiAgICA8L3VsPg0KICAgIDwvZGl2Pg0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9J2J0bi1ncm91cCAnICBpZD0nc2hhcmVfcHJvdmlkZXJzJz4NCiAgICA8ZGl2IGNsYXNzPSdidG4tZ3JvdXAgZHJvcHVwJ2FsaWduPWxlZnQ+DQogICAgPGJ1dHRvbiBjbGFzcz0nYnRuIGRyb3Bkb3duLXRvZ2dsZScgZGF0YS10b2dnbGU9J2Ryb3Bkb3duJz4NCiAgICAgICAgPHNwYW4gY2xhc3M9J2ljb24tc2hhcmUnPiBTaGFyZTwvc3Bhbj4NCg0KICAgIDwvYnV0dG9uPg0KICAgIDx1bCBjbGFzcz0nZHJvcGRvd24tbWVudScgPg0KICAgICAgICA8bGk+PGEgaHJlZj0nLy9wbHVzLmdvb2dsZS5jb20vc2hhcmU/dXJsPWh0dHBzJTNBJTJGJTJGd3d3LmZhbmZpY3Rpb24ubmV0JTJGcyUyRjEyNzM0NDExJTJGMiUyRicgdGFyZ2V0PV9uZXc+R29vZ2xlKzwvYT48L2xpPg0KICAgICAgICA8bGk+PGEgaHJlZj0nLy90d2l0dGVyLmNvbS9ob21lP3N0YXR1cz1SZWFkaW5nK3N0b3J5JTNBK2h0dHBzJTNBJTJGJTJGd3d3LmZhbmZpY3Rpb24ubmV0JTJGcyUyRjEyNzM0NDExJTJGMiUyRicgdGFyZ2V0PV9uZXc+VHdpdHRlcjwvYT48L2xpPg0KICAgICAgICA8bGk+PGEgaHJlZj0nLy93d3cudHVtYmxyLmNvbS9zaGFyZS9saW5rP3VybD1odHRwcyUzQSUyRiUyRnd3dy5mYW5maWN0aW9uLm5ldCUyRnMlMkYxMjczNDQxMSUyRjIlMkYnIHRhcmdldD1fbmV3PlR1bWJscjwvYT48L2xpPg0KICAgICAgICA8bGk+PGEgaHJlZj0nLy93d3cuZmFjZWJvb2suY29tL3NoYXJlci5waHA/dT1odHRwcyUzQSUyRiUyRnd3dy5mYW5maWN0aW9uLm5ldCUyRnMlMkYxMjczNDQxMSUyRjIlMkYnIHRhcmdldD1fbmV3PkZhY2Vib29rPC9hPjwvbGk+DQogICAgPC91bD4NCiAgICA8L2Rpdj4NCjwvZGl2Pg0KDQo8YnV0dG9uIGNsYXNzPSdidG4gaWNvbi1oZWFydCcgdHlwZT1idXR0b24gb25DbGljaz0nJCgiI2ZvbGxvd19hcmVhIikubW9kYWwoKTsnPiBGb2xsb3cvRmF2b3JpdGU8L2J1dHRvbj4NCjxzdHlsZT4NCiAgICBsYWJlbCBpbnB1dFt0eXBlPWNoZWNrYm94XXsNCiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlOw0KICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOw0KICAgICAgICBib3R0b206IC01cHg7DQogICAgfQ0KPC9zdHlsZT4NCjxkaXYgY2xhc3M9J21vZGFsIGZhZGUgaGlkZScgaWQ9Zm9sbG93X2FyZWE+DQogIDxkaXYgY2xhc3M9J21vZGFsLWJvZHknPg0KICAgICAgICA8Y2VudGVyPg0KICAgICAgICA8dGFibGUgc3R5bGU9J3BhZGRpbmc6NnB4O2NvbG9yOmJsYWNrICFpbXBvcnRhbnQ7Jz4NCiAgICAgICAgPHRyPjx0ZCB2YWxpZ249dG9wPg0KICAgICAgICArIEZvbGxvdw0KICAgICAgICA8aHI+DQogICAgICAgICAgPGxhYmVsIGNsYXNzPSdjaGVja2JveCc+DQogICAgICAgICAgICA8aW5wdXQgdHlwZT0nY2hlY2tib3gnIGlkPXFfZm9sbG93X3N0b3J5PiBTdG9yeQ0KICAgICAgICAgICA8L2xhYmVsPg0KICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSdjaGVja2JveCc+DQogICAgICAgICAgICA8aW5wdXQgdHlwZT0nY2hlY2tib3gnIGlkPXFfZm9sbG93X2F1dGhvcj4gV3JpdGVyDQogICAgICAgICAgIDwvbGFiZWw+DQogICAgICAgIDwvdGQ+DQogICAgICAgIDx0ZCB3aWR0aD0yMD48L3RkPg0KICAgICAgICA8dGQgdmFsaWduPXRvcD4NCiAgICAgICAgKyBGYXZvcml0ZQ0KICAgICAgICA8aHI+DQogICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSdjaGVja2JveCc+DQogICAgICAgICAgICA8aW5wdXQgdHlwZT0nY2hlY2tib3gnIGlkPXFfZmF2X3N0b3J5PiBTdG9yeQ0KICAgICAgICAgICA8L2xhYmVsPg0KICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSdjaGVja2JveCc+DQogICAgICAgICAgICA8aW5wdXQgdHlwZT0nY2hlY2tib3gnIGlkPXFfZmF2X2F1dGhvcj4gV3JpdGVyDQogICAgICAgICAgIDwvbGFiZWw+DQogICAgICAgIDwvdGQ+DQogICAgICAgIDwvdHI+DQogICAgICAgIDwvdGFibGU+DQogICAgICAgIDwvY2VudGVyPg0KICA8L2Rpdj4NCiAgPGRpdiBjbGFzcz0nbW9kYWwtZm9vdGVyJz4NCg0KDQogICAgPHNwYW4gY2xhc3M9J2J0biBwdWxsLWxlZnQnIGRhdGEtZGlzbWlzcz0nbW9kYWwnPkNsb3NlPC9zcGFuPg0KPHNwYW4gaWQ9J3Ffd29ya2luZycgY2xhc3M9J2hpZGUnPldvcmtpbmcuLi4mbmJzcDsmbmJzcDs8L3NwYW4+DQogICAgPHNwYW4gIGNsYXNzPSdidG4gYnRuLXByaW1hcnknIG9uQ2xpY2s9J3Bvc3RfcSgpOyc+U2F2ZTwvc3Bhbj4NCiAgPC9kaXY+DQoNCiA8L2Rpdj4NCjwvVEQ+DQo8L1RSPg0KPC9UQUJMRT48L2Zvcm0+DQo8L2Rpdj48L2Rpdj4NCiAgICAgICAgPGRpdiBzdHlsZT0naGVpZ2h0OjVweCc+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBpZD1wX2Zvb3RlciBjbGFzcz1tYXh3aWR0aCBzdHlsZT0nY2xlYXI6YWxsO3BhZGRpbmc6MWVtIDAgMWVtIDA7Jz48ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcic+PGEgaHJlZj0nL3N1cHBvcnQvJz5IZWxwPC9hPiAuIDxhIGhyZWY9Jy9jb29raWVzLyc+Q29va2llczwvYT4gIC4gPGEgaHJlZj0nL3ByaXZhY3kvJz5Qcml2YWN5PC9hPiAuIDxhIGhyZWY9Jy90b3MvJz5UZXJtcyBvZiBTZXJ2aWNlPC9hPiAgLiA8YSBocmVmPScjdG9wJz5Ub3A8L2E+PC9kaXY+PGRpdiBzdHlsZT0naGVpZ2h0OjEwcHgnPjwvZGl2PjxkaXYgc3R5bGU9J3RleHQtYWxpZ246Y2VudGVyJz48YSBocmVmPScvL3d3dy50d2l0dGVyLmNvbS9maWN0aW9ucHJlc3MnPjxzcGFuIGNsYXNzPSdpY29uLXR3aXR0ZXItMycgc3R5bGU9J2NvbG9yOnJnYigxMDQsIDEwMCwgMTAwKTtmb250LXNpemU6MThweDtoZWlnaHQ6MjBweDt3aWR0aDoyMHB4Oyc+PC9zcGFuPjwvYT48L2Rpdj48ZGl2IHN0eWxlPSdoZWlnaHQ6MTVweCc+PC9kaXY+PC9kaXY+DQo8c2NyaXB0Pg0KJChmdW5jdGlvbigpIHsNCiAgICAkKCdpbWcubGF6eScpLmxhenlsb2FkKHsNCiAgICAgICAgLy9za2lwX2ludmlzaWJsZSA6IGZhbHNlDQogICAgfSk7DQp9KTsNCjwvc2NyaXB0Pg0KICAgICAgICANCjxzdHlsZT4NCiAgICAuaHZfY2VudGVyIHsNCiAgICAgICAgYm90dG9tOiAwcHg7DQogICAgICAgIHBvc2l0aW9uOiBmaXhlZDsNCiAgICAgICAgbGVmdDogMDsNCiAgICAgICAgcmlnaHQ6IDA7DQogICAgICAgIGhlaWdodDogNTVweDsNCiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzM2MzYzNjsNCiAgICAgICAgY29sb3I6ICNlNGU0ZTQ7DQoNCiAgICAgICAgLyogSUUgMTAgKi8NCiAgICAgICAgZGlzcGxheTotbXMtZmxleGJveDsNCiAgICAgICAgLW1zLWZsZXgtcGFjazpjZW50ZXI7DQogICAgICAgIC1tcy1mbGV4LWFsaWduOmNlbnRlcjsNCg0KICAgICAgICAvKiBGRiAqLw0KICAgICAgICBkaXNwbGF5Oi1tb3otYm94Ow0KICAgICAgICAtbW96LWJveC1wYWNrOmNlbnRlcjsNCiAgICAgICAgLW1vei1ib3gtYWxpZ246Y2VudGVyOw0KDQogICAgICAgIC8qIFNhZmFyaSwgT3BlcmEsIGFuZCBDaHJvbWUgKi8NCiAgICAgICAgZGlzcGxheTotd2Via2l0LWJveDsNCiAgICAgICAgLXdlYmtpdC1ib3gtcGFjazpjZW50ZXI7DQogICAgICAgIC13ZWJraXQtYm94LWFsaWduOmNlbnRlcjsNCiAgICB9DQoNCiAgICAjY29va2llX25vdGljZSB7DQogICAgICAgIGZvbnQtc2l6ZTogMC45ZW07DQogICAgfQ0KICAgICNjb29raWVfbm90aWNlIGE6bGluaywgDQogICAgI2Nvb2tpZV9ub3RpY2UgYTpob3ZlciwgDQogICAgI2Nvb2tpZV9ub3RpY2UgYTphY3RpdmUsIA0KICAgICNjb29raWVfbm90aWNlIGE6dmlzaXRlZCB7DQogICAgICAgIGNvbG9yOiAjZTRlNGU0Ow0KICAgICAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsNCiAgICB9DQo8L3N0eWxlPg0KIDxzY3JpcHQ+DQogICAgdmFyIF9jb29raWVfcG9saWN5ID0gJ2Nvb2tpZXMnOw0KDQogICAgLy9jb29raWUgZnVuY3Rpb25zDQogICAgZnVuY3Rpb24gX3NDb29raWVHZXQoY29va2llTmFtZSkgew0KICAgICAgICB2YXIgdGhlQ29va2llPSIiK2RvY3VtZW50LmNvb2tpZTsNCiAgICAgICAgdmFyIGluZD10aGVDb29raWUuaW5kZXhPZihjb29raWVOYW1lKTsNCiAgICAgICAgaWYgKGluZD09LTEgfHwgY29va2llTmFtZT09IiIpIHJldHVybiBmYWxzZTsNCiAgICAgICAgdmFyIGluZDE9dGhlQ29va2llLmluZGV4T2YoJzsnLGluZCk7DQogICAgICAgIGlmIChpbmQxPT0tMSkgaW5kMT10aGVDb29raWUubGVuZ3RoOw0KICAgICAgICByZXR1cm4gdW5lc2NhcGUodGhlQ29va2llLnN1YnN0cmluZyhpbmQrY29va2llTmFtZS5sZW5ndGgrMSxpbmQxKSk7DQogICAgfTsNCiAgICBmdW5jdGlvbiBfc0Nvb2tpZVNldChOYW1lT2ZDb29raWUsIHZhbHVlLCBleHBpcmVob3VycywgcGF0aCwgZG9tYWluKSB7DQogICAgICAgIGlmKCFwYXRoKSAgcGF0aCA9ICIvIjsNCiAgICAgICAgdmFyIEV4cGlyZURhdGUgPSBuZXcgRGF0ZSAoKTsNCiAgICAgICAgRXhwaXJlRGF0ZS5zZXRUaW1lKEV4cGlyZURhdGUuZ2V0VGltZSgpICsgKGV4cGlyZWhvdXJzICogMzYwMCAqIDEwMDApKTsNCiAgICAgICAgZG9jdW1lbnQuY29va2llID0gTmFtZU9mQ29va2llICsgIj0iICsgZXNjYXBlKHZhbHVlKSArICghZXhwaXJlaG91cnMgPyAiIiA6ICI7IGV4cGlyZXM9IiArIEV4cGlyZURhdGUudG9HTVRTdHJpbmcoKSkgKyAiOyBwYXRoPSIrcGF0aCsiOyIgKyghZG9tYWluID8gIiIgOiAiZG9tYWluPSIgKyBkb21haW4gKyAiOyIpOw0KICAgIH07DQoNCiAgICBmdW5jdGlvbiBfY29va2llQWNjZXB0KCkgew0KICAgICAgICBfc0Nvb2tpZVNldChfY29va2llX3BvbGljeSwneWVzJywzNjUgKiAyNCwnLycpOw0KICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY29va2llX25vdGljZScpLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgfQ0KDQogICAgdmFyIGMgPSBfc0Nvb2tpZUdldChfY29va2llX3BvbGljeSkNCg0KICAgIGlmKGMgIT0gInllcyIpIHsNCiAgICAgICAgZG9jdW1lbnQud3JpdGUoIjxkaXYgaWQ9J2Nvb2tpZV9ub3RpY2UnIGNsYXNzPSdodl9jZW50ZXInPiIgKw0KICAgICAgICAgICAgIiAgICA8ZGl2IHN0eWxlPSdwYWRkaW5nLWxlZnQ6NTBweDtwYWRkaW5nLXJpZ2h0OjUwcHgnPiIgKw0KICAgICAgICAgICAgIiAgICAgICAgPHRhYmxlPiIgKw0KICAgICAgICAgICAgIiAgICAgICAgICAgIDx0cj4iICsNCiAgICAgICAgICAgICIgICAgICAgICAgICAgICAgPHRkPiBXZSB1c2UgY29va2llcy4gQnkgdXNpbmcgb3VyIHNlcnZpY2VzLCB5b3UgYWNrbm93bGVkZ2UgdGhhdCB5b3UgaGF2ZSByZWFkIGFuZCBhY2NlcHQgb3VyIDxhIGhyZWY9Jy9jb29raWVzLyc+Q29va2llczwvYT4gJiA8YSBocmVmPScvcHJpdmFjeS8nPlByaXZhY3k8L2E+IFBvbGljaWVzLjwvdGQ+IiArDQogICAgICAgICAgICAiICAgICAgICAgICAgICAgIDx0ZD48ZGl2IHN0eWxlPSdib3JkZXI6MXB4IHdoaXRlc21va2Ugc29saWQ7cGFkZGluZzo1cHg7bWFyZ2luLWxlZnQ6MTBweDtjdXJzb3I6IHBvaW50ZXI7JyBvbkNsaWNrPSdfY29va2llQWNjZXB0KCknPkFjY2VwdDwvZGl2PjwvdGQ+IiArDQogICAgICAgICAgICAiICAgICAgICAgICAgPC90cj4iICsNCiAgICAgICAgICAgICIgICAgICAgIDwvdGFibGU+IiArDQogICAgICAgICAgICAiICAgIDwvZGl2PiIgKw0KICAgICAgICAgICAgIjwvZGl2PiIpOw0KICAgIH0NCjwvc2NyaXB0Pg0KICAgICAgICA8L2JvZHk+PC9odG1sPg==
+    http_version: 
+  recorded_at: Sun, 05 May 2019 22:12:25 GMT
+recorded_with: VCR 4.0.0

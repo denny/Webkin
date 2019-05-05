@@ -3,9 +3,13 @@ source 'https://rubygems.org'
 # HTML parser
 gem 'nokogiri'
 
-# Testing, testing, 1 2, 1 2
-gem 'rspec'
-gem 'rspec_junit_formatter'
+group :test do
+  gem 'rspec'
+  gem 'rspec_junit_formatter'
+  gem 'vcr'
+  gem 'webmock'
+end
 
-# Dev tools
-gem 'pry'
+group :development do
+  gem 'pry'
+end
