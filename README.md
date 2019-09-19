@@ -43,4 +43,6 @@ make a donation towards the running costs of your favourite free fiction site,
 if they offer ways to do that and you can afford to do so.
 
 
-Circle CI status: [![CircleCI](https://circleci.com/gh/denny/Webkin.svg?style=svg)](https://circleci.com/gh/denny/Webkin)
+## Current Status
+
+[![CircleCI](https://circleci.com/gh/denny/Webkin.svg?style=svg)](https://circleci.com/gh/denny/Webkin) (CircleCI)  [![Travis CI](https://travis-ci.org/denny/Webkin.svg?branch=master)](https://travis-ci.org/denny/Webkin) (Travis CI)  [![CodeClimate](https://api.codeclimate.com/v1/badges/7bc3b576f0265db7b8f8/maintainability)](https://codeclimate.com/github/denny/Webkin/maintainability) (Code Climate)
