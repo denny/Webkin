@@ -54,7 +54,7 @@ class Story
   end
 
   def url=( url )
-    raise ArgumentError, 'You must provide a URL.' if !url || url.empty?
+    raise ArgumentError, 'You must provide a URL.' if url.blank?
 
     # Check to see if any of the available plugins can handle this URL
     plugins.each_key do |plugin|
