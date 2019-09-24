@@ -11,7 +11,7 @@ module Fanfiction
       page_html = Net::HTTP.get( URI( "#{base_url}/#{page_num}" ) )
       extract_details page_html if page_num == 1
       extract_story page_html.dup
-      break unless page_html.match? %r{Next &gt;}m
+      break unless page_html.include? 'Next &gt;'
 
       page_num += 1
     end
